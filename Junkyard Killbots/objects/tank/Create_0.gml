@@ -2,9 +2,9 @@
 
 hp = 400;
 target = noone;
-maxSpeed = 0.5;
+maxSpeed = random_range(0.3,0.7);
 speed = maxSpeed;
-range = 50;
+range = 75;
 damage = 100;
 flashTimer = 0;
 

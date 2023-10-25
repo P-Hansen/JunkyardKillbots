@@ -2,7 +2,7 @@
 
 hp = 600;
 target = noone;
-maxSpeed = 0.5;
+maxSpeed = random_range(0.3,0.7);
 speed = maxSpeed;
 range = 1;
 damage = 100;
