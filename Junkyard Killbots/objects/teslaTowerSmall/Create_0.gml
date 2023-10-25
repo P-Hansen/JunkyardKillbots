@@ -1,0 +1,9 @@
+/// @description Insert description here
+
+hp = 400;
+target = noone;
+maxSpeed = 0;
+speed = maxSpeed;
+range = 0;
+damage = 0;
+flashTimer = 0;

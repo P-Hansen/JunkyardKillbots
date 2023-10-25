@@ -1,0 +1,15 @@
+-----Feedback
+I am still very new to GameMaker Studio 2 and programming. If you have any tips or feedback 
+on this project, please leave a comment on https://randatabase.itch.io/
+There might be better ways to make this project and I'd love to hear about them. 
+
+-----Credits
+Full project (including the pixel art)​ has been made by me 'RanDB '.
+Although crediting me is appreciated, it is not required. However, 
+please do not claim any of my pixel art as your own.
+
+Thank you for downloading my project.
+Have fun!
+
+RanDB
+@RanRanTweets
