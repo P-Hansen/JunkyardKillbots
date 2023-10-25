@@ -18,9 +18,11 @@
   "ResourceOrderSettings": [
     {"name":"rmHome","order":1,"path":"rooms/rmHome/rmHome.yy",},
     {"name":"teslaTowerSmall","order":3,"path":"objects/teslaTowerSmall/teslaTowerSmall.yy",},
+    {"name":"playerInventory","order":10,"path":"objects/playerInventory/playerInventory.yy",},
     {"name":"spr_flame","order":1,"path":"sprites/spr_flame/spr_flame.yy",},
     {"name":"sprMissionsButton","order":17,"path":"sprites/sprMissionsButton/sprMissionsButton.yy",},
     {"name":"spr_controller_game","order":2,"path":"sprites/spr_controller_game/spr_controller_game.yy",},
+    {"name":"sprBlueBox","order":20,"path":"sprites/sprBlueBox/sprBlueBox.yy",},
     {"name":"sprRepairsButton","order":18,"path":"sprites/sprRepairsButton/sprRepairsButton.yy",},
     {"name":"sprBot","order":4,"path":"sprites/sprBot/sprBot.yy",},
     {"name":"enemyClass","order":9,"path":"objects/enemyClass/enemyClass.yy",},
