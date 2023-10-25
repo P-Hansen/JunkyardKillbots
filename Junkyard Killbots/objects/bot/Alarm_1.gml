@@ -8,6 +8,6 @@ if instance_exists(target){
 	}
 }
 
-alarm[1] = game_get_speed(gamespeed_fps)*1;
+alarm[1] = game_get_speed(gamespeed_fps)*random_range(0.5,1.5);
 
 

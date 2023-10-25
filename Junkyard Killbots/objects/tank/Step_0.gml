@@ -1,10 +1,10 @@
 
 //find target and point in it's direction
 if instance_exists(target){
-	target = instance_nearest(x,y,enemyClass);
+	target = instance_nearest(x,y,bot);
 	direction = point_direction(x, y, target.x, target.y);
 } else {
-	target = instance_nearest(x,y,enemyClass);
+	target = instance_nearest(x,y,bot);
 }
 
 //stop when within range
