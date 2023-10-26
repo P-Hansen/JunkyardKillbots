@@ -9,3 +9,11 @@ if (room_get_name(room) == "rmMission1"){
 	}
 	array_foreach(robots, spawn);
 }
+
+if (room_get_name(room) == "rmHome"){
+	x = -100;
+}
+
+if (room_get_name(room) == "rmRepair"){
+	x = 0;
+}
