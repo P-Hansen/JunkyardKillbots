@@ -31,6 +31,7 @@
     {"name":"sprHpBar","order":6,"path":"sprites/sprHpBar/sprHpBar.yy",},
     {"name":"sprHoverBot","order":5,"path":"sprites/sprHoverBot/sprHoverBot.yy",},
     {"name":"sprTeslaTowerSmall","order":9,"path":"sprites/sprTeslaTowerSmall/sprTeslaTowerSmall.yy",},
+    {"name":"sprHpBar3","order":21,"path":"sprites/sprHpBar3/sprHpBar3.yy",},
     {"name":"sprRocketeerMedium","order":12,"path":"sprites/sprRocketeerMedium/sprRocketeerMedium.yy",},
     {"name":"pickRandom_instance","order":1,"path":"scripts/pickRandom_instance/pickRandom_instance.yy",},
     {"name":"RepairsButton","order":5,"path":"objects/RepairsButton/RepairsButton.yy",},

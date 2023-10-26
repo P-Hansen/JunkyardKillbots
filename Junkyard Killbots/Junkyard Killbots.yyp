@@ -53,6 +53,7 @@
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"sprTeslaTowerSmall","path":"sprites/sprTeslaTowerSmall/sprTeslaTowerSmall.yy",},},
     {"id":{"name":"checkFor_object_xy","path":"scripts/checkFor_object_xy/checkFor_object_xy.yy",},},
+    {"id":{"name":"sprHpBar3","path":"sprites/sprHpBar3/sprHpBar3.yy",},},
     {"id":{"name":"sprRocketeerMedium","path":"sprites/sprRocketeerMedium/sprRocketeerMedium.yy",},},
     {"id":{"name":"pickRandom_instance","path":"scripts/pickRandom_instance/pickRandom_instance.yy",},},
     {"id":{"name":"RepairsButton","path":"objects/RepairsButton/RepairsButton.yy",},},
