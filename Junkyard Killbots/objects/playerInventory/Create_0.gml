@@ -3,12 +3,13 @@
 image_yscale = 5.82;
 
 robots = array_create(12, noone);
-robots[0] = bot;
-robots[6] = bot;
-robots[11] = bot;
+//creating items slots for items array
+for(var i = 0; i < array_length(robots); i++){
+	var xOffset = 16;
+	robots[i] = instance_create_layer(xOffset, 8+i*16, layer, botSlot);
+}
 
 items = array_create(24, noone);
-
 //creating items slots for items array
 for(var i = 0; i < array_length(items); i++){
 	var xOffset = 502;
@@ -39,4 +40,5 @@ function showItems(){
 	}
 }
 
+hideItems();
 showItemsFlag = false;
