@@ -8,43 +8,33 @@ robots[6] = bot;
 robots[11] = bot;
 
 items = array_create(24, noone);
-/*
-var createSlots = function(element, i){
-	var xOffset = 11;
-	var yOffset = 11;
-	if (i > 11){
-		xOffset = xOffset + 22;
-		yOffset = -229;
-	}
-	element = instance_create_layer(xOffset,yOffset+i*20, layer, itemSlot);
-}
-array_foreach(items, createSlots);
-*/
 
+//creating items slots for items array
 for(var i = 0; i < array_length(items); i++){
-	var xOffset = 11;
+	var xOffset = 502;
 	var yOffset = 11;
 	if (i > 11){
-		xOffset = xOffset + 22;
+		xOffset = xOffset - 22;
 		yOffset = -229;
 	}
 	items[i] = instance_create_layer(xOffset,yOffset+i*20, layer, itemSlot);
 }
 
-function hide(array){
-	for(var i = 0; i < array_length(array); i++){
-		array[i].x = array[i].x + 100;
-		if instance_exists(array[i].item){
-			array[i].item.x = array[i].x;
+//hide item slots off screen
+function hideItems(){
+	for(var i = 0; i < array_length(items); i++){
+		items[i].x = items[i].x + 1000;
+		if instance_exists(items[i].item){
+			items[i].item.x = items[i].x;
 		}
 	}
 }
-
-function show(array){
-	for(var i = 0; i < array_length(array); i++){
-		array[i].x = array[i].x - 100;
-		if instance_exists(array[i].item){
-			array[i].item.x = array[i].x;
+//bring item slots back
+function showItems(){
+	for(var i = 0; i < array_length(items); i++){
+		items[i].x = items[i].x - 1000;
+		if instance_exists(items[i].item){
+			items[i].item.x = items[i].x;
 		}
 	}
 }

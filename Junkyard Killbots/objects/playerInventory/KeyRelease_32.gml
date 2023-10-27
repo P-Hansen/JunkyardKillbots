@@ -1,12 +1,11 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description test item slots show/hide
 
 showItemsFlag = !showItemsFlag;
 
 if(showItemsFlag == true){
-	show(items);
+	showItems();
 }
 
 if(showItemsFlag == false){
-	hide(items);
+	hideItems();
 }
