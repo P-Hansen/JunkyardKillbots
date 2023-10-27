@@ -8,6 +8,7 @@ drawText = false;
 //This piece of code is not required for this project to work. However,
 //if you don't want to use it you'd have to figure out your own way of lighting fires.
 //This code could be of some help.
+/*
 var bush = pickRandom_instance(obj_bush);
 	if bush != "burning"
 	{
@@ -15,3 +16,4 @@ var bush = pickRandom_instance(obj_bush);
 		flame.myTarget = bush;
 		bush.status = "burning";
 	}
+*/

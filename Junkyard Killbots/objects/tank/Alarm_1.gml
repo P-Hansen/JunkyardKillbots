@@ -5,6 +5,7 @@ if instance_exists(target){
 		var shot = instance_create_layer(x, y, layer, bullet);
 		shot.direction = point_direction(x, y, target.x, target.y);
 		shot.speed = 2;
+		shot.damage = damage;
 	}
 }
 
