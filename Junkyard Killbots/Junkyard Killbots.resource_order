@@ -19,6 +19,7 @@
     {"name":"rmHome","order":1,"path":"rooms/rmHome/rmHome.yy",},
     {"name":"teslaTowerSmall","order":3,"path":"objects/teslaTowerSmall/teslaTowerSmall.yy",},
     {"name":"playerInventory","order":10,"path":"objects/playerInventory/playerInventory.yy",},
+    {"name":"attackUp","order":12,"path":"objects/attackUp/attackUp.yy",},
     {"name":"spr_flame","order":1,"path":"sprites/spr_flame/spr_flame.yy",},
     {"name":"sprSlot","order":24,"path":"sprites/sprSlot/sprSlot.yy",},
     {"name":"sprMissionsButton","order":17,"path":"sprites/sprMissionsButton/sprMissionsButton.yy",},
@@ -53,6 +54,7 @@
     {"name":"bullet","order":8,"path":"objects/bullet/bullet.yy",},
     {"name":"sprTank","order":10,"path":"sprites/sprTank/sprTank.yy",},
     {"name":"sprTeslaTowerLarge","order":8,"path":"sprites/sprTeslaTowerLarge/sprTeslaTowerLarge.yy",},
+    {"name":"itemSlot","order":11,"path":"objects/itemSlot/itemSlot.yy",},
     {"name":"obj_flame","order":1,"path":"objects/obj_flame/obj_flame.yy",},
   ],
 }
