@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-playerInventory.robots[repairController.BotSelection].image_index = 0;
+playerInventory.robots[repairController.botSelection].image_index = 0;
 
-if(repairController.BotSelection <= 0){
-	repairController.BotSelection = 11;
+if(repairController.botSelection <= 0){
+	repairController.botSelection = 11;
 } else {
-	repairController.BotSelection--;
+	repairController.botSelection--;
 }
 
-playerInventory.robots[repairController.BotSelection].image_index = 1;
+playerInventory.robots[repairController.botSelection].image_index = 1;
