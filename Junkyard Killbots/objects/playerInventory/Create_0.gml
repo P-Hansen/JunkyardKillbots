@@ -55,3 +55,24 @@ function showItems(){
 
 hideItems();
 showItemsFlag = false;
+
+//hide item slots off screen
+function hideRobots(){
+	for(var i = 0; i < array_length(robots); i++){
+		robots[i].x = robots[i].x + 1000;
+		if instance_exists(robots[i].bots){
+			robots[i].bots.x = robots[i].x;
+		}
+	}
+}
+//bring item slots back
+function showRobots(){
+	for(var i = 0; i < array_length(robots); i++){
+		robots[i].x = robots[i].x - 1000;
+		if instance_exists(robots[i].bots){
+			robots[i].bots.x = robots[i].x;
+		}
+	}
+}
+
+hideRobots();

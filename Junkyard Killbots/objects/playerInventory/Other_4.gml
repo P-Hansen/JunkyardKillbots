@@ -2,6 +2,7 @@
 
 //spawn bots from your inventory
 if (room_get_name(room) == "rmMission1"){
+	showRobots();
 	var spawn = function(element, i){
 		if(element.bots != noone){
 			var temp = instance_create_layer(0, i*21, layer, element.bots.body);
@@ -18,4 +19,5 @@ if (room_get_name(room) == "rmHome"){
 if (room_get_name(room) == "rmRepair"){
 	x = 0;
 	showItems();
+	showRobots();
 }
