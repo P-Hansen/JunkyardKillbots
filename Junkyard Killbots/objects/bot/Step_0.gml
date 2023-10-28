@@ -27,5 +27,6 @@ if(direction >= 90 and direction <= 270){
 
 //death
 if (hp <= 0){
+	instance_destroy(creatorSlot);
 	instance_destroy(self);
 }

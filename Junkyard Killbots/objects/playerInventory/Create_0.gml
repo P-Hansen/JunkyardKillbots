@@ -8,6 +8,12 @@ for(var i = 0; i < array_length(robots); i++){
 	var xOffset = 16;
 	robots[i] = instance_create_layer(xOffset, 8+i*16, layer, botSlot);
 }
+robots[0].bots = instance_create_layer(robots[0].x, robots[0].y, layer, botPortrit);
+robots[0].bots.slot = robots[0];
+robots[1].bots = instance_create_layer(robots[1].x, robots[1].y, layer, botPortrit);
+robots[1].bots.slot = robots[1];
+robots[2].bots = instance_create_layer(robots[2].x, robots[2].y, layer, botPortrit);
+robots[2].bots.slot = robots[2];
 
 items = array_create(24, noone);
 //creating items slots for items array
