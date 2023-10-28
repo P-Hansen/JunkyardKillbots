@@ -3,3 +3,4 @@
 pressedFlag = false;
 slot = noone;
 
+isVisible = true;

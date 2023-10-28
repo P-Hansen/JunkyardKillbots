@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-item = noone;
-isVisible = true;
+if (isVisible == true){
+	draw_self();
+}
