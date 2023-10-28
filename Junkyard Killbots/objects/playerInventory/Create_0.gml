@@ -8,6 +8,7 @@ for(var i = 0; i < array_length(robots); i++){
 	var xOffset = 16;
 	robots[i] = instance_create_layer(xOffset, 8+i*16, layer, botSlot);
 }
+//starting 3 bots
 robots[0].bots = instance_create_layer(robots[0].x, robots[0].y, layer, botPortrit);
 robots[0].bots.slot = robots[0];
 robots[1].bots = instance_create_layer(robots[1].x, robots[1].y, layer, botPortrit);
@@ -26,6 +27,12 @@ for(var i = 0; i < array_length(items); i++){
 	}
 	items[i] = instance_create_layer(xOffset,yOffset+i*20, layer, itemSlot);
 }
+items[0].item = instance_create_layer(items[0].x, items[0].y, layer, attackUp);
+items[0].item.slot = items[0];
+items[12].item = instance_create_layer(items[12].x, items[12].y, layer, attackUp);
+items[12].item.slot = items[12];
+items[13].item = instance_create_layer(items[13].x, items[13].y, layer, attackUp);
+items[13].item.slot = items[13];
 
 //hide item slots off screen
 function hideItems(){

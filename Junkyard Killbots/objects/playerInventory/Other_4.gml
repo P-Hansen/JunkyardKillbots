@@ -1,4 +1,5 @@
-/// @description 
+/// @description
+
 //spawn bots from your inventory
 if (room_get_name(room) == "rmMission1"){
 	var spawn = function(element, i){
