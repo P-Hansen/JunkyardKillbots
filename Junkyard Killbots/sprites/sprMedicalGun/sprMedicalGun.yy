@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sprAttackUpIcon",
-  "bbox_bottom": 15,
+  "name": "sprMedicalGun",
+  "bbox_bottom": 8,
   "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_right": 10,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"7edad490-b4d2-42a0-bce1-fd5580cc16b9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"db7be6ba-216b-4228-a4d4-6a2ab2a01b3a",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 16,
+  "height": 9,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2f95daa7-c1bb-4957-b74f-827d78a827eb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9665418b-84eb-4f3f-a650-543efa351557","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 0,
   "parent": {
     "name": "items",
     "path": "folders/Sprites/items.yy",
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sprAttackUpIcon",
+    "name": "sprMedicalGun",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"7edad490-b4d2-42a0-bce1-fd5580cc16b9","path":"sprites/sprAttackUpIcon/sprAttackUpIcon.yy",},},},"Disabled":false,"id":"f30231e4-de60-4c0c-a392-820e0328b449","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"db7be6ba-216b-4228-a4d4-6a2ab2a01b3a","path":"sprites/sprMedicalGun/sprMedicalGun.yy",},},},"Disabled":false,"id":"bdefe50b-f4c1-4c0f-8886-63df10792139","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 8,
-    "yorigin": 8,
+    "xorigin": 0,
+    "yorigin": 0,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 16,
+  "width": 11,
 }

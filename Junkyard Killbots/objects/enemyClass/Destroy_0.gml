@@ -3,7 +3,6 @@
 global.scrapTotal += irandom_range(5, 15);
 
 var roll = random_range(0, 100);
-
-if (roll <= 50){
+if (roll <= 25){
 	pushToInventory();
 }
