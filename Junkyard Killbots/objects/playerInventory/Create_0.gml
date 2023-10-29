@@ -28,11 +28,11 @@ for(var i = 0; i < array_length(items); i++){
 	}
 	items[i] = instance_create_layer(xOffset,yOffset+i*20, layer, itemSlot);
 }
-items[0].item = instance_create_layer(items[0].x, items[0].y, layer, attackUp);
+items[0].item = instance_create_layer(items[0].x, items[0].y, layer, gunArmItem);
 items[0].item.slot = items[0];
-items[12].item = instance_create_layer(items[12].x, items[12].y, layer, attackUp);
+items[12].item = instance_create_layer(items[12].x, items[12].y, layer, gunArmItem2);
 items[12].item.slot = items[12];
-items[13].item = instance_create_layer(items[13].x, items[13].y, layer, attackUp);
+items[13].item = instance_create_layer(items[13].x, items[13].y, layer, gunArmItem);
 items[13].item.slot = items[13];
 
 //hide item slots off screen

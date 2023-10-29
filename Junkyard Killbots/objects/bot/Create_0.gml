@@ -11,3 +11,5 @@ flashTimer = 0;
 alarm[1] = game_get_speed(gamespeed_fps)*1;
 
 creatorSlot = noone;
+slot1 = noone;
+slot2 = noone;

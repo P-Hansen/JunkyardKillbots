@@ -6,8 +6,13 @@ if (room_get_name(room) == "rmMission1"){
 	newBot.creatorSlot = self;
 	if(instance_exists(weaponSlots[0].item)){
 		weaponSlots[0].item.modifierFunction(newBot);
+		newBot.range = weaponSlots[0].item.range;
 	}
 	if(instance_exists(weaponSlots[1].item)){
 		weaponSlots[1].item.modifierFunction(newBot);
+		newBot.range = weaponSlots[1].item.range;
+	}
+	if (instance_exists(weaponSlots[0].item) && instance_exists(weaponSlots[1].item)){
+		newBot.range = min(weaponSlots[0].item.range, weaponSlots[1].item.range);
 	}
 }
