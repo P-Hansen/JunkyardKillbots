@@ -19,6 +19,7 @@
     {"name":"rmHome","order":1,"path":"rooms/rmHome/rmHome.yy",},
     {"name":"sprPortritFrame","order":27,"path":"sprites/sprPortritFrame/sprPortritFrame.yy",},
     {"name":"teslaTowerSmall","order":3,"path":"objects/teslaTowerSmall/teslaTowerSmall.yy",},
+    {"name":"scripInventory","order":4,"path":"scripts/scripInventory/scripInventory.yy",},
     {"name":"playerInventory","order":10,"path":"objects/playerInventory/playerInventory.yy",},
     {"name":"attackUp","order":12,"path":"objects/attackUp/attackUp.yy",},
     {"name":"spr_flame","order":1,"path":"sprites/spr_flame/spr_flame.yy",},

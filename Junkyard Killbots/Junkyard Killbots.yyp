@@ -39,6 +39,7 @@
     {"id":{"name":"sprPortritFrame","path":"sprites/sprPortritFrame/sprPortritFrame.yy",},},
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},},
     {"id":{"name":"teslaTowerSmall","path":"objects/teslaTowerSmall/teslaTowerSmall.yy",},},
+    {"id":{"name":"scripInventory","path":"scripts/scripInventory/scripInventory.yy",},},
     {"id":{"name":"playerInventory","path":"objects/playerInventory/playerInventory.yy",},},
     {"id":{"name":"attackUp","path":"objects/attackUp/attackUp.yy",},},
     {"id":{"name":"spr_flame","path":"sprites/spr_flame/spr_flame.yy",},},
