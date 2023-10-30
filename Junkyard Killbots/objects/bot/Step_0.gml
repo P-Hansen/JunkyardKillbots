@@ -9,7 +9,7 @@ if instance_exists(target){
 
 //stop when within range
 if instance_exists(target){
-	if (distance_to_object(target) <= range){
+	if (point_distance(x, y, target.x, target.y) <= range){
 		speed = 0;
 	} else {
 		speed = maxSpeed;

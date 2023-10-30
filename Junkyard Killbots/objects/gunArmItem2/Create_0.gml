@@ -4,7 +4,7 @@ image_index = 1;
 pressedFlag = false;
 slot = noone;
 isVisible = true;
-range = 25;
+range = 45;
 
 modifierFunction = function(newBot){
 	if (newBot.slot1 == noone){

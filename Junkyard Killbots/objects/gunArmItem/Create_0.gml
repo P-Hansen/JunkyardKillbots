@@ -3,7 +3,7 @@
 pressedFlag = false;
 slot = noone;
 isVisible = true;
-range = 15;
+range = 35;
 
 modifierFunction = function(newBot){
 	if (newBot.slot1 == noone){
