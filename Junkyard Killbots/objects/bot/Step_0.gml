@@ -39,6 +39,5 @@ if(slot2 != noone){
 
 //death
 if (hp <= 0){
-	instance_destroy(creatorSlot);
 	instance_destroy(self);
 }

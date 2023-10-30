@@ -1,6 +1,8 @@
 /// @description Insert description here
-// You can write your code in this editor
 
+//destroy portrit
+instance_destroy(creatorSlot);
+//destroy weapons
 instance_destroy(slot1);
 instance_destroy(slot2);
 

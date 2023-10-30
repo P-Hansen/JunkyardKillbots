@@ -69,6 +69,7 @@
     {"id":{"name":"sprRedGun","path":"sprites/sprRedGun/sprRedGun.yy",},},
     {"id":{"name":"checkFor_object_xy","path":"scripts/checkFor_object_xy/checkFor_object_xy.yy",},},
     {"id":{"name":"sprClubIcon","path":"sprites/sprClubIcon/sprClubIcon.yy",},},
+    {"id":{"name":"playerBullet","path":"objects/playerBullet/playerBullet.yy",},},
     {"id":{"name":"gunArmItem2","path":"objects/gunArmItem2/gunArmItem2.yy",},},
     {"id":{"name":"sprHpBar3","path":"sprites/sprHpBar3/sprHpBar3.yy",},},
     {"id":{"name":"sprRocketeerMedium","path":"sprites/sprRocketeerMedium/sprRocketeerMedium.yy",},},
