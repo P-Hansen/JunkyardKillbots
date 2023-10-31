@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "attackUpChip",
+  "name": "speedUpAttackSpeedDownChip",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprAttackUpIcon",
-    "path": "sprites/sprAttackUpIcon/sprAttackUpIcon.yy",
+    "name": "sprSpeedUpIcon",
+    "path": "sprites/sprSpeedUpIcon/sprSpeedUpIcon.yy",
   },
   "spriteMaskId": null,
   "visible": true,
