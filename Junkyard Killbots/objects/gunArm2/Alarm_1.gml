@@ -5,8 +5,8 @@ if instance_exists(body.target){
 		var shot = instance_create_depth(x, y, 0, playerBullet);
 		shot.direction = image_angle;
 		shot.speed = 2;
-		shot.damage = damage;
+		shot.damage = damage+body.baseDamage;
 	}
 }
 
-alarm[1] = game_get_speed(gamespeed_fps)*random_range(0.5,1.5);
+alarm[1] = game_get_speed(gamespeed_fps)*random_range(0.9,1.1)+body.baseCooldown;
