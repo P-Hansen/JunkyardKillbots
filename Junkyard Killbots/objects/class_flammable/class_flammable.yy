@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Required Objects",
-    "path": "folders/Objects/Required Objects.yy",
+    "path": "folders/Objects/old/Required Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

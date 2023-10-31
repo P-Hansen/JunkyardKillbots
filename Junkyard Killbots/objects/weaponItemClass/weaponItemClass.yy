@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "gunArmItem2",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "weaponItemClass",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -15,7 +13,7 @@
     "name": "attackUp",
     "path": "objects/attackUp/attackUp.yy",
   },
-  "persistent": true,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -30,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprGunArm",
-    "path": "sprites/sprGunArm/sprGunArm.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
