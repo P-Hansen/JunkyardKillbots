@@ -3,11 +3,11 @@
 pressedFlag = false;
 
 //find slot you released on
-if place_meeting(x, y, widgetSlot) {
+if place_meeting(x, y, chipSlot) || place_meeting(x, y, anyItemSlot) {
 	//clear old slot
 	if instance_exists(slot) {slot.item = noone;}
 	//find new slot
-	var newSlot = instance_nearest(x,y,widgetSlot);
+	var newSlot = nearestSlot(x, y, chipSlot, anyItemSlot);
 	//if the slot is empty put yourself in it
 	if(newSlot.item == noone){
 		slot = newSlot;

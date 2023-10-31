@@ -27,3 +27,21 @@ function nearestSlot(x1, y1, slot1, slot2){
 		return nearest2;
 	}
 }
+
+function hideEachSlot(array){
+	for(var i = 0; i < array_length(array); i++){
+		array[i].x -= 1000;
+		if(instance_exists(array[i].item)){
+			array[i].item.x -= 1000;
+		}
+	}
+}
+
+function showEachSlot(array){
+	for(var i = 0; i < array_length(array); i++){
+		array[i].x += 1000;
+		if(instance_exists(array[i].item)){
+			array[i].item.x += 1000;
+		}
+	}
+}
