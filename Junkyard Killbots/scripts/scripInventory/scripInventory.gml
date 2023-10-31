@@ -8,7 +8,7 @@ function scripInventory(){
 function pushToInventory(){
 	for(var i = 0; i < array_length(playerInventory.items); i++){
 		if(playerInventory.items[i].item == noone){
-			playerInventory.items[i].item = instance_create_layer(playerInventory.items[i].x, playerInventory.items[i].y, layer, attackUp);
+			playerInventory.items[i].item = instance_create_layer(playerInventory.items[i].x, playerInventory.items[i].y, layer, attackUpChip);
 			playerInventory.items[i].item.slot = playerInventory.items[i];
 			break;
 		}
@@ -42,6 +42,14 @@ function showEachSlot(array){
 		array[i].x += 1000;
 		if(instance_exists(array[i].item)){
 			array[i].item.x += 1000;
+		}
+	}
+}
+
+function executeModifierFunctions(array, newBot){
+	for(var i = 0; i < array_length(array); i++){
+		if(instance_exists(array[i].item)){
+			array[i].item.modifierFunction(newBot);
 		}
 	}
 }

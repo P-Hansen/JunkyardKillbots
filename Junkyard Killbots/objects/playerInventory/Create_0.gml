@@ -32,26 +32,28 @@ items[0].item = instance_create_layer(items[0].x, items[0].y, layer, gunArmItem)
 items[0].item.slot = items[0];
 items[12].item = instance_create_layer(items[12].x, items[12].y, layer, gunArmItem2);
 items[12].item.slot = items[12];
-items[13].item = instance_create_layer(items[13].x, items[13].y, layer, gunArmItem);
+items[13].item = instance_create_layer(items[13].x, items[13].y, layer, attackUpChip);
 items[13].item.slot = items[13];
 
 //hide item slots off screen
 function hideItems(){
-	for(var i = 0; i < array_length(items); i++){
+	hideEachSlot(items);
+	/*for(var i = 0; i < array_length(items); i++){
 		items[i].x = items[i].x + 1000;
 		if instance_exists(items[i].item){
 			items[i].item.x = items[i].x;
 		}
-	}
+	}*/
 }
 //bring item slots back
 function showItems(){
-	for(var i = 0; i < array_length(items); i++){
+	showEachSlot(items);
+	/*for(var i = 0; i < array_length(items); i++){
 		items[i].x = items[i].x - 1000;
 		if instance_exists(items[i].item){
 			items[i].item.x = items[i].x;
 		}
-	}
+	}*/
 }
 
 hideItems();

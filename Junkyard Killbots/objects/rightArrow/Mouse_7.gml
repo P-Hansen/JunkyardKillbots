@@ -5,7 +5,6 @@
 playerInventory.robots[repairController.botSelection].image_index = 0;
 
 //hide slots
-//hide slots
 if instance_exists(playerInventory.robots[repairController.botSelection].bots){
 	hideEachSlot(playerInventory.robots[repairController.botSelection].bots.chipSlots);
 	hideEachSlot(playerInventory.robots[repairController.botSelection].bots.weaponSlots);
@@ -23,6 +22,5 @@ if instance_exists(playerInventory.robots[repairController.botSelection].bots){
 	showEachSlot(playerInventory.robots[repairController.botSelection].bots.weaponSlots);
 	showEachSlot(playerInventory.robots[repairController.botSelection].bots.widgetSlots);
 }
-
 //change selected frame
 playerInventory.robots[repairController.botSelection].image_index = 1;

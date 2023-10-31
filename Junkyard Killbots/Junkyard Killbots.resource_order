@@ -50,6 +50,7 @@
     {"name":"sprHoverBot","order":5,"path":"sprites/sprHoverBot/sprHoverBot.yy",},
     {"name":"leftArrow","order":17,"path":"objects/leftArrow/leftArrow.yy",},
     {"name":"widgetClass","order":9,"path":"objects/widgetClass/widgetClass.yy",},
+    {"name":"attackUpChip","order":10,"path":"objects/attackUpChip/attackUpChip.yy",},
     {"name":"sprTeslaTowerSmall","order":9,"path":"sprites/sprTeslaTowerSmall/sprTeslaTowerSmall.yy",},
     {"name":"sprRedGun","order":8,"path":"sprites/sprRedGun/sprRedGun.yy",},
     {"name":"sprClubIcon","order":4,"path":"sprites/sprClubIcon/sprClubIcon.yy",},

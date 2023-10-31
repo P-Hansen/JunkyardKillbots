@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "widgetSlot",
+  "name": "attackUpChip",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -11,7 +11,10 @@
     "name": "items",
     "path": "folders/Objects/items.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "chipClass",
+    "path": "objects/chipClass/chipClass.yy",
+  },
   "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprItemSlot",
-    "path": "sprites/sprItemSlot/sprItemSlot.yy",
+    "name": "sprAttackUpIcon",
+    "path": "sprites/sprAttackUpIcon/sprAttackUpIcon.yy",
   },
   "spriteMaskId": null,
   "visible": true,
