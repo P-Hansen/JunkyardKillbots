@@ -61,6 +61,7 @@
     {"id":{"name":"sprRepairsButton","path":"sprites/sprRepairsButton/sprRepairsButton.yy",},},
     {"id":{"name":"chipClass","path":"objects/chipClass/chipClass.yy",},},
     {"id":{"name":"attackSpeedCore","path":"objects/attackSpeedCore/attackSpeedCore.yy",},},
+    {"id":{"name":"attackSpeedUpAccuracydownChip","path":"objects/attackSpeedUpAccuracydownChip/attackSpeedUpAccuracydownChip.yy",},},
     {"id":{"name":"sprBot","path":"sprites/sprBot/sprBot.yy",},},
     {"id":{"name":"repairController","path":"objects/repairController/repairController.yy",},},
     {"id":{"name":"enemyClass","path":"objects/enemyClass/enemyClass.yy",},},

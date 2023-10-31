@@ -10,6 +10,7 @@ baseDamage = 100;
 damage = baseDamage;
 flashTimer = 0;
 baseCooldown = 0;
+baseAccuracy = 0;
 
 creatorSlot = noone;
 slot1 = noone;

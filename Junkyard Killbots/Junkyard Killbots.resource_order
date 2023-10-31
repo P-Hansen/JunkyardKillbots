@@ -40,6 +40,7 @@
     {"name":"sprRepairsButton","order":18,"path":"sprites/sprRepairsButton/sprRepairsButton.yy",},
     {"name":"chipClass","order":8,"path":"objects/chipClass/chipClass.yy",},
     {"name":"attackSpeedCore","order":11,"path":"objects/attackSpeedCore/attackSpeedCore.yy",},
+    {"name":"attackSpeedUpAccuracydownChip","order":13,"path":"objects/attackSpeedUpAccuracydownChip/attackSpeedUpAccuracydownChip.yy",},
     {"name":"sprBot","order":4,"path":"sprites/sprBot/sprBot.yy",},
     {"name":"repairController","order":19,"path":"objects/repairController/repairController.yy",},
     {"name":"enemyClass","order":9,"path":"objects/enemyClass/enemyClass.yy",},
