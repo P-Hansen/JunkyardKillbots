@@ -83,6 +83,7 @@
     {"id":{"name":"gunArmItem2","path":"objects/gunArmItem2/gunArmItem2.yy",},},
     {"id":{"name":"sprHpBar3","path":"sprites/sprHpBar3/sprHpBar3.yy",},},
     {"id":{"name":"sprRocketeerMedium","path":"sprites/sprRocketeerMedium/sprRocketeerMedium.yy",},},
+    {"id":{"name":"sprTextBox","path":"sprites/sprTextBox/sprTextBox.yy",},},
     {"id":{"name":"sprAttackUpIcon2","path":"sprites/sprAttackUpIcon2/sprAttackUpIcon2.yy",},},
     {"id":{"name":"sprGun","path":"sprites/sprGun/sprGun.yy",},},
     {"id":{"name":"sprRightArrow","path":"sprites/sprRightArrow/sprRightArrow.yy",},},

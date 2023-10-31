@@ -3,7 +3,9 @@ image_index = 1;
 
 pressedFlag = false;
 slot = noone;
-isVisible = true;
+hoverFlag = false;
+hoverCounter = 2*game_get_speed(gamespeed_fps);
+description = "placeholder text";
 range = 45;
 
 modifierFunction = function(newBot){

@@ -2,7 +2,9 @@
 
 pressedFlag = false;
 slot = noone;
-isVisible = true;
+hoverFlag = false;
+hoverCounter = 2*game_get_speed(gamespeed_fps);
+description = "placeholder text";
 
 modifierFunction = function(newBot){
 	newBot.image_xscale += 1;

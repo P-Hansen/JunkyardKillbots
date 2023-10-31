@@ -60,6 +60,7 @@
     {"name":"gunArmItem2","order":2,"path":"objects/gunArmItem2/gunArmItem2.yy",},
     {"name":"sprHpBar3","order":21,"path":"sprites/sprHpBar3/sprHpBar3.yy",},
     {"name":"sprRocketeerMedium","order":12,"path":"sprites/sprRocketeerMedium/sprRocketeerMedium.yy",},
+    {"name":"sprTextBox","order":31,"path":"sprites/sprTextBox/sprTextBox.yy",},
     {"name":"sprAttackUpIcon2","order":1,"path":"sprites/sprAttackUpIcon2/sprAttackUpIcon2.yy",},
     {"name":"sprGun","order":6,"path":"sprites/sprGun/sprGun.yy",},
     {"name":"sprRightArrow","order":29,"path":"sprites/sprRightArrow/sprRightArrow.yy",},
