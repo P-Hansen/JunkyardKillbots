@@ -73,6 +73,7 @@
     {"name":"MissionsButton","order":4,"path":"objects/MissionsButton/MissionsButton.yy",},
     {"name":"damage_variable_destroy","order":2,"path":"scripts/damage_variable_destroy/damage_variable_destroy.yy",},
     {"name":"rmRepair","order":2,"path":"rooms/rmRepair/rmRepair.yy",},
+    {"name":"weaponClass","order":7,"path":"objects/weaponClass/weaponClass.yy",},
     {"name":"anyItemSlot","order":6,"path":"objects/anyItemSlot/anyItemSlot.yy",},
     {"name":"bot","order":2,"path":"objects/bot/bot.yy",},
     {"name":"missionController","order":14,"path":"objects/missionController/missionController.yy",},

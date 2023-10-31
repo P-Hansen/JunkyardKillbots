@@ -14,3 +14,16 @@ function pushToInventory(){
 		}
 	}
 }
+
+function nearestSlot(x1, y1, slot1, slot2){
+	var nearest1 = instance_nearest(x1, y1, slot1);
+	var nearest2 = instance_nearest(x1, y1, slot2);
+	var distanceTo1 = point_distance(x1, y1, nearest1.x, nearest1.y);
+	var distanceTo2 = point_distance(x1, y1, nearest2.x, nearest2.y);
+	
+	if(distanceTo1 <= distanceTo2){
+		return nearest1;
+	} else {
+		return nearest2;
+	}
+}

@@ -98,6 +98,7 @@
     {"id":{"name":"damage_variable_destroy","path":"scripts/damage_variable_destroy/damage_variable_destroy.yy",},},
     {"id":{"name":"sprAttackUpIcon","path":"sprites/sprAttackUpIcon/sprAttackUpIcon.yy",},},
     {"id":{"name":"rmRepair","path":"rooms/rmRepair/rmRepair.yy",},},
+    {"id":{"name":"weaponClass","path":"objects/weaponClass/weaponClass.yy",},},
     {"id":{"name":"anyItemSlot","path":"objects/anyItemSlot/anyItemSlot.yy",},},
     {"id":{"name":"bot","path":"objects/bot/bot.yy",},},
     {"id":{"name":"missionController","path":"objects/missionController/missionController.yy",},},

@@ -26,7 +26,7 @@ for(var i = 0; i < array_length(items); i++){
 		xOffset = xOffset - 22;
 		yOffset = -229;
 	}
-	items[i] = instance_create_layer(xOffset,yOffset+i*20, layer, itemSlot);
+	items[i] = instance_create_layer(xOffset,yOffset+i*20, layer, anyItemSlot);
 }
 items[0].item = instance_create_layer(items[0].x, items[0].y, layer, gunArmItem);
 items[0].item.slot = items[0];

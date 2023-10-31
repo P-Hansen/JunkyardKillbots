@@ -12,8 +12,8 @@
     "path": "folders/Objects/items.yy",
   },
   "parentObjectId": {
-    "name": "attackUp",
-    "path": "objects/attackUp/attackUp.yy",
+    "name": "weaponClass",
+    "path": "objects/weaponClass/weaponClass.yy",
   },
   "persistent": true,
   "physicsAngularDamping": 0.1,
