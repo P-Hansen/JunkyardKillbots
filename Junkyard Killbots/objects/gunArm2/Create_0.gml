@@ -1,5 +1,4 @@
 /// @description
-image_index = 1;
 
 damage = 200;
 body = noone;

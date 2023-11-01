@@ -1,5 +1,6 @@
-/// @description Insert description here
+/// @description on hover and stack count
 
+//printing hover box
 if(hoverCounter < 0 and hoverFlag == true){
 	var spriteHeight = sprite_get_height(sprTextBox);
 	var spriteWidth = sprite_get_width(sprTextBox)-10;

@@ -1,5 +1,4 @@
 /// @description Insert description here
-image_index = 1;
 
 pressedFlag = false;
 slot = noone;

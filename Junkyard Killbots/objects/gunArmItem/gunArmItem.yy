@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprGunArm",
-    "path": "sprites/sprGunArm/sprGunArm.yy",
+    "name": "sprGunArmIcon",
+    "path": "sprites/sprGunArmIcon/sprGunArmIcon.yy",
   },
   "spriteMaskId": null,
   "visible": true,
