@@ -37,7 +37,7 @@ items[1].item.slot.stackCount++;
 items[12].item = instance_create_layer(items[12].x, items[12].y, layer, attackSpeedUpAccuracydownChip);
 items[12].item.slot = items[12];
 items[12].item.slot.stackCount++;
-items[13].item = instance_create_layer(items[13].x, items[13].y, layer, gunArmItem);
+items[13].item = instance_create_layer(items[13].x, items[13].y, layer, attackSpeedUpAccuracydownChip);
 items[13].item.slot = items[13];
 items[13].item.slot.stackCount++;
 
