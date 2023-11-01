@@ -10,6 +10,7 @@ function pushToInventory(drop){
 		if(playerInventory.items[i].item == noone){
 			playerInventory.items[i].item = instance_create_layer(playerInventory.items[i].x, playerInventory.items[i].y, layer, drop);
 			playerInventory.items[i].item.slot = playerInventory.items[i];
+			playerInventory.items[i].item.slot.stackCount++;
 			break;
 		}
 	}
