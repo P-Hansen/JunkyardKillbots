@@ -41,6 +41,10 @@ items[13].item = instance_create_layer(items[13].x, items[13].y, layer, attackSp
 items[13].item.slot = items[13];
 items[13].item.slot.stackCount++;
 
+//blueprints
+blueprints = array_create(24, noone);
+blueprints[0] = instance_create_layer(-1000, -1000, layer, botBlueprint);
+
 //hide item slots off screen
 function hideItems(){
 	hideEachSlot(items);
