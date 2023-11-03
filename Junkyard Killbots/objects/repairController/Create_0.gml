@@ -12,5 +12,6 @@ if instance_exists(playerInventory.robots[botSelection].bots){
 }
 
 showBlueprintsFlag = false;
-instance_create_layer(room_width/2, 220, layer, buildBotButton);
+buildButton = instance_create_layer(room_width/2, 220, layer, buildBotButton);
+buildButton.x += 1000;
 blueprintSelection = 0;
