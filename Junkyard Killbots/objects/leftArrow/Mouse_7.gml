@@ -1,6 +1,13 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description 
 
+//change selection
+if(repairController.blueprintSelection <= 0){
+	repairController.blueprintSelection = array_length(playerInventory.blueprints)-1;
+} else {
+	repairController.blueprintSelection--;
+}
+
+/*
 //change selection frame
 playerInventory.robots[repairController.botSelection].image_index = 0;
 //hide slots
@@ -23,3 +30,4 @@ if instance_exists(playerInventory.robots[repairController.botSelection].bots){
 }
 //change selected frame
 playerInventory.robots[repairController.botSelection].image_index = 1;
+*/
