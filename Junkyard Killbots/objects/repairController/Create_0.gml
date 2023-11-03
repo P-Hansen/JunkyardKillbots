@@ -10,3 +10,6 @@ if instance_exists(playerInventory.robots[botSelection].bots){
 	showEachSlot(playerInventory.robots[botSelection].bots.weaponSlots);
 	showEachSlot(playerInventory.robots[botSelection].bots.widgetSlots);
 }
+
+showBlueprintsFlag = false;
+instance_create_layer(room_width/2, 220, layer, buildBotButton);
