@@ -1,8 +1,10 @@
 /// @description 
 
-playerInventory.robots[repairController.botSelection].bots = instance_create_layer(playerInventory.robots[repairController.botSelection].x, playerInventory.robots[repairController.botSelection].y, layer, playerInventory.blueprints[0].creates);
-playerInventory.robots[repairController.botSelection].bots.slot = playerInventory.robots[repairController.botSelection];
+var i = repairController.botSelection;
+var j = repairController.blueprintSelection;
+playerInventory.robots[i].bots = instance_create_layer(playerInventory.robots[i].x, playerInventory.robots[i].y, layer, playerInventory.blueprints[j].creates);
+playerInventory.robots[i].bots.slot = playerInventory.robots[i];
 
-showEachSlot(playerInventory.robots[repairController.botSelection].bots.chipSlots);
-showEachSlot(playerInventory.robots[repairController.botSelection].bots.weaponSlots);
-showEachSlot(playerInventory.robots[repairController.botSelection].bots.widgetSlots);
+showEachSlot(playerInventory.robots[i].bots.chipSlots);
+showEachSlot(playerInventory.robots[i].bots.weaponSlots);
+showEachSlot(playerInventory.robots[i].bots.widgetSlots);
