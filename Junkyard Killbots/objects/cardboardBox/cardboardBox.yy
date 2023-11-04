@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "trashPile",
+  "name": "cardboardBox",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprTrashPile",
-    "path": "sprites/sprTrashPile/sprTrashPile.yy",
+    "name": "sprCardboardBox",
+    "path": "sprites/sprCardboardBox/sprCardboardBox.yy",
   },
   "spriteMaskId": null,
   "visible": true,
