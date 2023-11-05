@@ -5,6 +5,6 @@ if (room_get_name(room) == "rmRepair"){
 	hideRobots();
 }
 
-if(room_get_name(room) == "rmMission1"){
+if(room_get_name(room) != "rmHome" and room_get_name(room) != "rmRepair"){
 	hideRobots();
 }

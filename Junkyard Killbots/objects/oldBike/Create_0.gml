@@ -1,5 +1,12 @@
 /// @description Insert description here
-// You can write your code in this editor
+
+hp = 300;
+target = noone;
+maxSpeed = 0;
+speed = maxSpeed;
+range = 0;
+damage = 0;
+flashTimer = 0;
 
 image_index = choose(0,1,2,3);
 
