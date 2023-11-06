@@ -2,8 +2,11 @@
 //find target and point in it's direction
 if instance_exists(target){
 	target = instance_nearest(x,y,enemyClass);
-	direction = point_direction(x, y, target.x, target.y);
+	if (point_distance(x, y, target.x, target.y) <= baseSightRange){
+		direction = point_direction(x, y, target.x, target.y);
+	}
 } else {
+	direction = 0;
 	target = instance_nearest(x,y,enemyClass);
 }
 
@@ -15,7 +18,8 @@ if instance_exists(target){
 		speed = maxSpeed;
 	}
 } else {
-	speed = 0;
+	//direction = 0
+	speed = maxSpeed;
 }
 
 //direction flip when moving
