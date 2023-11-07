@@ -1,7 +1,7 @@
 /// @description
 
 //spawn bots from your inventory
-if (room_get_name(room) != "rmHome" and room_get_name(room) != "rmRepair"){
+if (room_get_name(room) != "rmHome" and room_get_name(room) != "rmRepair" and room_get_name(room) != "rmMissionSelect"){
 	showRobots();
 }
 
