@@ -18,6 +18,7 @@
     {"name":"items","order":30,"path":"folders/Sprites/items.yy",},
     {"name":"Tile Sets","order":3,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":9,"path":"folders/Timelines.yy",},
+    {"name":"levelIcons","order":43,"path":"folders/Sprites/levelIcons.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rmHome","order":1,"path":"rooms/rmHome/rmHome.yy",},
@@ -44,6 +45,7 @@
     {"name":"spr_controller_game","order":2,"path":"sprites/spr_controller_game/spr_controller_game.yy",},
     {"name":"sprSpeedUpIcon","order":12,"path":"sprites/sprSpeedUpIcon/sprSpeedUpIcon.yy",},
     {"name":"sprBlueBox","order":20,"path":"sprites/sprBlueBox/sprBlueBox.yy",},
+    {"name":"sprOilfieldIcon","order":1,"path":"sprites/sprOilfieldIcon/sprOilfieldIcon.yy",},
     {"name":"sprRepairsButton","order":18,"path":"sprites/sprRepairsButton/sprRepairsButton.yy",},
     {"name":"chipClass","order":8,"path":"objects/chipClass/chipClass.yy",},
     {"name":"attackSpeedCore","order":11,"path":"objects/attackSpeedCore/attackSpeedCore.yy",},
