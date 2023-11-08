@@ -38,11 +38,32 @@ function hideEachSlot(array){
 	}
 }
 
+//for stray items from stacking
+function hideStrayItems(){
+	for (var i = 0; i < instance_number(parentItem); ++i;)
+	{
+		var item1 = instance_find(parentItem, i);
+		if (item1.x > 0){
+			item1.x -= 1000;
+		}
+	}
+}
+
 function showEachSlot(array){
 	for(var i = 0; i < array_length(array); i++){
 		array[i].x += 1000;
 		if(instance_exists(array[i].item)){
 			array[i].item.x += 1000;
+		}
+	}
+}
+
+function showStrayItems(){
+	for (var i = 0; i < instance_number(parentItem); ++i;)
+	{
+		var item1 = instance_find(parentItem, i);
+		if (item1.x < 0){
+			item1.x += 1000;
 		}
 	}
 }

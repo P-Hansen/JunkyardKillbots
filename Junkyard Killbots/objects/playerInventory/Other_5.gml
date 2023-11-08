@@ -3,6 +3,7 @@
 if (room_get_name(room) == "rmRepair"){
 	hideItems();
 	hideRobots();
+	hideStrayItems();
 }
 
 if (room_get_name(room) != "rmHome" and room_get_name(room) != "rmRepair" and room_get_name(room) != "rmMissionSelect"){

@@ -13,4 +13,5 @@ if (room_get_name(room) == "rmRepair"){
 	x = 0;
 	showItems();
 	showRobots();
+	showStrayItems();
 }
