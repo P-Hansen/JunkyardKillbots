@@ -7,7 +7,7 @@ function pickRandom_instance(argument0) {
 	obj = argument0;
 
 	//Pick random instance (of object) in the room, return its id
-	var inst = instance_find(obj, irandom(instance_number(obj) - 1));
+	inst = instance_find(obj, irandom(instance_number(obj) - 1));
 	return inst;
 
 
