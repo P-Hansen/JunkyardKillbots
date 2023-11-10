@@ -11,5 +11,6 @@ body = noone;
 swingFlag = false;
 endAngle = -135;
 rotateSpeed = -35;
+target = noone;
 
 alarm[1] = game_get_speed(gamespeed_fps)*random_range(0.9,1.1);

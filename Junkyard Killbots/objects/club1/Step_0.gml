@@ -1,8 +1,12 @@
 /// @description swing away
 
+//attack swing
 if (swingFlag == true) {
 	image_angle += rotateSpeed;
-	if image_angle <= endAngle {
+	if (image_angle <= endAngle and instance_exists(target)) {
+		target.hp -= damage;
+		target.flashTimer = 5;
+		audio_play_sound(sfxHit, 0, 0);
         swingFlag = false;
     }
 }
