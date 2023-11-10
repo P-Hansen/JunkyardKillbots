@@ -11,7 +11,10 @@
     "name": "levelIcons",
     "path": "folders/Objects/levelIcons.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "levelIconClass",
+    "path": "objects/levelIconClass/levelIconClass.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
