@@ -1,9 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "gunArm",
+  "name": "club1Item",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
@@ -12,8 +11,11 @@
     "name": "items",
     "path": "folders/Objects/items.yy",
   },
-  "parentObjectId": null,
-  "persistent": false,
+  "parentObjectId": {
+    "name": "weaponClass",
+    "path": "objects/weaponClass/weaponClass.yy",
+  },
+  "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -29,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprGunArm",
-    "path": "sprites/sprGunArm/sprGunArm.yy",
+    "name": "sprClubIcon",
+    "path": "sprites/sprClubIcon/sprClubIcon.yy",
   },
   "spriteMaskId": null,
   "visible": true,

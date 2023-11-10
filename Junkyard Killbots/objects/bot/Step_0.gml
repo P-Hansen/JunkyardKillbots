@@ -33,12 +33,10 @@ if(direction >= 90 and direction <= 270){
 if(slot1 != noone){
 	slot1.x = x+3;
 	slot1.y = y+5;
-	slot1.image_angle = direction;
 }
 if(slot2 != noone){
 	slot2.x = x+7;
 	slot2.y = y+5;
-	slot2.image_angle = direction;
 }
 
 //death

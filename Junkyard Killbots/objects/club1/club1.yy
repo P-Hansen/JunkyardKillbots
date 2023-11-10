@@ -1,10 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "gunArm",
+  "name": "club1",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,7 +13,10 @@
     "name": "items",
     "path": "folders/Objects/items.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "meleeWeaponClass",
+    "path": "objects/meleeWeaponClass/meleeWeaponClass.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprGunArm",
-    "path": "sprites/sprGunArm/sprGunArm.yy",
+    "name": "sprClub1",
+    "path": "sprites/sprClub1/sprClub1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
