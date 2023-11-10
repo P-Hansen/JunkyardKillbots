@@ -43,8 +43,10 @@ function hideStrayItems(){
 	for (var i = 0; i < instance_number(parentItem); ++i;)
 	{
 		var item1 = instance_find(parentItem, i);
-		if (item1.x > 0){
-			item1.x -= 1000;
+		if (object_get_name(item1.slot.object_index) == "anyItemSlot"){
+			if (item1.x > 0){
+				item1.x -= 1000;
+			}
 		}
 	}
 }
@@ -62,8 +64,10 @@ function showStrayItems(){
 	for (var i = 0; i < instance_number(parentItem); ++i;)
 	{
 		var item1 = instance_find(parentItem, i);
-		if (item1.x < 0){
-			item1.x += 1000;
+		if (object_get_name(item1.slot.object_index) == "anyItemSlot"){
+			if (item1.x < 0){
+				item1.x += 1000;
+			}
 		}
 	}
 }

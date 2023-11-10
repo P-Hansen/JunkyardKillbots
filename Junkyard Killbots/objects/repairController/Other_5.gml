@@ -9,3 +9,4 @@ if instance_exists(playerInventory.robots[botSelection].bots){
 }
 //reset selection
 playerInventory.robots[botSelection].image_index = 0;
+botSelection = 0;
