@@ -136,6 +136,7 @@
     {"id":{"name":"meleeWeaponClass","path":"objects/meleeWeaponClass/meleeWeaponClass.yy",},},
     {"id":{"name":"rmScrapyard","path":"rooms/rmScrapyard/rmScrapyard.yy",},},
     {"id":{"name":"sprBotPortrit","path":"sprites/sprBotPortrit/sprBotPortrit.yy",},},
+    {"id":{"name":"sprMilitaryOutpostIcon","path":"sprites/sprMilitaryOutpostIcon/sprMilitaryOutpostIcon.yy",},},
     {"id":{"name":"sprTruckLarge","path":"sprites/sprTruckLarge/sprTruckLarge.yy",},},
     {"id":{"name":"sprChipSlot","path":"sprites/sprChipSlot/sprChipSlot.yy",},},
     {"id":{"name":"sfxHit","path":"sounds/sfxHit/sfxHit.yy",},},

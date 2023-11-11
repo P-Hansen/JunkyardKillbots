@@ -113,6 +113,7 @@
     {"name":"meleeWeaponClass","order":11,"path":"objects/meleeWeaponClass/meleeWeaponClass.yy",},
     {"name":"rmScrapyard","order":2,"path":"rooms/rmScrapyard/rmScrapyard.yy",},
     {"name":"sprBotPortrit","order":26,"path":"sprites/sprBotPortrit/sprBotPortrit.yy",},
+    {"name":"sprMilitaryOutpostIcon","order":4,"path":"sprites/sprMilitaryOutpostIcon/sprMilitaryOutpostIcon.yy",},
     {"name":"sprTruckLarge","order":11,"path":"sprites/sprTruckLarge/sprTruckLarge.yy",},
     {"name":"sprChipSlot","order":14,"path":"sprites/sprChipSlot/sprChipSlot.yy",},
     {"name":"MissionsButton","order":4,"path":"objects/MissionsButton/MissionsButton.yy",},
