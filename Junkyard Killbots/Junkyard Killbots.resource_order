@@ -95,6 +95,7 @@
     {"name":"sprRocketeerMedium","order":6,"path":"sprites/sprRocketeerMedium/sprRocketeerMedium.yy",},
     {"name":"levelIconClass","order":3,"path":"objects/levelIconClass/levelIconClass.yy",},
     {"name":"sprTextBox","order":31,"path":"sprites/sprTextBox/sprTextBox.yy",},
+    {"name":"teslaTowerLarge","order":43,"path":"objects/teslaTowerLarge/teslaTowerLarge.yy",},
     {"name":"sprAttackUpIcon2","order":1,"path":"sprites/sprAttackUpIcon2/sprAttackUpIcon2.yy",},
     {"name":"largeJunk","order":34,"path":"objects/largeJunk/largeJunk.yy",},
     {"name":"club1Item","order":12,"path":"objects/club1Item/club1Item.yy",},

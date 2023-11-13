@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-hp = 400;
+hp = 800;
 target = noone;
 maxSpeed = 0;
 speed = maxSpeed;
@@ -11,4 +11,4 @@ flashTimer = 0;
 image_index = irandom_range(0, sprite_get_number(sprite_index));
 state = states.idle;
 
-sprites[states.idle] = sprTeslaTowerSmall;
+sprites[states.idle] = sprTeslaTowerLarge;

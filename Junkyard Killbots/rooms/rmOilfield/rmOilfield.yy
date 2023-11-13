@@ -87,6 +87,8 @@
     {"name":"inst_A4D0232","path":"rooms/rmOilfield/rmOilfield.yy",},
     {"name":"inst_30DD5C3D","path":"rooms/rmOilfield/rmOilfield.yy",},
     {"name":"inst_28200BCE","path":"rooms/rmOilfield/rmOilfield.yy",},
+    {"name":"inst_40EF272D","path":"rooms/rmOilfield/rmOilfield.yy",},
+    {"name":"inst_5DDF6BAF","path":"rooms/rmOilfield/rmOilfield.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -98,6 +100,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A4D0232","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"tank","path":"objects/tank/tank.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":464.0,"y":208.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_30DD5C3D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"tank","path":"objects/tank/tank.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28200BCE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"missionController","path":"objects/missionController/missionController.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":16.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40EF272D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"teslaTowerLarge","path":"objects/teslaTowerLarge/teslaTowerLarge.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":208.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5DDF6BAF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"teslaTowerLarge","path":"objects/teslaTowerLarge/teslaTowerLarge.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Bushes","depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A174273","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bush","path":"objects/obj_bush/obj_bush.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":40.0,"y":168.0,},
