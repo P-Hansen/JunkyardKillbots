@@ -48,6 +48,7 @@
     {"name":"sprBarrel","order":34,"path":"sprites/sprBarrel/sprBarrel.yy",},
     {"name":"sprWeaponSlot","order":17,"path":"sprites/sprWeaponSlot/sprWeaponSlot.yy",},
     {"name":"sprDumpster","order":37,"path":"sprites/sprDumpster/sprDumpster.yy",},
+    {"name":"passiveEnemyClass","order":42,"path":"objects/passiveEnemyClass/passiveEnemyClass.yy",},
     {"name":"sprItemSlot","order":15,"path":"sprites/sprItemSlot/sprItemSlot.yy",},
     {"name":"sprMissionsButton","order":17,"path":"sprites/sprMissionsButton/sprMissionsButton.yy",},
     {"name":"sprChevron","order":47,"path":"sprites/sprChevron/sprChevron.yy",},

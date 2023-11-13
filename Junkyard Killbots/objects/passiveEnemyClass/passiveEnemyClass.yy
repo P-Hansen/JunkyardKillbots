@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "teslaTowerSmall",
+  "name": "passiveEnemyClass",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,8 +12,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "passiveEnemyClass",
-    "path": "objects/passiveEnemyClass/passiveEnemyClass.yy",
+    "name": "enemyClass",
+    "path": "objects/enemyClass/enemyClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprTeslaTowerSmall",
-    "path": "sprites/sprTeslaTowerSmall/sprTeslaTowerSmall.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

@@ -69,6 +69,7 @@
     {"id":{"name":"sprBarrel","path":"sprites/sprBarrel/sprBarrel.yy",},},
     {"id":{"name":"sprWeaponSlot","path":"sprites/sprWeaponSlot/sprWeaponSlot.yy",},},
     {"id":{"name":"sprDumpster","path":"sprites/sprDumpster/sprDumpster.yy",},},
+    {"id":{"name":"passiveEnemyClass","path":"objects/passiveEnemyClass/passiveEnemyClass.yy",},},
     {"id":{"name":"sprItemSlot","path":"sprites/sprItemSlot/sprItemSlot.yy",},},
     {"id":{"name":"sprMissionsButton","path":"sprites/sprMissionsButton/sprMissionsButton.yy",},},
     {"id":{"name":"sprChevron","path":"sprites/sprChevron/sprChevron.yy",},},
