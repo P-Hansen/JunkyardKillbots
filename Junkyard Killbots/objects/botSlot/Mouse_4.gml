@@ -3,7 +3,7 @@
 
 //instance_create_layer(mouse_x, mouse_y, layer, bullet);
 
-//if place_meeting(mouse_x, mouse_y, botSlot) {
+if (room == rmRepair) {
 	var newSlot = instance_nearest(mouse_x, mouse_y, botSlot);
 	//change selection frame
 	playerInventory.robots[repairController.botSelection].image_index = 0;
@@ -25,5 +25,5 @@
 	//change selected frame
 	playerInventory.robots[repairController.botSelection].image_index = 1;
 
-//}
+}
 
