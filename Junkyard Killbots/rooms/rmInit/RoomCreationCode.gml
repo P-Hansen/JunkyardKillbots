@@ -7,4 +7,6 @@ enum states{
 	attack
 }
 
-global.upgradLevelsFlag = false;
+global.upgradLevelsFlag = true;
+
+room_goto(rmHome);

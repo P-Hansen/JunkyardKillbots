@@ -151,6 +151,7 @@
     {"id":{"name":"MissionsButton","path":"objects/MissionsButton/MissionsButton.yy",},},
     {"id":{"name":"botBlueprint","path":"objects/botBlueprint/botBlueprint.yy",},},
     {"id":{"name":"damage_variable_destroy","path":"scripts/damage_variable_destroy/damage_variable_destroy.yy",},},
+    {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
     {"id":{"name":"sprAttackUpIcon","path":"sprites/sprAttackUpIcon/sprAttackUpIcon.yy",},},
     {"id":{"name":"rmRepair","path":"rooms/rmRepair/rmRepair.yy",},},
     {"id":{"name":"scrapyardLevelIcon","path":"objects/scrapyardLevelIcon/scrapyardLevelIcon.yy",},},
@@ -204,6 +205,7 @@
     {"id":{"name":"Disclaimer","path":"notes/Disclaimer/Disclaimer.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
     {"roomId":{"name":"rmHome","path":"rooms/rmHome/rmHome.yy",},},
     {"roomId":{"name":"rmOilfield","path":"rooms/rmOilfield/rmOilfield.yy",},},
     {"roomId":{"name":"rmRepair","path":"rooms/rmRepair/rmRepair.yy",},},

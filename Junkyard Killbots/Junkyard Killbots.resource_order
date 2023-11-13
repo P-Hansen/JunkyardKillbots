@@ -126,6 +126,7 @@
     {"name":"MissionsButton","order":4,"path":"objects/MissionsButton/MissionsButton.yy",},
     {"name":"botBlueprint","order":27,"path":"objects/botBlueprint/botBlueprint.yy",},
     {"name":"damage_variable_destroy","order":2,"path":"scripts/damage_variable_destroy/damage_variable_destroy.yy",},
+    {"name":"rmInit","order":8,"path":"rooms/rmInit/rmInit.yy",},
     {"name":"rmRepair","order":6,"path":"rooms/rmRepair/rmRepair.yy",},
     {"name":"sprGunArmIcon","order":21,"path":"sprites/sprGunArmIcon/sprGunArmIcon.yy",},
     {"name":"rmLab","order":4,"path":"rooms/rmLab/rmLab.yy",},

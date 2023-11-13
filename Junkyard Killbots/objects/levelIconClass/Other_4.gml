@@ -8,4 +8,3 @@ if (global.upgradLevelsFlag == true){
 		difficulty += 1;
 	}
 }
-
