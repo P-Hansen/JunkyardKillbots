@@ -6,8 +6,8 @@ image_yscale = 5.82;
 robots = array_create(12, noone);
 //creating items slots for items array
 for(var i = 0; i < array_length(robots); i++){
-	var xOffset = 16;
-	robots[i] = instance_create_layer(xOffset, 8+i*16, layer, botSlot);
+	var xOffset = 21;
+	robots[i] = instance_create_layer(xOffset, 10.5+i*21, layer, botSlot);
 }
 //starting 3 bots
 robots[0].bots = instance_create_layer(robots[0].x, robots[0].y, layer, botPortrit);
