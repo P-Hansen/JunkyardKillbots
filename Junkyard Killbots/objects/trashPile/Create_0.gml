@@ -12,3 +12,6 @@ scale = random_range(0.6,1.2);
 image_xscale = scale;
 image_yscale = scale;
 
+state = states.idle;
+
+sprites[states.idle] = sprTrashPile;

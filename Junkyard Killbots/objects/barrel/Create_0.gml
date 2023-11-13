@@ -14,4 +14,6 @@ scale = 0.9;
 image_xscale = scale;
 image_yscale = scale;
 
+state = states.idle;
 
+sprites[states.idle] = sprBarrel;

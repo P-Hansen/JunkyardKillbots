@@ -8,12 +8,12 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "enemies",
+    "path": "folders/Objects/enemies.yy",
   },
   "parentObjectId": {
-    "name": "enemyClass",
-    "path": "objects/enemyClass/enemyClass.yy",
+    "name": "passiveEnemyClass",
+    "path": "objects/passiveEnemyClass/passiveEnemyClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
