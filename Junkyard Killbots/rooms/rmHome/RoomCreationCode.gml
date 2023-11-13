@@ -6,3 +6,5 @@ enum states{
 	alert,
 	attack
 }
+
+global.upgradLevelsFlag = false;
