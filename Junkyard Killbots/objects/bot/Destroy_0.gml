@@ -6,4 +6,4 @@ instance_destroy(creatorSlot);
 instance_destroy(slot1);
 instance_destroy(slot2);
 
-
+global.scrapTotal += scrapRefundOnDeath;

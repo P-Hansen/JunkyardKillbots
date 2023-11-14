@@ -27,7 +27,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"rmHome","order":1,"path":"rooms/rmHome/rmHome.yy",},
-    {"name":"sprPortritFrame","order":27,"path":"sprites/sprPortritFrame/sprPortritFrame.yy",},
+    {"name":"sprPortritFrame","order":8,"path":"sprites/sprPortritFrame/sprPortritFrame.yy",},
     {"name":"cardboardBox","order":31,"path":"objects/cardboardBox/cardboardBox.yy",},
     {"name":"chipSlot","order":1,"path":"objects/chipSlot/chipSlot.yy",},
     {"name":"teslaTowerSmall","order":8,"path":"objects/teslaTowerSmall/teslaTowerSmall.yy",},

@@ -1,5 +1,9 @@
 /// @description Insert description here
 
+scale = 1.2;
+image_xscale = scale;
+image_yscale = scale;
+
 pressedFlag = false;
 slot = noone;
 body = bot;

@@ -16,3 +16,5 @@ baseSightRange = 60;
 creatorSlot = noone;
 slot1 = noone;
 slot2 = noone;
+
+scrapRefundOnDeath = 50;
