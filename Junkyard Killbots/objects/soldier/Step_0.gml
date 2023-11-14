@@ -23,23 +23,10 @@ if (state == states.idle){
 	}
 
 } else if (state == states.attack){
+	speed = 0;
 
-	//stop if in range
-	if (instance_exists(target) and distance_to_object(target) <= range){
-		speed = 0;
-	} else if (instance_exists(target)) { //move towards target if out of range
-		direction = point_direction(x, y, target.x, target.y)
-		speed = maxSpeed;
-	}
-
-	//create projectile on the correct frame of attack animation
 	if (sprite_index == sprites[states.attack]){
-		if (image_index == 1){
-			var shot = instance_create_layer(x, y, layer, bullet);
-			shot.direction = point_direction(x, y, target.x, target.y);
-			shot.speed = 2;
-			shot.damage = damage;
-		} else if (image_index == sprite_get_number(sprite_index)-1){
+		if (image_index >= sprite_get_number(sprite_index)-1){
 			state = states.alert;
 		}
 	}
@@ -53,7 +40,7 @@ if (state == states.idle){
 	}
 	if (distance_to_object(target) <= range){
 		state = states.attack;
-		//alarm[1] = 1;
+		image_index = sprites[states.idle];
 	}
 }
 
