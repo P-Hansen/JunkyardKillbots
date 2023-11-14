@@ -18,19 +18,22 @@ if (state == states.idle){
 
 	speed = maxSpeed;
 	sprite_index = sprites[states.wander];
+	//keeping unit on screen
+	if (x > room_width or y > room_height or x < 0 or y < 0){
+		direction = point_direction(x, y, room_width/2, room_height/2);
+	}
 	if (instance_exists(target) and distance_to_object(target) <= sightRange){
 		state = states.alert;
 	}
 
 } else if (state == states.attack){
 	speed = 0;
-
+	//after attack animation plays change state back to alert
 	if (sprite_index == sprites[states.attack]){
 		if (image_index >= sprite_get_number(sprite_index)-1){
 			state = states.alert;
 		}
 	}
-	//sprite_index = sprites[states.attack];
 	
 } else if (state == states.alert){
 	sprite_index = sprites[states.alert];
