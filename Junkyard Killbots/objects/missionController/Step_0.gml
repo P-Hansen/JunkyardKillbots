@@ -2,7 +2,9 @@
 
 //win
 if(instance_number(enemyClass) < 1){
+	//flag to upgrad level icons
 	global.upgradLevelsFlag = true;
+	//change current levels icon to "defeated"
 	global.currentLevelIcon.image_index = 1;
 	room_goto(rmHome);
 }

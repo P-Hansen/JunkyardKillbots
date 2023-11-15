@@ -6,5 +6,6 @@ if (global.upgradLevelsFlag == true){
 
 	if(roll == 0){
 		difficulty += 1;
+		flashTimer = game_get_speed(gamespeed_fps)*1;
 	}
 }
