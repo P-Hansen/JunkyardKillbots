@@ -1,4 +1,4 @@
-/// @description
+/// @description check for level end
 
 //win
 if(instance_number(enemyClass) < 1){
