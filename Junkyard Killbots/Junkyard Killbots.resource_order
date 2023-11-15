@@ -153,6 +153,7 @@
     {"name":"sprOre","order":46,"path":"sprites/sprOre/sprOre.yy",},
     {"name":"sprGunArm3","order":19,"path":"sprites/sprGunArm3/sprGunArm3.yy",},
     {"name":"sprLoudIcon","order":3,"path":"sprites/sprLoudIcon/sprLoudIcon.yy",},
+    {"name":"stoneMonster","order":11,"path":"objects/stoneMonster/stoneMonster.yy",},
     {"name":"class_flammable","order":2,"path":"objects/class_flammable/class_flammable.yy",},
     {"name":"missionBackButton","order":3,"path":"objects/missionBackButton/missionBackButton.yy",},
     {"name":"sprSoldierIdle","order":9,"path":"sprites/sprSoldierIdle/sprSoldierIdle.yy",},

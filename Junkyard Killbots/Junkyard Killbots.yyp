@@ -186,6 +186,7 @@
     {"id":{"name":"sprOre","path":"sprites/sprOre/sprOre.yy",},},
     {"id":{"name":"sprGunArm3","path":"sprites/sprGunArm3/sprGunArm3.yy",},},
     {"id":{"name":"sprLoudIcon","path":"sprites/sprLoudIcon/sprLoudIcon.yy",},},
+    {"id":{"name":"stoneMonster","path":"objects/stoneMonster/stoneMonster.yy",},},
     {"id":{"name":"class_flammable","path":"objects/class_flammable/class_flammable.yy",},},
     {"id":{"name":"missionBackButton","path":"objects/missionBackButton/missionBackButton.yy",},},
     {"id":{"name":"sprSoldierIdle","path":"sprites/sprSoldierIdle/sprSoldierIdle.yy",},},
