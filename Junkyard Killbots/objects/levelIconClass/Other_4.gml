@@ -9,3 +9,9 @@ if (global.upgradLevelsFlag == true){
 		flashTimer = game_get_speed(gamespeed_fps)*1;
 	}
 }
+
+//for when level switches to being defeated
+if (defeatedFlag == true){
+	image_index = 1;
+	//audio_play_sound(sfxHit, 0, 0);
+}

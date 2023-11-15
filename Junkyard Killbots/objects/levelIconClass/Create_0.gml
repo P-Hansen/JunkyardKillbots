@@ -5,3 +5,4 @@ spacing = 7;
 
 flashTimer = 0;
 fade = 1;
+defeatedFlag = false;
