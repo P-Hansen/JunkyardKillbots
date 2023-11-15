@@ -8,5 +8,7 @@ enum states{
 }
 
 global.upgradLevelsFlag = true;
+global.difficultyLevel = 0;
+global.enemyPool = [];
 
 room_goto(rmHome);
