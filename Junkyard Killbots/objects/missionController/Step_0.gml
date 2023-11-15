@@ -3,6 +3,7 @@
 //win
 if(instance_number(enemyClass) < 1){
 	global.upgradLevelsFlag = true;
+	global.currentLevelIcon.image_index = 1;
 	room_goto(rmHome);
 }
 //loss
