@@ -35,6 +35,7 @@ if (state == states.idle){
 				target.hp -= damage;
 				target.flashTimer = 5;
 				audio_play_sound(sfxHit, 0, 0);
+				dmgNumber(damage, target.x, target.y);
 				hitFlag = false;
 			}
 		}

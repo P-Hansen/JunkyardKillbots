@@ -5,3 +5,4 @@ hp -= other.damage;
 flashTimer = 5;
 audio_play_sound(sfxHit, 0, 0);
 instance_destroy(other);
+dmgNumber(other.damage, x, y);
