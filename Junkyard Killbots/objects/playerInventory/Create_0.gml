@@ -42,8 +42,9 @@ items[13].item.slot = items[13];
 items[13].item.slot.stackCount++;
 
 //blueprints
-blueprints = array_create(1, noone);
+blueprints = array_create(2, noone);
 blueprints[0] = instance_create_layer(-1000, -1000, layer, botBlueprint);
+blueprints[1] = instance_create_layer(-1000, -1000, layer, minibotBlueprint);
 
 //hide item slots off screen
 function hideItems(){
