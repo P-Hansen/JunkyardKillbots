@@ -8,10 +8,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "bots",
+    "path": "folders/Objects/bots.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "BlueprintClass",
+    "path": "objects/BlueprintClass/BlueprintClass.yy",
+  },
   "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

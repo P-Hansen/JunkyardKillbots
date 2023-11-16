@@ -34,10 +34,6 @@ if(slot1 != noone){
 	slot1.x = x+3;
 	slot1.y = y+5;
 }
-if(slot2 != noone){
-	slot2.x = x+7;
-	slot2.y = y+5;
-}
 
 //death
 if (hp <= 0){
