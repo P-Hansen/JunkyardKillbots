@@ -6,3 +6,4 @@ instance_destroy(creatorSlot);
 instance_destroy(slot1);
 
 global.scrapTotal += scrapRefundOnDeath;
+missionController.botsLost += 1;

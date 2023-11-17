@@ -1,7 +1,7 @@
 /// @description Insert description here
 
 //global.scrapTotal += irandom_range(5, 15);
-missionController.enemiesKilled += 1;
+missionController.objectsKilled += 1;
 missionController.scrapFound += irandom_range(5, 15);
 
 var roll = random_range(0, 100);
