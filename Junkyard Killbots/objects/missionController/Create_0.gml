@@ -37,3 +37,13 @@ function showBlueprints(element, i){
 	var sprite = object_get_sprite(element);
 	draw_sprite(sprite, 0, 175+i*18, 220);
 }
+
+//checking if bots are on screen
+function botsOffscreen(){
+	var nearestBot = instance_nearest(room_width/2, room_height/2, botClass);
+	if (nearestBot.x > room_width+20){
+		return true;
+	} else {
+		return false;
+	}
+}
