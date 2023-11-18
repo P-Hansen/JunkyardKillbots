@@ -22,6 +22,7 @@ for(var i = 3*global.difficultyLevel; i > 0; i--;){
 	instance_create_layer(xSpawn, ySpawn, layer, newEnemy);
 }
 
+//shows items collected during the level
 function showItems(element, i){
 	var sprite = object_get_sprite(element);
 	if(i < 10){
@@ -31,8 +32,8 @@ function showItems(element, i){
 	}
 }
 
+//shows blueprints found during the level
 function showBlueprints(element, i){
 	var sprite = object_get_sprite(element);
 	draw_sprite(sprite, 0, 175+i*18, 220);
-
 }
