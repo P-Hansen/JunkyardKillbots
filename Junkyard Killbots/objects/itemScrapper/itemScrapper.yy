@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprSlot",
-    "path": "sprites/sprSlot/sprSlot.yy",
+    "name": "sprScrapper",
+    "path": "sprites/sprScrapper/sprScrapper.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -81,6 +81,7 @@
     {"id":{"name":"sprChevron","path":"sprites/sprChevron/sprChevron.yy",},},
     {"id":{"name":"spr_controller_game","path":"sprites/spr_controller_game/spr_controller_game.yy",},},
     {"id":{"name":"sprSpeedUpIcon","path":"sprites/sprSpeedUpIcon/sprSpeedUpIcon.yy",},},
+    {"id":{"name":"sprScrapper","path":"sprites/sprScrapper/sprScrapper.yy",},},
     {"id":{"name":"sprBlueBox","path":"sprites/sprBlueBox/sprBlueBox.yy",},},
     {"id":{"name":"sprOilfieldIcon","path":"sprites/sprOilfieldIcon/sprOilfieldIcon.yy",},},
     {"id":{"name":"sprRepairsButton","path":"sprites/sprRepairsButton/sprRepairsButton.yy",},},

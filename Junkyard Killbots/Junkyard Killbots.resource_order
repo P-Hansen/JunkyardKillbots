@@ -59,6 +59,7 @@
     {"name":"sprChevron","order":47,"path":"sprites/sprChevron/sprChevron.yy",},
     {"name":"spr_controller_game","order":2,"path":"sprites/spr_controller_game/spr_controller_game.yy",},
     {"name":"sprSpeedUpIcon","order":12,"path":"sprites/sprSpeedUpIcon/sprSpeedUpIcon.yy",},
+    {"name":"sprScrapper","order":29,"path":"sprites/sprScrapper/sprScrapper.yy",},
     {"name":"sprBlueBox","order":20,"path":"sprites/sprBlueBox/sprBlueBox.yy",},
     {"name":"sprOilfieldIcon","order":1,"path":"sprites/sprOilfieldIcon/sprOilfieldIcon.yy",},
     {"name":"sprRepairsButton","order":18,"path":"sprites/sprRepairsButton/sprRepairsButton.yy",},
