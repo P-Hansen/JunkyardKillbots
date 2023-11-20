@@ -2,6 +2,17 @@
 
 pressedFlag = false;
 
+//item scrapper
+if place_meeting(x, y, itemScrapper) {
+	//clear old slot
+	if instance_exists(slot) {
+		slot.item = noone;
+		slot.stackCount--;
+	}
+	global.scrapTotal += cost/2;
+	instance_destroy(self);
+}
+
 //find slot you released on
 if place_meeting(x, y, widgetSlot) || place_meeting(x, y, anyItemSlot) {
 	//clear old slot

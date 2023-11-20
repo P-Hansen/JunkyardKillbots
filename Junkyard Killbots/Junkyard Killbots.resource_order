@@ -168,6 +168,7 @@
     {"name":"sprMedicalGun","order":10,"path":"sprites/sprMedicalGun/sprMedicalGun.yy",},
     {"name":"sprTank","order":1,"path":"sprites/sprTank/sprTank.yy",},
     {"name":"botSlot","order":9,"path":"objects/botSlot/botSlot.yy",},
+    {"name":"itemScrapper","order":4,"path":"objects/itemScrapper/itemScrapper.yy",},
     {"name":"sprTeslaTowerLarge","order":2,"path":"sprites/sprTeslaTowerLarge/sprTeslaTowerLarge.yy",},
     {"name":"botPortrit","order":4,"path":"objects/botPortrit/botPortrit.yy",},
     {"name":"minibotBlueprint","order":6,"path":"objects/minibotBlueprint/minibotBlueprint.yy",},

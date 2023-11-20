@@ -202,6 +202,7 @@
     {"id":{"name":"sprMedicalGun","path":"sprites/sprMedicalGun/sprMedicalGun.yy",},},
     {"id":{"name":"sprTank","path":"sprites/sprTank/sprTank.yy",},},
     {"id":{"name":"botSlot","path":"objects/botSlot/botSlot.yy",},},
+    {"id":{"name":"itemScrapper","path":"objects/itemScrapper/itemScrapper.yy",},},
     {"id":{"name":"BlueprintClass","path":"objects/BlueprintClass/BlueprintClass.yy",},},
     {"id":{"name":"sprTeslaTowerLarge","path":"sprites/sprTeslaTowerLarge/sprTeslaTowerLarge.yy",},},
     {"id":{"name":"botPortrit","path":"objects/botPortrit/botPortrit.yy",},},
