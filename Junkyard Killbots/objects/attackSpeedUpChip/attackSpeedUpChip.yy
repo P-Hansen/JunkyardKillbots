@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprAttackUpIcon",
-    "path": "sprites/sprAttackUpIcon/sprAttackUpIcon.yy",
+    "name": "sprAttackUpIcon1",
+    "path": "sprites/sprAttackUpIcon1/sprAttackUpIcon1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

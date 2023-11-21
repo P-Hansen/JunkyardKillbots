@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprSpeedUpIcon",
-    "path": "sprites/sprSpeedUpIcon/sprSpeedUpIcon.yy",
+    "name": "sprSpeedUpIcon2",
+    "path": "sprites/sprSpeedUpIcon2/sprSpeedUpIcon2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
