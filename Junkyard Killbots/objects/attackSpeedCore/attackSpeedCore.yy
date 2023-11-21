@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprPowerCore",
-    "path": "sprites/sprPowerCore/sprPowerCore.yy",
+    "name": "sprPowerCore1",
+    "path": "sprites/sprPowerCore1/sprPowerCore1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

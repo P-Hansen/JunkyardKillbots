@@ -78,7 +78,7 @@
     {"name":"repairController","order":7,"path":"objects/repairController/repairController.yy",},
     {"name":"sprHammer1","order":26,"path":"sprites/sprHammer1/sprHammer1.yy",},
     {"name":"enemyClass","order":2,"path":"objects/enemyClass/enemyClass.yy",},
-    {"name":"sprPowerCore","order":13,"path":"sprites/sprPowerCore/sprPowerCore.yy",},
+    {"name":"sprPowerCore1","order":13,"path":"sprites/sprPowerCore1/sprPowerCore1.yy",},
     {"name":"sprMiniBot","order":4,"path":"sprites/sprMiniBot/sprMiniBot.yy",},
     {"name":"club2Item","order":21,"path":"objects/club2Item/club2Item.yy",},
     {"name":"tank","order":6,"path":"objects/tank/tank.yy",},
@@ -184,6 +184,7 @@
     {"name":"sprTank","order":1,"path":"sprites/sprTank/sprTank.yy",},
     {"name":"botSlot","order":9,"path":"objects/botSlot/botSlot.yy",},
     {"name":"itemScrapper","order":4,"path":"objects/itemScrapper/itemScrapper.yy",},
+    {"name":"sprPowerCore2","order":36,"path":"sprites/sprPowerCore2/sprPowerCore2.yy",},
     {"name":"sprTeslaTowerLarge","order":2,"path":"sprites/sprTeslaTowerLarge/sprTeslaTowerLarge.yy",},
     {"name":"hammer2","order":24,"path":"objects/hammer2/hammer2.yy",},
     {"name":"botPortrit","order":4,"path":"objects/botPortrit/botPortrit.yy",},
@@ -199,5 +200,6 @@
     {"name":"oldBike","order":3,"path":"objects/oldBike/oldBike.yy",},
     {"name":"PortritClass","order":8,"path":"objects/PortritClass/PortritClass.yy",},
     {"name":"sprLazerGun","order":7,"path":"sprites/sprLazerGun/sprLazerGun.yy",},
+    {"name":"sprPowerCore3","order":37,"path":"sprites/sprPowerCore3/sprPowerCore3.yy",},
   ],
 }
