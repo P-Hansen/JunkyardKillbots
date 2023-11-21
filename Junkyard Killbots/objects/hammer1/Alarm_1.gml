@@ -7,4 +7,4 @@ if instance_exists(body.target){
 	}
 }
 
-alarm[1] = game_get_speed(gamespeed_fps)*random_range(1.9,2.1)+body.baseCooldown;
+alarm[1] = cooldown;
