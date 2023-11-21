@@ -5,7 +5,7 @@ scale = 0.75;
 image_xscale = scale;
 image_yscale = scale;
 
-damage = 150;
+damage = 250;
 body = noone;
 
 swingFlag = false;
