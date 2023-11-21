@@ -7,16 +7,16 @@ hoverCounter = 2*game_get_speed(gamespeed_fps);
 description = "A club, really great for bonking";
 range = 10;
 cost = 100;
-upgrade = club3Item;
+upgrade = noone;
 
 modifierFunction = function(newBot){
 	if (newBot.slot1 == noone){
-		var arm = instance_create_depth(x,y,-1,club2);
+		var arm = instance_create_depth(x,y,-1,club3);
 		newBot.slot1 = arm;
 		arm.body = newBot;
 	
 	} else {
-		var arm2 = instance_create_depth(x,y,1,club2);
+		var arm2 = instance_create_depth(x,y,1,club3);
 		newBot.slot2 = arm2;
 		arm2.body = newBot;
 	}
