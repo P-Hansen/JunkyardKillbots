@@ -1,9 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "gunArmItem",
+  "name": "gunArm3",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -11,11 +12,8 @@
     "name": "items",
     "path": "folders/Objects/items.yy",
   },
-  "parentObjectId": {
-    "name": "weaponClass",
-    "path": "objects/weaponClass/weaponClass.yy",
-  },
-  "persistent": true,
+  "parentObjectId": null,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -31,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprGunArmIcon",
-    "path": "sprites/sprGunArmIcon/sprGunArmIcon.yy",
+    "name": "sprGunArm3",
+    "path": "sprites/sprGunArm3/sprGunArm3.yy",
   },
   "spriteMaskId": null,
   "visible": true,
