@@ -12,7 +12,7 @@ if instance_exists(target){
 
 //stop when within range
 if instance_exists(target){
-	if (point_distance(x, y, target.x, target.y) <= range){
+	if (point_distance(x, y, target.x, target.y) <= clamp(range, 0, baseSightRange)){
 		speed = 0;
 	} else {
 		speed = maxSpeed;

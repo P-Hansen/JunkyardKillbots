@@ -20,4 +20,5 @@ modifierFunction = function(newBot){
 		newBot.slot2 = arm2;
 		arm2.body = newBot;
 	}
+	newBot.baseSightRange += 10;
 }
