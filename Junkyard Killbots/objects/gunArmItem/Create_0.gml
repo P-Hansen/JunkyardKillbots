@@ -7,6 +7,7 @@ hoverCounter = 2*game_get_speed(gamespeed_fps);
 description = "placeholder text that is really long so I can see how the word wrap looks when it's really long and shit";
 range = 35;
 cost = 100;
+upgrade = gunArmItem2;
 
 modifierFunction = function(newBot){
 	if (newBot.slot1 == noone){
