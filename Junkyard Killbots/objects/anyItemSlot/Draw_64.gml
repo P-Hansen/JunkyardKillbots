@@ -6,6 +6,7 @@ if (stackCount > 1){
 	draw_text_color((x*2)+5,(y*2)-3, string(stackCount), c_white, c_white, c_white, c_white, 1);
 }
 
+//stacking 3 items will upgrade if possible
 if(stackCount == 3 and item.upgrade != noone){
 	var upgrade = item.upgrade;
 	var itemsInSlot = ds_list_create();
@@ -18,19 +19,3 @@ if(stackCount == 3 and item.upgrade != noone){
 	item.slot = self;
 	stackCount = 1;
 }
-/*
-var newItem = choose(attackSpeedUpChip, attackSpeedUpAccuracydownChip, speedUpAttackSpeedDownChip, gunArmItem, club1Item, hammer1Item);
-pushToInventory(newItem);
-
-//put item into inventory
-function pushToInventory(drop){
-	for(var i = 0; i < array_length(playerInventory.items); i++){
-		if(playerInventory.items[i].item == noone){
-			playerInventory.items[i].item = instance_create_layer(playerInventory.items[i].x, playerInventory.items[i].y, layer, drop);
-			playerInventory.items[i].item.slot = playerInventory.items[i];
-			playerInventory.items[i].item.slot.stackCount++;
-			break;
-		}
-	}
-}
-*/

@@ -8,6 +8,7 @@ description = "placeholder text that is really long so I can see how the word wr
 stackCount = 0;
 range = 0;
 cost = 100;
+upgrade = noone;
 
 modifierFunction = function(newBot){
 	newBot.image_xscale += 1;

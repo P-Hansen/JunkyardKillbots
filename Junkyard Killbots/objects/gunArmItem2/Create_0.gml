@@ -7,6 +7,7 @@ hoverCounter = 2*game_get_speed(gamespeed_fps);
 description = "placeholder text";
 range = 45;
 cost = 100;
+upgrade = noone;
 
 modifierFunction = function(newBot){
 	if (newBot.slot1 == noone){
