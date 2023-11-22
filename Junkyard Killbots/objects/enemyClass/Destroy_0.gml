@@ -6,7 +6,7 @@ missionController.scrapFound += irandom_range(5, 15);
 
 var roll = random_range(0, 100);
 if (roll <= 25){
-	var newItem = choose(attackSpeedUpChip1, speedUpAttackSpeedDownChip, club1Item, hammer1Item, gunArmItem1, gun1);
+	var newItem = choose(attackSpeedUpChip1, speedUpChip1, club1Item, hammer1Item, gunArmItem1, gun1);
 	pushToInventory(newItem);
 	array_push(missionController.itemsFound, newItem);
 }
