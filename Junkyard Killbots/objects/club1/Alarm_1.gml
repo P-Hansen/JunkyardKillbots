@@ -7,4 +7,6 @@ if instance_exists(body.target){
 	}
 }
 
-alarm[1] = cooldown;
+if(instance_exists(body)){
+	alarm[1] = cooldown + body.baseCooldown;
+}

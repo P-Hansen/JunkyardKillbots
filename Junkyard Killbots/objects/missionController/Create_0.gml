@@ -41,7 +41,7 @@ function showBlueprints(element, i){
 //checking if bots are on screen
 function botsOffscreen(){
 	var nearestBot = instance_nearest(room_width/2, room_height/2, botClass);
-	if (nearestBot.x > room_width+20){
+	if (instance_exists(nearestBot) and nearestBot.x > room_width+20){
 		return true;
 	} else {
 		return false;

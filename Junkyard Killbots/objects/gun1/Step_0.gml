@@ -1,7 +1,9 @@
 /// @description gun kickback
 
 //image_angle = body.direction;
-direction = body.direction;
+if (instance_exists(body)){
+	direction = body.direction;
+}
 
 //attack swing
 if (swingFlag == true) {
@@ -12,6 +14,6 @@ if (swingFlag == true) {
 }
 
 //reset to starting pos
-if (swingFlag == false and image_angle > body.direction) {
+if (swingFlag == false and instance_exists(body) and image_angle > body.direction) {
 	image_angle -= rotateSpeed;
 }
