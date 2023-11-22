@@ -8,6 +8,7 @@ range = 75;
 sightRange = 125;
 damage = 100;
 flashTimer = 0;
+baseArmor = 1;
 
 state = states.idle;
 

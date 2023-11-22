@@ -12,6 +12,7 @@ flashTimer = 0;
 baseCooldown = 0;
 baseAccuracy = 0;
 baseSightRange = 60;
+baseArmor = 1;
 
 creatorSlot = noone;
 slot1 = noone;

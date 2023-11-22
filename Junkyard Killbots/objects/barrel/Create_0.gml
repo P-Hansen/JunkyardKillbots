@@ -9,6 +9,7 @@ speed = maxSpeed;
 range = 0;
 damage = 0;
 flashTimer = 0;
+baseArmor = 1;
 
 scale = 0.9;
 image_xscale = scale;

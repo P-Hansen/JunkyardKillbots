@@ -32,10 +32,11 @@ if (state == states.idle){
 	if (sprite_index == sprites[states.attack]){
 		if (image_index >= sprite_get_number(sprite_index)-2){
 			if (instance_exists(target) and hitFlag == true){
-				target.hp -= damage;
+				var finalDamge = damage*target.baseArmor;
+				target.hp -= finalDamge;
 				target.flashTimer = 5;
 				audio_play_sound(sfxHit, 0, 0);
-				dmgNumber(damage, target.x, target.y);
+				dmgNumber(finalDamge, target.x, target.y);
 				hitFlag = false;
 			}
 		}

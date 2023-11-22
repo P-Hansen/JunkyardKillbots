@@ -7,6 +7,7 @@ speed = maxSpeed;
 range = 0;
 damage = 0;
 flashTimer = 0;
+baseArmor = 1;
 
 scale = random_range(0.6,1.2);
 image_xscale = scale;

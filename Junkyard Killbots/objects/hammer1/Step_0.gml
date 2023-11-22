@@ -4,11 +4,12 @@
 if (swingFlag == true) {
 	image_angle += rotateSpeed;
 	if (image_angle <= endAngle and instance_exists(target)) {
-		target.hp -= damage;
+		var finalDmage = damage*target.baseArmor;
+		target.hp -= finalDmage;
 		target.flashTimer = 5;
 		audio_play_sound(sfxHit, 0, 0);
         swingFlag = false;
-		dmgNumber(damage, target.x, target.y);
+		dmgNumber(finalDmage, target.x, target.y);
     }
 }
 

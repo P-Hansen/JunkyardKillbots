@@ -9,3 +9,4 @@ sprites[states.alert] = sprSoldierWalk;
 sprites[states.attack] = sprSoldierFire;
 
 flashTimer = 0;
+baseArmor = 1;
