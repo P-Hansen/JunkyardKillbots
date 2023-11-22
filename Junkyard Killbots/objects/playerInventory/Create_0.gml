@@ -28,7 +28,7 @@ for(var i = 0; i < array_length(items); i++){
 	}
 	items[i] = instance_create_layer(xOffset,yOffset+i*20, layer, anyItemSlot);
 }
-items[0].item = instance_create_layer(items[0].x, items[0].y, layer, gun1Item);
+items[0].item = instance_create_layer(items[0].x, items[0].y, layer, sawItem1);
 items[0].item.slot = items[0];
 items[0].item.slot.stackCount++;
 items[1].item = instance_create_layer(items[1].x, items[1].y, layer, speedUpChip1);
