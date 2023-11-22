@@ -1,4 +1,4 @@
-/// @description swing away
+/// @description gun kickback
 
 //image_angle = body.direction;
 direction = body.direction;
