@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "attackSpeedUpChip",
+  "name": "attackSpeedUpChip3",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -12,10 +12,10 @@
     "path": "folders/Objects/items.yy",
   },
   "parentObjectId": {
-    "name": "chipClass",
-    "path": "objects/chipClass/chipClass.yy",
+    "name": "attackSpeedUpChip1",
+    "path": "objects/attackSpeedUpChip1/attackSpeedUpChip1.yy",
   },
-  "persistent": true,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprAttackUpIcon1",
-    "path": "sprites/sprAttackUpIcon1/sprAttackUpIcon1.yy",
+    "name": "sprAttackUpIcon3",
+    "path": "sprites/sprAttackUpIcon3/sprAttackUpIcon3.yy",
   },
   "spriteMaskId": null,
   "visible": true,
