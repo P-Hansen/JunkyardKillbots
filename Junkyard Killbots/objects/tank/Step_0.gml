@@ -4,7 +4,7 @@ if instance_exists(target){
 	target = instance_nearest(x,y,botClass);
 	direction = point_direction(x, y, target.x, target.y);
 } else {
-	target = instance_nearest(x,y,bot);
+	target = instance_nearest(x,y,botClass);
 }
 
 //stop when within range
