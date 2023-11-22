@@ -10,4 +10,4 @@ if(amount < 500){
 
 draw_text_transformed_color(x, y, amount, 0.5, 0.5, 0, textColour, textColour, textColour, textColour, 1);
 
-y -= 0.5;
+y -= 0.7;

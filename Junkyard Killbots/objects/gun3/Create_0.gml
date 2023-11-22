@@ -13,5 +13,5 @@ rotateSpeed = 40;
 target = noone;
 accuracy = 1;
 
-cooldown = game_get_speed(gamespeed_fps)*random_range(0.7,0.8);
+cooldown = game_get_speed(gamespeed_fps)*random_range(0.6,0.8);
 alarm[1] = cooldown

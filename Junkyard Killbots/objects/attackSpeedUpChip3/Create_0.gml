@@ -9,5 +9,5 @@ cost = 100;
 upgrade = noone;
 
 modifierFunction = function(newBot){
-	newBot.baseCooldown += -30;
+	newBot.baseCooldown = newBot.baseCooldown*0.5;
 }
