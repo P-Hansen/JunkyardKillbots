@@ -7,6 +7,7 @@ if(instance_exists(body)){
 			swingFlag = true;
 			endAngle = image_angle+90;
 			var shot = instance_create_depth(x, y, 0, playerBullet);
+			shot.critChance = body.critChance;
 			shot.direction = image_angle+random_range(-body.baseAccuracy, body.baseAccuracy)+random_range(-accuracy, accuracy);
 			shot.speed = 2;
 			shot.damage = damage+body.baseDamage;

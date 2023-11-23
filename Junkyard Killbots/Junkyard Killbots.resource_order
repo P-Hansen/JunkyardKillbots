@@ -105,6 +105,7 @@
     {"name":"leftArrow","order":2,"path":"objects/leftArrow/leftArrow.yy",},
     {"name":"minibot","order":5,"path":"objects/minibot/minibot.yy",},
     {"name":"sprSawIcon3","order":54,"path":"sprites/sprSawIcon3/sprSawIcon3.yy",},
+    {"name":"criticalStrikeChip1","order":47,"path":"objects/criticalStrikeChip1/criticalStrikeChip1.yy",},
     {"name":"widgetClass","order":5,"path":"objects/widgetClass/widgetClass.yy",},
     {"name":"sprLabIcon","order":2,"path":"sprites/sprLabIcon/sprLabIcon.yy",},
     {"name":"club3","order":22,"path":"objects/club3/club3.yy",},

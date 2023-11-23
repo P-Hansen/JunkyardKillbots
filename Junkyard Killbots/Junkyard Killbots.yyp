@@ -129,6 +129,7 @@
     {"id":{"name":"minibot","path":"objects/minibot/minibot.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"sprSawIcon3","path":"sprites/sprSawIcon3/sprSawIcon3.yy",},},
+    {"id":{"name":"criticalStrikeChip1","path":"objects/criticalStrikeChip1/criticalStrikeChip1.yy",},},
     {"id":{"name":"widgetClass","path":"objects/widgetClass/widgetClass.yy",},},
     {"id":{"name":"sprLabIcon","path":"sprites/sprLabIcon/sprLabIcon.yy",},},
     {"id":{"name":"club3","path":"objects/club3/club3.yy",},},

@@ -13,6 +13,7 @@ baseCooldown = 0;
 baseAccuracy = 0;
 baseSightRange = 60;
 baseArmor = 1;
+critChance = 0;
 
 creatorSlot = noone;
 slot1 = noone;
