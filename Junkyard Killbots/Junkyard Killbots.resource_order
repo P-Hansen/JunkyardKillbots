@@ -50,6 +50,7 @@
     {"name":"gunArmItem1","order":1,"path":"objects/gunArmItem1/gunArmItem1.yy",},
     {"name":"sprStoneMonsterAttack","order":12,"path":"sprites/sprStoneMonsterAttack/sprStoneMonsterAttack.yy",},
     {"name":"sprHammerIcon3","order":35,"path":"sprites/sprHammerIcon3/sprHammerIcon3.yy",},
+    {"name":"scavengerChip1","order":50,"path":"objects/scavengerChip1/scavengerChip1.yy",},
     {"name":"stalicmites","order":7,"path":"objects/stalicmites/stalicmites.yy",},
     {"name":"sprGunArm3Icon","order":30,"path":"sprites/sprGunArm3Icon/sprGunArm3Icon.yy",},
     {"name":"spr_flame","order":1,"path":"sprites/spr_flame/spr_flame.yy",},

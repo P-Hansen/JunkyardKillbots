@@ -2,7 +2,8 @@
 
 //global.scrapTotal += irandom_range(5, 15);
 missionController.enemiesKilled += 1;
-missionController.scrapFound += irandom_range(5, 15);
+var finalScrapTotal = irandom_range(5, 15)*global.scavengerBonus;
+missionController.scrapFound += finalScrapTotal;
 
 var roll = irandom_range(0, 100);
 if (roll <= 25){
