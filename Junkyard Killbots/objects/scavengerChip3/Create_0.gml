@@ -4,12 +4,12 @@ pressedFlag = false;
 slot = noone;
 hoverFlag = false;
 hoverCounter = 2*game_get_speed(gamespeed_fps);
-description = "increase scrap found by all bots by 10%";
+description = "increase scrap found by all bots by 40%";
 cost = 100;
-upgrade = scavengerChip2;
+upgrade = noone;
 bonus = 0;
 
 modifierFunction = function(newBot){
-	bonus = global.scavengerBonus*0.1;
+	bonus = global.scavengerBonus*0.4;
 	global.scavengerBonus += bonus;
 }
