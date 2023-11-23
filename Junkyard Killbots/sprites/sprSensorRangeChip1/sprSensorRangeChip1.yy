@@ -14,8 +14,6 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"07ef5110-5caa-4bb4-81e8-0c584908f7ee",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"222189a1-027c-4d7e-9d99-e125a35fc593",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"48b7fb43-225c-4076-bf48-dc7b3665e8e7",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -45,7 +43,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 3.0,
+    "length": 1.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -57,8 +55,6 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"07ef5110-5caa-4bb4-81e8-0c584908f7ee","path":"sprites/sprSensorRangeChip1/sprSensorRangeChip1.yy",},},},"Disabled":false,"id":"332fdc31-b2da-4d59-b77a-2fb944159e43","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"222189a1-027c-4d7e-9d99-e125a35fc593","path":"sprites/sprSensorRangeChip1/sprSensorRangeChip1.yy",},},},"Disabled":false,"id":"97c8d160-4fc6-4e9e-a093-c3cbe1589431","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"48b7fb43-225c-4076-bf48-dc7b3665e8e7","path":"sprites/sprSensorRangeChip1/sprSensorRangeChip1.yy",},},},"Disabled":false,"id":"ec4fa81d-ec6c-4df5-8756-ebe8a100e269","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

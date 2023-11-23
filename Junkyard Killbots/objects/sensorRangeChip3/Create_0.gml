@@ -8,11 +8,11 @@ pressedFlag = false;
 slot = noone;
 hoverFlag = false;
 hoverCounter = 2*game_get_speed(gamespeed_fps);
-description = "increase sensor range by 20%";
+description = "increase sensor range by 50%";
 cost = 100;
-upgrade = sensorRangeChip2;
+upgrade = noone;
 bonus = 0;
 
 modifierFunction = function(newBot){
-	newBot.baseSightRange = newBot.baseSightRange*1.2;
+	newBot.baseSightRange = newBot.baseSightRange*1.5;
 }
