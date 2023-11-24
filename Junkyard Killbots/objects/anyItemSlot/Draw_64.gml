@@ -15,6 +15,7 @@ if(stackCount == 3 and item.upgrade != noone){
 		var itemToBeDeleted = ds_list_find_value(itemsInSlot, i);
 		instance_destroy(itemToBeDeleted);
 	}
+	instance_create_depth(x, y, 5, explosionBlue);
 	item = instance_create_layer(x, y, layer, upgrade);
 	item.slot = self;
 	stackCount = 1;

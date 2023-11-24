@@ -34,10 +34,10 @@ items[0].item.slot.stackCount++;
 items[1].item = instance_create_layer(items[1].x, items[1].y, layer, gun1Item);
 items[1].item.slot = items[1];
 items[1].item.slot.stackCount++;
-items[12].item = instance_create_layer(items[12].x, items[12].y, layer, sensorRangeChip1);
+items[12].item = instance_create_layer(items[12].x, items[12].y, layer, scavengerChip1);
 items[12].item.slot = items[12];
 items[12].item.slot.stackCount++;
-items[13].item = instance_create_layer(items[13].x, items[13].y, layer, criticalStrikeChip1);
+items[13].item = instance_create_layer(items[13].x, items[13].y, layer, scavengerChip1);
 items[13].item.slot = items[13];
 items[13].item.slot.stackCount++;
 
