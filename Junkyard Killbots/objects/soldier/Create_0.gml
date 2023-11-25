@@ -20,3 +20,5 @@ sprites[states.attack] = sprSoldierFire;
 alarm[0] = 1;
 alarm[1] = game_get_speed(gamespeed_fps)*2;
 target = noone;
+
+alarm[3] = game_get_speed(gamespeed_fps)*0.5;

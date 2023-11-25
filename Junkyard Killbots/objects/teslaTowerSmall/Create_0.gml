@@ -13,3 +13,5 @@ image_index = irandom_range(0, sprite_get_number(sprite_index));
 state = states.idle;
 
 sprites[states.idle] = sprTeslaTowerSmall;
+
+alarm[3] = game_get_speed(gamespeed_fps)*0.5;

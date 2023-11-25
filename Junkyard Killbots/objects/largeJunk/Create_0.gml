@@ -18,3 +18,5 @@ image_yscale = size;
 state = states.idle;
 
 sprites[states.idle] = sprLargeJunk;
+
+alarm[3] = game_get_speed(gamespeed_fps)*0.5;

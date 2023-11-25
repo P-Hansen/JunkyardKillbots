@@ -14,3 +14,5 @@ image_index = choose(0,1,2,3);
 state = states.idle;
 
 sprites[states.idle] = sprJunkBike;
+
+alarm[3] = game_get_speed(gamespeed_fps)*0.5;

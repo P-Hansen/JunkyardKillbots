@@ -7,4 +7,4 @@ if (instance_place(x, y, obj_flame)){
 	dmgNumber(10, x, y);
 }
 
-alarm[1] = game_get_speed(gamespeed_fps)*random_range(0.4, 0.6);
+alarm[3] = game_get_speed(gamespeed_fps)*random_range(0.4, 0.6);
