@@ -7,7 +7,7 @@ missionController.scrapFound += finalScrapTotal;
 
 var roll = irandom_range(0, 100);
 if (roll <= 25){
-	var newItem = choose(attackSpeedUpChip1, speedUpChip1, club1Item, hammer1Item, gunArmItem1, gun1Item, sawItem1, armorChip1, criticalStrikeChip1, scavengerChip1, sensorRangeChip1);
+	var newItem = choose(attackSpeedUpChip1, speedUpChip1, club1Item, hammer1Item, gunArmItem1, gun1Item, sawItem1, armorChip1, criticalStrikeChip1, scavengerChip1, sensorRangeChip1, granadeLauncherItem1);
 	pushToInventory(newItem);
 	array_push(missionController.itemsFound, newItem);
 }
