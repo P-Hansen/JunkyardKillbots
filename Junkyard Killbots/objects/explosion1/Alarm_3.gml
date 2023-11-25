@@ -1,23 +1,16 @@
-/// @description AoE friendly damge
+/// @description AoE fire starting
 
-var botsInRange = ds_list_create();
-var enemyCount = instance_place_list(x, y, botClass, botsInRange, false);
+var objectsInRange = ds_list_create();
+var enemyCount = instance_place_list(x, y, class_flammable, objectsInRange, false);
 var finalDamage = 0;
 var roll = irandom_range(1,100);
 var target = noone;
 
 for (var i = 0; i < enemyCount; i++;) {
-	target = ds_list_find_value(botsInRange, i);
-	finalDamage = damage / ((distance_to_object(target)*.5)+1);
-	if (roll <= critChance){
-		finalDamage = (finalDamage*2)*target.baseArmor;
-	} else {
-		finalDamage = finalDamage*target.baseArmor;
-	}
-	target.hp -= finalDamage;
-	target.flashTimer = 5;
-	audio_play_sound(sfxHit, 0, 0);
-	dmgNumber(finalDamage, target.x, target.y);
+	target = ds_list_find_value(objectsInRange, i);
+	var flame = instance_create_layer(target.x,target.y,"Flames",obj_flame);
+	flame.myTarget = target;
+	target.status = "burning";
 }
 
-ds_list_destroy(botsInRange);
+ds_list_destroy(objectsInRange);
