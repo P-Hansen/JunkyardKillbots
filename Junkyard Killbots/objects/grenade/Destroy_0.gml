@@ -1,3 +1,5 @@
 /// @description Insert description here
 
-instance_create_depth(x, y, -5, explosion1);
+var explostion = instance_create_depth(x, y, -5, explosion1);
+explostion.critChance = critChance;
+explostion.damage = damage;

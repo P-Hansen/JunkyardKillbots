@@ -3,3 +3,8 @@
 scale = 0.3;
 image_xscale = scale;
 image_yscale = scale;
+critChance = 0;
+damage = 0;
+
+alarm[1] = 1;
+alarm[2] = 1;
