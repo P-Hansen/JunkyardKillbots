@@ -20,3 +20,5 @@ slot1 = noone;
 slot2 = noone;
 
 scrapRefundOnDeath = 50;
+
+alarm[1] = game_get_speed(gamespeed_fps)*1;
