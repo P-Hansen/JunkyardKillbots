@@ -27,7 +27,7 @@ function showItems(element, i){
 	var sprite = object_get_sprite(element);
 	var width = sprite_get_width(sprite);
 	if(i < 10){
-		if(width <= 16){
+		if(width <= 16){ //check to show 32x32 sprites at half size
 			draw_sprite(sprite, 0, 175+i*18, 145);
 		} else {
 			draw_sprite_ext(sprite, 0, 175+i*18, 145, 0.5, 0.5, 0, c_white, 1);

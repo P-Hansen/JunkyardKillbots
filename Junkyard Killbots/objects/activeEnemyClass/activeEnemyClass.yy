@@ -1,12 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "tank",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
-  ],
+  "name": "activeEnemyClass",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -14,8 +10,8 @@
     "path": "folders/Objects/enemies.yy",
   },
   "parentObjectId": {
-    "name": "activeEnemyClass",
-    "path": "objects/activeEnemyClass/activeEnemyClass.yy",
+    "name": "enemyClass",
+    "path": "objects/enemyClass/enemyClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -32,10 +28,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprTank",
-    "path": "sprites/sprTank/sprTank.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

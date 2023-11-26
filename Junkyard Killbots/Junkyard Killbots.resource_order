@@ -45,6 +45,7 @@
     {"name":"playerInventory","order":13,"path":"objects/playerInventory/playerInventory.yy",},
     {"name":"sprMiniBotPortrit","order":10,"path":"sprites/sprMiniBotPortrit/sprMiniBotPortrit.yy",},
     {"name":"sprStoneMonsterWalk","order":11,"path":"sprites/sprStoneMonsterWalk/sprStoneMonsterWalk.yy",},
+    {"name":"activeEnemyClass","order":12,"path":"objects/activeEnemyClass/activeEnemyClass.yy",},
     {"name":"sprSoldierFire","order":8,"path":"sprites/sprSoldierFire/sprSoldierFire.yy",},
     {"name":"sprGranadeLauncherIcon2","order":69,"path":"sprites/sprGranadeLauncherIcon2/sprGranadeLauncherIcon2.yy",},
     {"name":"mineLevelIcon","order":4,"path":"objects/mineLevelIcon/mineLevelIcon.yy",},

@@ -15,8 +15,8 @@
     "path": "folders/Objects/enemies.yy",
   },
   "parentObjectId": {
-    "name": "enemyClass",
-    "path": "objects/enemyClass/enemyClass.yy",
+    "name": "activeEnemyClass",
+    "path": "objects/activeEnemyClass/activeEnemyClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -65,6 +65,7 @@
     {"id":{"name":"playerInventory","path":"objects/playerInventory/playerInventory.yy",},},
     {"id":{"name":"sprMiniBotPortrit","path":"sprites/sprMiniBotPortrit/sprMiniBotPortrit.yy",},},
     {"id":{"name":"sprStoneMonsterWalk","path":"sprites/sprStoneMonsterWalk/sprStoneMonsterWalk.yy",},},
+    {"id":{"name":"activeEnemyClass","path":"objects/activeEnemyClass/activeEnemyClass.yy",},},
     {"id":{"name":"sprSoldierFire","path":"sprites/sprSoldierFire/sprSoldierFire.yy",},},
     {"id":{"name":"sprGranadeLauncherIcon2","path":"sprites/sprGranadeLauncherIcon2/sprGranadeLauncherIcon2.yy",},},
     {"id":{"name":"mineLevelIcon","path":"objects/mineLevelIcon/mineLevelIcon.yy",},},
