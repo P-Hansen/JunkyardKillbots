@@ -112,6 +112,7 @@
     {"name":"club2Item","order":21,"path":"objects/club2Item/club2Item.yy",},
     {"name":"tank","order":6,"path":"objects/tank/tank.yy",},
     {"name":"sprExplosionBlue","order":53,"path":"sprites/sprExplosionBlue/sprExplosionBlue.yy",},
+    {"name":"selfRepairChip3","order":64,"path":"objects/selfRepairChip3/selfRepairChip3.yy",},
     {"name":"sprHammerIcon","order":5,"path":"sprites/sprHammerIcon/sprHammerIcon.yy",},
     {"name":"sprSmallJunk","order":40,"path":"sprites/sprSmallJunk/sprSmallJunk.yy",},
     {"name":"sprSpeedUpIcon1","order":38,"path":"sprites/sprSpeedUpIcon1/sprSpeedUpIcon1.yy",},

@@ -135,6 +135,7 @@
     {"id":{"name":"club2Item","path":"objects/club2Item/club2Item.yy",},},
     {"id":{"name":"tank","path":"objects/tank/tank.yy",},},
     {"id":{"name":"sprExplosionBlue","path":"sprites/sprExplosionBlue/sprExplosionBlue.yy",},},
+    {"id":{"name":"selfRepairChip3","path":"objects/selfRepairChip3/selfRepairChip3.yy",},},
     {"id":{"name":"sprHammerIcon","path":"sprites/sprHammerIcon/sprHammerIcon.yy",},},
     {"id":{"name":"sprSmallJunk","path":"sprites/sprSmallJunk/sprSmallJunk.yy",},},
     {"id":{"name":"sprSpeedUpIcon1","path":"sprites/sprSpeedUpIcon1/sprSpeedUpIcon1.yy",},},
