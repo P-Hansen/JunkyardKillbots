@@ -172,6 +172,7 @@
     {"id":{"name":"saw2","path":"objects/saw2/saw2.yy",},},
     {"id":{"name":"levelIconClass","path":"objects/levelIconClass/levelIconClass.yy",},},
     {"id":{"name":"sprTextBox","path":"sprites/sprTextBox/sprTextBox.yy",},},
+    {"id":{"name":"selfRepairChip2","path":"objects/selfRepairChip2/selfRepairChip2.yy",},},
     {"id":{"name":"teslaTowerLarge","path":"objects/teslaTowerLarge/teslaTowerLarge.yy",},},
     {"id":{"name":"largeJunk","path":"objects/largeJunk/largeJunk.yy",},},
     {"id":{"name":"scavengerChip3","path":"objects/scavengerChip3/scavengerChip3.yy",},},

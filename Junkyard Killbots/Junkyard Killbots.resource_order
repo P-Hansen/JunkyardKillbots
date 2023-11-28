@@ -147,6 +147,7 @@
     {"name":"saw2","order":40,"path":"objects/saw2/saw2.yy",},
     {"name":"levelIconClass","order":2,"path":"objects/levelIconClass/levelIconClass.yy",},
     {"name":"sprTextBox","order":31,"path":"sprites/sprTextBox/sprTextBox.yy",},
+    {"name":"selfRepairChip2","order":63,"path":"objects/selfRepairChip2/selfRepairChip2.yy",},
     {"name":"teslaTowerLarge","order":7,"path":"objects/teslaTowerLarge/teslaTowerLarge.yy",},
     {"name":"largeJunk","order":1,"path":"objects/largeJunk/largeJunk.yy",},
     {"name":"scavengerChip3","order":52,"path":"objects/scavengerChip3/scavengerChip3.yy",},
