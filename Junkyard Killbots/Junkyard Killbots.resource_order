@@ -217,6 +217,7 @@
     {"name":"hammer1Item","order":16,"path":"objects/hammer1Item/hammer1Item.yy",},
     {"name":"smallJunk","order":5,"path":"objects/smallJunk/smallJunk.yy",},
     {"name":"sprClub2","order":23,"path":"sprites/sprClub2/sprClub2.yy",},
+    {"name":"selfRepairChip1","order":62,"path":"objects/selfRepairChip1/selfRepairChip1.yy",},
     {"name":"labLevelIcon","order":3,"path":"objects/labLevelIcon/labLevelIcon.yy",},
     {"name":"sprHammerIcon2","order":34,"path":"sprites/sprHammerIcon2/sprHammerIcon2.yy",},
     {"name":"sprCardboardBox","order":35,"path":"sprites/sprCardboardBox/sprCardboardBox.yy",},

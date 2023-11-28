@@ -1,6 +1,7 @@
 /// @description Insert description here
 
-hp = 400;
+maxHp = 400;
+hp = maxHp;
 target = noone;
 maxSpeed = random_range(0.9,1.1);
 speed = maxSpeed;
@@ -19,5 +20,6 @@ creatorSlot = noone;
 slot1 = noone;
 
 scrapRefundOnDeath = 25;
+healAmount = 0;
 
 alarm[1] = game_get_speed(gamespeed_fps)*1;

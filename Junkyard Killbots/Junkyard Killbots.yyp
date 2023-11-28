@@ -246,6 +246,7 @@
     {"id":{"name":"hammer1Item","path":"objects/hammer1Item/hammer1Item.yy",},},
     {"id":{"name":"smallJunk","path":"objects/smallJunk/smallJunk.yy",},},
     {"id":{"name":"sprClub2","path":"sprites/sprClub2/sprClub2.yy",},},
+    {"id":{"name":"selfRepairChip1","path":"objects/selfRepairChip1/selfRepairChip1.yy",},},
     {"id":{"name":"labLevelIcon","path":"objects/labLevelIcon/labLevelIcon.yy",},},
     {"id":{"name":"sprHammerIcon2","path":"sprites/sprHammerIcon2/sprHammerIcon2.yy",},},
     {"id":{"name":"sprCardboardBox","path":"sprites/sprCardboardBox/sprCardboardBox.yy",},},
