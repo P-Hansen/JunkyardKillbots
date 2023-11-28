@@ -95,6 +95,7 @@
     {"name":"sprTredBot","order":7,"path":"sprites/sprTredBot/sprTredBot.yy",},
     {"name":"rmMissionSelect","order":3,"path":"rooms/rmMissionSelect/rmMissionSelect.yy",},
     {"name":"attackSpeedCore","order":7,"path":"objects/attackSpeedCore/attackSpeedCore.yy",},
+    {"name":"itemRecoveryChip1","order":65,"path":"objects/itemRecoveryChip1/itemRecoveryChip1.yy",},
     {"name":"sprStalicmites","order":45,"path":"sprites/sprStalicmites/sprStalicmites.yy",},
     {"name":"sprClub1","order":25,"path":"sprites/sprClub1/sprClub1.yy",},
     {"name":"oilfieldLevelIcon","order":1,"path":"objects/oilfieldLevelIcon/oilfieldLevelIcon.yy",},

@@ -117,6 +117,7 @@
     {"id":{"name":"sprTredBot","path":"sprites/sprTredBot/sprTredBot.yy",},},
     {"id":{"name":"rmMissionSelect","path":"rooms/rmMissionSelect/rmMissionSelect.yy",},},
     {"id":{"name":"attackSpeedCore","path":"objects/attackSpeedCore/attackSpeedCore.yy",},},
+    {"id":{"name":"itemRecoveryChip1","path":"objects/itemRecoveryChip1/itemRecoveryChip1.yy",},},
     {"id":{"name":"sprStalicmites","path":"sprites/sprStalicmites/sprStalicmites.yy",},},
     {"id":{"name":"sprClub1","path":"sprites/sprClub1/sprClub1.yy",},},
     {"id":{"name":"oilfieldLevelIcon","path":"objects/oilfieldLevelIcon/oilfieldLevelIcon.yy",},},
