@@ -8,15 +8,16 @@ description = "A hammer, slow but great for smashing 300dmg";
 range = 10;
 cost = 100;
 upgrade = hammer2Item;
+botWeapon = hammer1;
 
 modifierFunction = function(newBot){
 	if (newBot.slot1 == noone){
-		var arm = instance_create_depth(x,y,-1,hammer1);
+		var arm = instance_create_depth(x,y,-1,botWeapon);
 		newBot.slot1 = arm;
 		arm.body = newBot;
 	
 	} else {
-		var arm2 = instance_create_depth(x,y,1,hammer1);
+		var arm2 = instance_create_depth(x,y,1,botWeapon);
 		newBot.slot2 = arm2;
 		arm2.body = newBot;
 	}

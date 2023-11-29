@@ -28,16 +28,16 @@ for(var i = 0; i < array_length(items); i++){
 	}
 	items[i] = instance_create_layer(xOffset,yOffset+i*20, layer, anyItemSlot);
 }
-items[0].item = instance_create_layer(items[0].x, items[0].y, layer, selfRepairChip1);
+items[0].item = instance_create_layer(items[0].x, items[0].y, layer, club2Item);
 items[0].item.slot = items[0];
 items[0].item.slot.stackCount++;
 items[1].item = instance_create_layer(items[1].x, items[1].y, layer, sawItem1);
 items[1].item.slot = items[1];
 items[1].item.slot.stackCount++;
-items[12].item = instance_create_layer(items[12].x, items[12].y, layer, scavengerChip1);
+items[12].item = instance_create_layer(items[12].x, items[12].y, layer, gun1Item);
 items[12].item.slot = items[12];
 items[12].item.slot.stackCount++;
-items[13].item = instance_create_layer(items[13].x, items[13].y, layer, sensorRangeChip1);
+items[13].item = instance_create_layer(items[13].x, items[13].y, layer, gunArmItem2);
 items[13].item.slot = items[13];
 items[13].item.slot.stackCount++;
 

@@ -8,15 +8,16 @@ description = "A saw, great for cutting 18-22dmg cooldown 0.13sec";
 range = 10;
 cost = 100;
 upgrade = noone;
+botWeapon = saw3;
 
 modifierFunction = function(newBot){
 	if (newBot.slot1 == noone){
-		var arm = instance_create_depth(x,y,-1,saw3);
+		var arm = instance_create_depth(x,y,-1,botWeapon);
 		newBot.slot1 = arm;
 		arm.body = newBot;
 	
 	} else {
-		var arm2 = instance_create_depth(x,y,1,saw3);
+		var arm2 = instance_create_depth(x,y,1,botWeapon);
 		newBot.slot2 = arm2;
 		arm2.body = newBot;
 	}
