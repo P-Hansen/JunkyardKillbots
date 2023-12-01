@@ -118,6 +118,7 @@
     {"name":"sprSmallJunk","order":40,"path":"sprites/sprSmallJunk/sprSmallJunk.yy",},
     {"name":"sprSpeedUpIcon1","order":38,"path":"sprites/sprSpeedUpIcon1/sprSpeedUpIcon1.yy",},
     {"name":"sprRock","order":38,"path":"sprites/sprRock/sprRock.yy",},
+    {"name":"randomTools","order":6,"path":"scripts/randomTools/randomTools.yy",},
     {"name":"buildBotButton","order":1,"path":"objects/buildBotButton/buildBotButton.yy",},
     {"name":"sprHpBar","order":6,"path":"sprites/sprHpBar/sprHpBar.yy",},
     {"name":"sprHoverBot","order":3,"path":"sprites/sprHoverBot/sprHoverBot.yy",},

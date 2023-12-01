@@ -1,5 +1,5 @@
 /// @description attack
-if(instance_exists(body)){
+if(instance_exists2(body)){
 	image_angle = body.direction;
 
 	if instance_exists(body.target){

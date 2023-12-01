@@ -4,7 +4,8 @@ enum states{
 	idle,
 	wander,
 	alert,
-	attack
+	attack,
+	display
 }
 
 global.upgradLevelsFlag = true;

@@ -23,5 +23,6 @@ slot2 = noone;
 scrapRefundOnDeath = 50;
 healAmount = 0;
 numberOfItemsToSave = 0;
+state = states.attack;
 
 alarm[1] = game_get_speed(gamespeed_fps)*1;

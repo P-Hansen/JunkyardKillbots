@@ -16,3 +16,5 @@ buildButton = instance_create_layer(1000, 220, layer, buildBotButton);
 blueprintSelection = 0;
 arrowL = instance_create_layer(1000, 175, layer, leftArrow);
 arrowR = instance_create_layer(1000, 175, layer, rightArrow);
+
+showBot = noone;

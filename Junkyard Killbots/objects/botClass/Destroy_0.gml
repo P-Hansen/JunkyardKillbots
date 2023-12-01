@@ -1,5 +1,5 @@
 /// @description Insert description here
-/*
+/* //non working recover items code
 var allItemsArray = [noone, noone, noone];
 //put all weapons, chips, and widgets into one array
 for (var i = 0; i < array_length(creatorSlot.weaponSlots); i++){
@@ -35,11 +35,17 @@ while(numberOfItemsToSave > 0){
 }
 */
 
-//destroy portrit
-instance_destroy(creatorSlot);
-//destroy weapons
-instance_destroy(slot1);
-instance_destroy(slot2);
+if(state == states.display){
+	//destroy weapons
+	instance_destroy(slot1);
+	instance_destroy(slot2);
+} else {
+	//destroy portrit
+	instance_destroy(creatorSlot);
+	//destroy weapons
+	instance_destroy(slot1);
+	instance_destroy(slot2);
 
-global.scrapTotal += scrapRefundOnDeath;
-missionController.botsLost += 1;
+	global.scrapTotal += scrapRefundOnDeath;
+	missionController.botsLost += 1;
+}
