@@ -7,6 +7,8 @@ image_yscale = scale;
 pressedFlag = false;
 slot = noone;
 body = bot;
+weaponOffsetX = [3,7];
+weaponOffsetY = [5,5];
 
 chipSlots = array_create(3, noone);
 weaponSlots = array_create(2, noone);

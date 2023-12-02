@@ -7,6 +7,8 @@ image_yscale = scale;
 pressedFlag = false;
 slot = noone;
 body = minibot;
+weaponOffsetX = [3];
+weaponOffsetY = [5];
 
 chipSlots = array_create(2, noone);
 weaponSlots = array_create(1, noone);
