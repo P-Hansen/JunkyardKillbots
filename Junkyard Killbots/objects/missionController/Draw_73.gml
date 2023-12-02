@@ -1,6 +1,7 @@
 /// @description end screen stats
 
 if (levelEndFlag == true){
+	draw_sprite_stretched(sprBlueBox, 0, room_width/2-100, 25, 200, 215);
 	//level end stats text
 	draw_text(room_width/2-90, 30,
 		"Enemies destroyed: "+string(enemiesKilled)+
