@@ -35,17 +35,11 @@ while(numberOfItemsToSave > 0){
 }
 */
 
-if(state == states.display){
-	//destroy weapons
-	instance_destroy(slot1);
-	instance_destroy(slot2);
-} else {
-	//destroy portrit
-	instance_destroy(creatorSlot);
-	//destroy weapons
-	instance_destroy(slot1);
-	instance_destroy(slot2);
+//destroy portrit
+instance_destroy(creatorSlot);
+//destroy weapons
+instance_destroy(slot1);
+instance_destroy(slot2);
 
-	global.scrapTotal += scrapRefundOnDeath;
-	missionController.botsLost += 1;
-}
+global.scrapTotal += scrapRefundOnDeath;
+missionController.botsLost += 1;
