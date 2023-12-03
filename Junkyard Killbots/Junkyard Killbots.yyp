@@ -213,6 +213,7 @@
     {"id":{"name":"sprSpeedUpIcon3","path":"sprites/sprSpeedUpIcon3/sprSpeedUpIcon3.yy",},},
     {"id":{"name":"sprHammer3","path":"sprites/sprHammer3/sprHammer3.yy",},},
     {"id":{"name":"meleeWeaponClass","path":"objects/meleeWeaponClass/meleeWeaponClass.yy",},},
+    {"id":{"name":"sprMine","path":"sprites/sprMine/sprMine.yy",},},
     {"id":{"name":"rmScrapyard","path":"rooms/rmScrapyard/rmScrapyard.yy",},},
     {"id":{"name":"sprBotPortrit","path":"sprites/sprBotPortrit/sprBotPortrit.yy",},},
     {"id":{"name":"sprClubIcon2","path":"sprites/sprClubIcon2/sprClubIcon2.yy",},},

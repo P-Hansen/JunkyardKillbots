@@ -187,6 +187,7 @@
     {"name":"sprSpeedUpIcon3","order":39,"path":"sprites/sprSpeedUpIcon3/sprSpeedUpIcon3.yy",},
     {"name":"sprHammer3","order":28,"path":"sprites/sprHammer3/sprHammer3.yy",},
     {"name":"meleeWeaponClass","order":11,"path":"objects/meleeWeaponClass/meleeWeaponClass.yy",},
+    {"name":"sprMine","order":55,"path":"sprites/sprMine/sprMine.yy",},
     {"name":"rmScrapyard","order":2,"path":"rooms/rmScrapyard/rmScrapyard.yy",},
     {"name":"sprBotPortrit","order":2,"path":"sprites/sprBotPortrit/sprBotPortrit.yy",},
     {"name":"sprClubIcon2","order":31,"path":"sprites/sprClubIcon2/sprClubIcon2.yy",},
