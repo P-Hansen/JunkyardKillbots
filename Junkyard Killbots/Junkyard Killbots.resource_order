@@ -34,6 +34,7 @@
     {"name":"attackSpeedUpChip2","order":34,"path":"objects/attackSpeedUpChip2/attackSpeedUpChip2.yy",},
     {"name":"armorChip3","order":46,"path":"objects/armorChip3/armorChip3.yy",},
     {"name":"sprCritChip2","order":57,"path":"sprites/sprCritChip2/sprCritChip2.yy",},
+    {"name":"caveMonster","order":15,"path":"objects/caveMonster/caveMonster.yy",},
     {"name":"teslaTowerSmall","order":8,"path":"objects/teslaTowerSmall/teslaTowerSmall.yy",},
     {"name":"saw3","order":43,"path":"objects/saw3/saw3.yy",},
     {"name":"sprSelfRepairChip3","order":73,"path":"sprites/sprSelfRepairChip3/sprSelfRepairChip3.yy",},

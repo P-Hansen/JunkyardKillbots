@@ -54,6 +54,7 @@
     {"id":{"name":"armorChip3","path":"objects/armorChip3/armorChip3.yy",},},
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},},
     {"id":{"name":"sprCritChip2","path":"sprites/sprCritChip2/sprCritChip2.yy",},},
+    {"id":{"name":"caveMonster","path":"objects/caveMonster/caveMonster.yy",},},
     {"id":{"name":"teslaTowerSmall","path":"objects/teslaTowerSmall/teslaTowerSmall.yy",},},
     {"id":{"name":"saw3","path":"objects/saw3/saw3.yy",},},
     {"id":{"name":"sprSelfRepairChip3","path":"sprites/sprSelfRepairChip3/sprSelfRepairChip3.yy",},},
