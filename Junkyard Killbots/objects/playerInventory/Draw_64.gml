@@ -1,5 +1,9 @@
 /// @description money totals
 
 //money total
-draw_text(95, 5, "Scrap: " + string(global.scrapTotal));
-//draw_text(175, 5, "Bonus Total: " + string(global.scavengerBonus));
+if(redTextFrames > 0){
+	draw_text_color(95, 5, "Scrap: " + string(global.scrapTotal), c_red, c_red, c_red, c_red, 1);
+	redTextFrames--;
+} else {
+	draw_text(95, 5, "Scrap: " + string(global.scrapTotal));
+}

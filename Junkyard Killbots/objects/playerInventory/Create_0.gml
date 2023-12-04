@@ -2,6 +2,7 @@
 
 global.scrapTotal = 0;
 image_yscale = 5.82;
+redTextFrames = 0;
 
 robots = array_create(12, noone);
 //creating items slots for items array

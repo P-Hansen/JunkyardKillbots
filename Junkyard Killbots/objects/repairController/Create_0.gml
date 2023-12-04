@@ -3,6 +3,7 @@
 
 botSelection = 0;
 playerInventory.robots[botSelection].image_index = 1;
+redTextFrames = 0;
 
 //show starting selections inventory
 if instance_exists(playerInventory.robots[botSelection].bots){
