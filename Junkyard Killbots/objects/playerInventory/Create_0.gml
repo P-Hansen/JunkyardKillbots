@@ -29,18 +29,24 @@ for(var i = 0; i < array_length(items); i++){
 	}
 	items[i] = instance_create_layer(xOffset,yOffset+i*20, layer, anyItemSlot);
 }
-items[0].item = instance_create_layer(items[0].x, items[0].y, layer, club2Item);
+items[0].item = instance_create_layer(items[0].x, items[0].y, layer, club1Item);
 items[0].item.slot = items[0];
 items[0].item.slot.stackCount++;
-items[1].item = instance_create_layer(items[1].x, items[1].y, layer, sawItem1);
+items[1].item = instance_create_layer(items[1].x, items[1].y, layer, randomItem());
 items[1].item.slot = items[1];
 items[1].item.slot.stackCount++;
-items[12].item = instance_create_layer(items[12].x, items[12].y, layer, gun1Item);
+items[2].item = instance_create_layer(items[2].x, items[2].y, layer, randomItem());
+items[2].item.slot = items[2];
+items[2].item.slot.stackCount++;
+items[12].item = instance_create_layer(items[12].x, items[12].y, layer, club1Item);
 items[12].item.slot = items[12];
 items[12].item.slot.stackCount++;
-items[13].item = instance_create_layer(items[13].x, items[13].y, layer, gunArmItem2);
+items[13].item = instance_create_layer(items[13].x, items[13].y, layer, randomItem());
 items[13].item.slot = items[13];
 items[13].item.slot.stackCount++;
+items[14].item = instance_create_layer(items[14].x, items[14].y, layer, randomItem());
+items[14].item.slot = items[14];
+items[14].item.slot.stackCount++;
 
 //blueprints
 blueprints = array_create(2, noone);
