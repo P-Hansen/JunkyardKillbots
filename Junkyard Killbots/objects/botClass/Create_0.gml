@@ -24,5 +24,6 @@ scrapRefundOnDeath = 50;
 healAmount = 0;
 numberOfItemsToSave = 0;
 state = states.attack;
+fireResistance = 0;
 
 alarm[1] = game_get_speed(gamespeed_fps)*1;

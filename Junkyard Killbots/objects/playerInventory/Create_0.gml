@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-global.scrapTotal = 0;
+global.scrapTotal = 50;
 image_yscale = 5.82;
 redTextFrames = 0;
 
