@@ -124,6 +124,7 @@
     {"id":{"name":"sprClub1","path":"sprites/sprClub1/sprClub1.yy",},},
     {"id":{"name":"oilfieldLevelIcon","path":"objects/oilfieldLevelIcon/oilfieldLevelIcon.yy",},},
     {"id":{"name":"attackSpeedUpChip1","path":"objects/attackSpeedUpChip1/attackSpeedUpChip1.yy",},},
+    {"id":{"name":"fireResistanceChip2","path":"objects/fireResistanceChip2/fireResistanceChip2.yy",},},
     {"id":{"name":"trashPile","path":"objects/trashPile/trashPile.yy",},},
     {"id":{"name":"sprRecoveryBecon1","path":"sprites/sprRecoveryBecon1/sprRecoveryBecon1.yy",},},
     {"id":{"name":"sawItem1","path":"objects/sawItem1/sawItem1.yy",},},

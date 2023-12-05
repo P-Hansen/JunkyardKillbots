@@ -102,6 +102,7 @@
     {"name":"sprClub1","order":25,"path":"sprites/sprClub1/sprClub1.yy",},
     {"name":"oilfieldLevelIcon","order":1,"path":"objects/oilfieldLevelIcon/oilfieldLevelIcon.yy",},
     {"name":"attackSpeedUpChip1","order":9,"path":"objects/attackSpeedUpChip1/attackSpeedUpChip1.yy",},
+    {"name":"fireResistanceChip2","order":67,"path":"objects/fireResistanceChip2/fireResistanceChip2.yy",},
     {"name":"trashPile","order":9,"path":"objects/trashPile/trashPile.yy",},
     {"name":"sprRecoveryBecon1","order":74,"path":"sprites/sprRecoveryBecon1/sprRecoveryBecon1.yy",},
     {"name":"sawItem1","order":39,"path":"objects/sawItem1/sawItem1.yy",},
