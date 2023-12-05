@@ -272,6 +272,7 @@
     {"name":"sprFireResistanceIcon3","order":79,"path":"sprites/sprFireResistanceIcon3/sprFireResistanceIcon3.yy",},
     {"name":"itemScrapper","order":4,"path":"objects/itemScrapper/itemScrapper.yy",},
     {"name":"sprPowerCore2","order":36,"path":"sprites/sprPowerCore2/sprPowerCore2.yy",},
+    {"name":"fireResistanceChip3","order":68,"path":"objects/fireResistanceChip3/fireResistanceChip3.yy",},
     {"name":"sprTeslaTowerLarge","order":2,"path":"sprites/sprTeslaTowerLarge/sprTeslaTowerLarge.yy",},
     {"name":"hammer2","order":24,"path":"objects/hammer2/hammer2.yy",},
     {"name":"botPortrit","order":4,"path":"objects/botPortrit/botPortrit.yy",},
