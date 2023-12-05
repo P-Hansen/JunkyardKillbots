@@ -16,5 +16,5 @@ function instance_exists2(object){
 function randomItem(){
 return choose(attackSpeedUpChip1, speedUpChip1, club1Item, hammer1Item, gunArmItem1, gun1Item,
 	sawItem1, armorChip1, criticalStrikeChip1, scavengerChip1, sensorRangeChip1, granadeLauncherItem1, 
-	selfRepairChip1);
+	selfRepairChip1, fireResistanceChip1);
 }

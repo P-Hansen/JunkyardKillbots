@@ -228,6 +228,7 @@
     {"id":{"name":"sprTruckLarge","path":"sprites/sprTruckLarge/sprTruckLarge.yy",},},
     {"id":{"name":"sawItem2","path":"objects/sawItem2/sawItem2.yy",},},
     {"id":{"name":"sprScavengerChip3","path":"sprites/sprScavengerChip3/sprScavengerChip3.yy",},},
+    {"id":{"name":"fireResistanceChip1","path":"objects/fireResistanceChip1/fireResistanceChip1.yy",},},
     {"id":{"name":"gun2Item","path":"objects/gun2Item/gun2Item.yy",},},
     {"id":{"name":"sensorRangeChip2","path":"objects/sensorRangeChip2/sensorRangeChip2.yy",},},
     {"id":{"name":"sprGranadeLauncherIcon3","path":"sprites/sprGranadeLauncherIcon3/sprGranadeLauncherIcon3.yy",},},

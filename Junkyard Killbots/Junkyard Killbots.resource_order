@@ -202,6 +202,7 @@
     {"name":"sprTruckLarge","order":4,"path":"sprites/sprTruckLarge/sprTruckLarge.yy",},
     {"name":"sawItem2","order":41,"path":"objects/sawItem2/sawItem2.yy",},
     {"name":"sprScavengerChip3","order":61,"path":"sprites/sprScavengerChip3/sprScavengerChip3.yy",},
+    {"name":"fireResistanceChip1","order":66,"path":"objects/fireResistanceChip1/fireResistanceChip1.yy",},
     {"name":"gun2Item","order":31,"path":"objects/gun2Item/gun2Item.yy",},
     {"name":"sensorRangeChip2","order":54,"path":"objects/sensorRangeChip2/sensorRangeChip2.yy",},
     {"name":"sprGranadeLauncherIcon3","order":70,"path":"sprites/sprGranadeLauncherIcon3/sprGranadeLauncherIcon3.yy",},
