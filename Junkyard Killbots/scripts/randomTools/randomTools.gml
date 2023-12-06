@@ -13,6 +13,7 @@ function instance_exists2(object){
 	}
 }
 
+//returns a random level 1 item, used on enemy death and at game start in inventory
 function randomItem(){
 return choose(attackSpeedUpChip1, speedUpChip1, club1Item, hammer1Item, gunArmItem1, gun1Item,
 	sawItem1, armorChip1, criticalStrikeChip1, scavengerChip1, sensorRangeChip1, granadeLauncherItem1, 
