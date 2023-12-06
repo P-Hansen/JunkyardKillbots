@@ -52,6 +52,7 @@
     {"name":"mineLevelIcon","order":4,"path":"objects/mineLevelIcon/mineLevelIcon.yy",},
     {"name":"gunArmItem1","order":1,"path":"objects/gunArmItem1/gunArmItem1.yy",},
     {"name":"sprStoneMonsterAttack","order":12,"path":"sprites/sprStoneMonsterAttack/sprStoneMonsterAttack.yy",},
+    {"name":"sprHoverBotBlueprint","order":11,"path":"sprites/sprHoverBotBlueprint/sprHoverBotBlueprint.yy",},
     {"name":"sprHammerIcon3","order":35,"path":"sprites/sprHammerIcon3/sprHammerIcon3.yy",},
     {"name":"scavengerChip1","order":50,"path":"objects/scavengerChip1/scavengerChip1.yy",},
     {"name":"stalicmites","order":7,"path":"objects/stalicmites/stalicmites.yy",},

@@ -74,6 +74,7 @@
     {"id":{"name":"parentItem","path":"objects/parentItem/parentItem.yy",},},
     {"id":{"name":"gunArmItem1","path":"objects/gunArmItem1/gunArmItem1.yy",},},
     {"id":{"name":"sprStoneMonsterAttack","path":"sprites/sprStoneMonsterAttack/sprStoneMonsterAttack.yy",},},
+    {"id":{"name":"sprHoverBotBlueprint","path":"sprites/sprHoverBotBlueprint/sprHoverBotBlueprint.yy",},},
     {"id":{"name":"sprHammerIcon3","path":"sprites/sprHammerIcon3/sprHammerIcon3.yy",},},
     {"id":{"name":"scavengerChip1","path":"objects/scavengerChip1/scavengerChip1.yy",},},
     {"id":{"name":"stalicmites","path":"objects/stalicmites/stalicmites.yy",},},
