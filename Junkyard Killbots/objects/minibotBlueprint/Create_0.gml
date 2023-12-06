@@ -1,5 +1,5 @@
 /// @description Insert description here
 
 creates = minibotPortrit;
-stats = "Hp: 400\nSpeed: 1\nBase Dmg: 50\nChip slots: 2\nWeapon Slots: 1\nUtility Slots: 0";
+stats = "Hp: 400\nSpeed: 1\nBase Dmg: 50\nChip slots: 2\nWeapon Slots: 1\nUtility Slots: 0\nSensor range: 70";
 cost = 50;

@@ -4,12 +4,12 @@ pressedFlag = false;
 slot = noone;
 hoverFlag = false;
 hoverCounter = 0;
-description = "take 60% less fire damage";
+description = "take 100% less fire damage";
 stackCount = 0;
 range = 0;
 cost = 100;
 upgrade = fireResistanceChip3;
 
 modifierFunction = function(newBot){
-	newBot.fireResistance += 6;
+	newBot.fireResistance += 10;
 }

@@ -12,14 +12,14 @@ damage = baseDamage;
 flashTimer = 0;
 baseCooldown = 0;
 baseAccuracy = 0;
-baseSightRange = 70;
+baseSightRange = 140;
 baseArmor = 1;
 critChance = 0;
 
 creatorSlot = noone;
 slot1 = noone;
 
-scrapRefundOnDeath = 25;
+scrapRefundOnDeath = 50;
 healAmount = 0;
 numberOfItemsToSave = 0;
 state = states.attack;
