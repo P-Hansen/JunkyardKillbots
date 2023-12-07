@@ -15,8 +15,8 @@
     "path": "folders/Objects/bots.yy",
   },
   "parentObjectId": {
-    "name": "botClass",
-    "path": "objects/botClass/botClass.yy",
+    "name": "groundBotClass",
+    "path": "objects/groundBotClass/groundBotClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "bot",
+  "name": "flyingBotClass",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -10,8 +10,8 @@
     "path": "folders/Objects/bots.yy",
   },
   "parentObjectId": {
-    "name": "groundBotClass",
-    "path": "objects/groundBotClass/groundBotClass.yy",
+    "name": "botClass",
+    "path": "objects/botClass/botClass.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -27,11 +27,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
-  "spriteId": {
-    "name": "sprBot",
-    "path": "sprites/sprBot/sprBot.yy",
-  },
+  "solid": false,
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
