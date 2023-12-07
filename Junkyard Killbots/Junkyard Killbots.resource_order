@@ -161,6 +161,7 @@
     {"name":"selfRepairChip2","order":63,"path":"objects/selfRepairChip2/selfRepairChip2.yy",},
     {"name":"teslaTowerLarge","order":7,"path":"objects/teslaTowerLarge/teslaTowerLarge.yy",},
     {"name":"largeJunk","order":1,"path":"objects/largeJunk/largeJunk.yy",},
+    {"name":"labMissonController","order":6,"path":"objects/labMissonController/labMissonController.yy",},
     {"name":"scavengerChip3","order":52,"path":"objects/scavengerChip3/scavengerChip3.yy",},
     {"name":"club1Item","order":12,"path":"objects/club1Item/club1Item.yy",},
     {"name":"sprCritChip1","order":56,"path":"sprites/sprCritChip1/sprCritChip1.yy",},

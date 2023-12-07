@@ -186,6 +186,7 @@
     {"id":{"name":"selfRepairChip2","path":"objects/selfRepairChip2/selfRepairChip2.yy",},},
     {"id":{"name":"teslaTowerLarge","path":"objects/teslaTowerLarge/teslaTowerLarge.yy",},},
     {"id":{"name":"largeJunk","path":"objects/largeJunk/largeJunk.yy",},},
+    {"id":{"name":"labMissonController","path":"objects/labMissonController/labMissonController.yy",},},
     {"id":{"name":"scavengerChip3","path":"objects/scavengerChip3/scavengerChip3.yy",},},
     {"id":{"name":"club1Item","path":"objects/club1Item/club1Item.yy",},},
     {"id":{"name":"sprCritChip1","path":"sprites/sprCritChip1/sprCritChip1.yy",},},
