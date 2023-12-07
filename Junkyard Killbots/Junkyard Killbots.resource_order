@@ -268,6 +268,7 @@
     {"name":"sprSawIcon2","order":53,"path":"sprites/sprSawIcon2/sprSawIcon2.yy",},
     {"name":"sprGranadeLauncher1","order":65,"path":"sprites/sprGranadeLauncher1/sprGranadeLauncher1.yy",},
     {"name":"sprSoldierIdle","order":9,"path":"sprites/sprSoldierIdle/sprSoldierIdle.yy",},
+    {"name":"sprHomeBackground","order":56,"path":"sprites/sprHomeBackground/sprHomeBackground.yy",},
     {"name":"sprSaw3","order":51,"path":"sprites/sprSaw3/sprSaw3.yy",},
     {"name":"sprMiniBotBlueprint","order":9,"path":"sprites/sprMiniBotBlueprint/sprMiniBotBlueprint.yy",},
     {"name":"sprDefenceUpIcon3","order":43,"path":"sprites/sprDefenceUpIcon3/sprDefenceUpIcon3.yy",},

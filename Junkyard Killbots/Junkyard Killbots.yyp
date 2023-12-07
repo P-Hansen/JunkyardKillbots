@@ -300,6 +300,7 @@
     {"id":{"name":"sprSawIcon2","path":"sprites/sprSawIcon2/sprSawIcon2.yy",},},
     {"id":{"name":"sprGranadeLauncher1","path":"sprites/sprGranadeLauncher1/sprGranadeLauncher1.yy",},},
     {"id":{"name":"sprSoldierIdle","path":"sprites/sprSoldierIdle/sprSoldierIdle.yy",},},
+    {"id":{"name":"sprHomeBackground","path":"sprites/sprHomeBackground/sprHomeBackground.yy",},},
     {"id":{"name":"sprSaw3","path":"sprites/sprSaw3/sprSaw3.yy",},},
     {"id":{"name":"sprMiniBotBlueprint","path":"sprites/sprMiniBotBlueprint/sprMiniBotBlueprint.yy",},},
     {"id":{"name":"obj_bush","path":"objects/obj_bush/obj_bush.yy",},},
