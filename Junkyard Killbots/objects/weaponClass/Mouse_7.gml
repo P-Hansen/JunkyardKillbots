@@ -41,6 +41,36 @@ if place_meeting(x, y, weaponSlot) || place_meeting(x, y, anyItemSlot) {
 		slot.item = self;
 		slot.stackCount++;
 	}
+
+} else if place_meeting(x, y, autoEquip) {
+	//clear old slot
+	if instance_exists(slot) {
+		slot.item = noone;
+		slot.stackCount--;
+	}
+	//find new slot
+	var weaponsArray = playerInventory.robots[repairController.botSelection].bots.weaponSlots;
+	var length = array_length(weaponsArray);
+	var newSlot = noone;
+	for(i = length-1; i >= 0; i--){
+		if(weaponsArray[i].item = noone){
+			newSlot = weaponsArray[i];
+		}
+	}
+	//if empty slot exists move there
+	if(newSlot != noone){
+		slot = newSlot;
+		x = slot.x;
+		y = slot.y;
+		slot.item = self;
+		slot.stackCount++;
+	//no empty slots move back
+	} else {
+		x = slot.x;
+		y = slot.y;
+		slot.item = self;
+		slot.stackCount++;
+	}
 //snap back to old slot if you release on empty space
 } else if instance_exists(slot) {
 	x = slot.x;

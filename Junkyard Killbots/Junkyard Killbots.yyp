@@ -252,6 +252,7 @@
     {"id":{"name":"rmRepair","path":"rooms/rmRepair/rmRepair.yy",},},
     {"id":{"name":"scrapyardLevelIcon","path":"objects/scrapyardLevelIcon/scrapyardLevelIcon.yy",},},
     {"id":{"name":"hammer3","path":"objects/hammer3/hammer3.yy",},},
+    {"id":{"name":"autoEquip","path":"objects/autoEquip/autoEquip.yy",},},
     {"id":{"name":"sprGunArmIcon","path":"sprites/sprGunArmIcon/sprGunArmIcon.yy",},},
     {"id":{"name":"sprStoneMonsterIdle","path":"sprites/sprStoneMonsterIdle/sprStoneMonsterIdle.yy",},},
     {"id":{"name":"granadeLauncherItem3","path":"objects/granadeLauncherItem3/granadeLauncherItem3.yy",},},

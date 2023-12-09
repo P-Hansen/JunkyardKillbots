@@ -223,6 +223,7 @@
     {"name":"rmInit","order":8,"path":"rooms/rmInit/rmInit.yy",},
     {"name":"rmRepair","order":6,"path":"rooms/rmRepair/rmRepair.yy",},
     {"name":"hammer3","order":26,"path":"objects/hammer3/hammer3.yy",},
+    {"name":"autoEquip","order":17,"path":"objects/autoEquip/autoEquip.yy",},
     {"name":"sprGunArmIcon","order":21,"path":"sprites/sprGunArmIcon/sprGunArmIcon.yy",},
     {"name":"sprStoneMonsterIdle","order":10,"path":"sprites/sprStoneMonsterIdle/sprStoneMonsterIdle.yy",},
     {"name":"granadeLauncherItem3","order":60,"path":"objects/granadeLauncherItem3/granadeLauncherItem3.yy",},
