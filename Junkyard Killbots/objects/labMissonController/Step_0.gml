@@ -14,6 +14,7 @@ if(instance_number(enemyClass) < 1 and levelEndFlag == false) or
 	var newItem = randomBlueprint();
 	array_push(missionController.blueprintsFound, newItem);
 	array_push(playerInventory.blueprints, instance_create_layer(-1000, -1000, layer, newItem));
+//loss
 } else if(instance_number(botClass) < 1 and levelEndFlag == false) or
 	(botsOffscreen() and levelEndFlag == false){
 	global.upgradLevelsFlag = true;

@@ -2,6 +2,15 @@
 
 if (pressedFlag == true){
 	//find slot you released on
+	
+	//item scrapper
+	if place_meeting(x, y, itemScrapper) {
+		//clear old slot
+		slot.bots = noone;
+		global.scrapTotal += refund;
+		instance_destroy(self);
+	}
+	
 	if place_meeting(x, y, botSlot) {
 		//clear old slot
 		if instance_exists(slot) {slot.bots = noone;}
