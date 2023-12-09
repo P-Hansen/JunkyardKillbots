@@ -1,3 +1,3 @@
 /// @description goto home screen
 
-room_goto(rmHome);
+room_goto(rmMissionSelect);

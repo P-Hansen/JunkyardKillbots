@@ -14,4 +14,4 @@ global.enemyPool = [];
 global.currentLevelIcon = noone;
 global.scavengerBonus = 1;
 
-room_goto(rmHome);
+room_goto(rmRepair);

@@ -5,7 +5,7 @@ if (room_get_name(room) != "rmHome" and room_get_name(room) != "rmRepair" and ro
 	showRobots();
 }
 
-if (room_get_name(room) == "rmHome"){
+if (room_get_name(room) == "rmInit"){
 	x = -100;
 }
 

@@ -1,3 +1,3 @@
 /// @description go home
 
-room_goto(rmHome);
+room_goto(rmRepair);
