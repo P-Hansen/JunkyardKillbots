@@ -41,6 +41,36 @@ if place_meeting(x, y, chipSlot) || place_meeting(x, y, anyItemSlot) {
 		slot.item = self;
 		slot.stackCount++;
 	}
+//auto equip area around bot
+} else if place_meeting(x, y, autoEquip) {
+	//clear old slot
+	if instance_exists(slot) {
+		slot.item = noone;
+		slot.stackCount--;
+	}
+	//find new slot
+	var chipArray = playerInventory.robots[repairController.botSelection].bots.chipSlots;
+	var length = array_length(chipArray);
+	var newSlot = noone;
+	for(i = length-1; i >= 0; i--){
+		if(chipArray[i].item = noone){
+			newSlot = chipArray[i];
+		}
+	}
+	//if empty slot exists move there
+	if(newSlot != noone){
+		slot = newSlot;
+		x = slot.x;
+		y = slot.y;
+		slot.item = self;
+		slot.stackCount++;
+	//no empty slots move back
+	} else {
+		x = slot.x;
+		y = slot.y;
+		slot.item = self;
+		slot.stackCount++;
+	}
 //snap back to old slot if you release on empty space
 } else if instance_exists(slot) {
 	x = slot.x;
