@@ -5,5 +5,5 @@
 //destroy weapons
 instance_destroy(slot1);
 
-global.scrapTotal -= scrapRefundOnDeath;
+missionController.scrapFound -= scrapRefundOnDeath;
 missionController.botsLost += 1;
