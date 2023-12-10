@@ -1,4 +1,5 @@
-randomize();
+//global.seed = randomize();
+//show_debug_message("SEED: "+string(global.seed));
 
 enum states{
 	idle,
