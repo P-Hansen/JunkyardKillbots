@@ -1,7 +1,8 @@
 /// @description drag and drop off
 
 if (pressedFlag == true){
-	//find slot you released on
+	//change old slot selection art
+	//playerInventory.robots[repairController.botSelection].image_index = 0;
 	
 	//item scrapper
 	if place_meeting(x, y, itemScrapper) {
@@ -10,7 +11,7 @@ if (pressedFlag == true){
 		global.scrapTotal += refund;
 		instance_destroy(self);
 	}
-	
+	//find slot you released on
 	if place_meeting(x, y, botSlot) {
 		//clear old slot
 		if instance_exists(slot) {slot.bots = noone;}

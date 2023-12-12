@@ -2,7 +2,7 @@
 global.seed = randomize();
 show_debug_message("SEED: "+string(global.seed));
 
-global.scrapTotal = 50;
+global.scrapTotal = 250;
 image_yscale = 5.82;
 redTextFrames = 0;
 
@@ -51,9 +51,10 @@ items[14].item.slot = items[14];
 items[14].item.slot.stackCount++;
 
 //blueprints
-blueprints = array_create(2, noone);
+blueprints = array_create(3, noone);
 blueprints[0] = instance_create_layer(-1000, -1000, layer, botBlueprint);
 blueprints[1] = instance_create_layer(-1000, -1000, layer, minibotBlueprint);
+blueprints[2] = instance_create_layer(-1000, -1000, layer, hoverbotBlueprint);
 
 //hide item slots off screen
 function hideItems(){
