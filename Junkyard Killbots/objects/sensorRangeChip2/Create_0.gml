@@ -15,4 +15,5 @@ bonus = 0;
 
 modifierFunction = function(newBot){
 	newBot.baseSightRange = newBot.baseSightRange*1.35;
+	newBot.seeTraps = true;
 }

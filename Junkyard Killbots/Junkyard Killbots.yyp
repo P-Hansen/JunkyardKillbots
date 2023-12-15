@@ -279,6 +279,7 @@
     {"id":{"name":"mine","path":"objects/mine/mine.yy",},},
     {"id":{"name":"damage_variable","path":"scripts/damage_variable/damage_variable.yy",},},
     {"id":{"name":"sprHpBar2","path":"sprites/sprHpBar2/sprHpBar2.yy",},},
+    {"id":{"name":"enemyAndTrapClass","path":"objects/enemyAndTrapClass/enemyAndTrapClass.yy",},},
     {"id":{"name":"hoverbotPortrit","path":"objects/hoverbotPortrit/hoverbotPortrit.yy",},},
     {"id":{"name":"sprRocketeerSmall","path":"sprites/sprRocketeerSmall/sprRocketeerSmall.yy",},},
     {"id":{"name":"explosion1","path":"objects/explosion1/explosion1.yy",},},

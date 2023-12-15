@@ -39,6 +39,8 @@
     {"name":"inst_5B0D3E12","path":"rooms/rmMine/rmMine.yy",},
     {"name":"inst_55A5FC24","path":"rooms/rmMine/rmMine.yy",},
     {"name":"inst_6F6B332","path":"rooms/rmMine/rmMine.yy",},
+    {"name":"inst_73229970","path":"rooms/rmMine/rmMine.yy",},
+    {"name":"inst_51EF1CCD","path":"rooms/rmMine/rmMine.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -56,6 +58,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5DF2AF02","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":5,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"stalicmites","path":"objects/stalicmites/stalicmites.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":315.0,"y":270.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5F65C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":5,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"stalicmites","path":"objects/stalicmites/stalicmites.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":150.0,"y":261.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3D0FBCFB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":5,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"stalicmites","path":"objects/stalicmites/stalicmites.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":2.5,"x":392.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_73229970","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"mine","path":"objects/mine/mine.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":48.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51EF1CCD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"mine","path":"objects/mine/mine.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":48.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":90,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6FB638DE_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"missionController","path":"objects/missionController/missionController.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":16.0,},

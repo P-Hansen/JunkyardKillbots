@@ -17,7 +17,10 @@
     "name": "enemies",
     "path": "folders/Objects/enemies.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "enemyAndTrapClass",
+    "path": "objects/enemyAndTrapClass/enemyAndTrapClass.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

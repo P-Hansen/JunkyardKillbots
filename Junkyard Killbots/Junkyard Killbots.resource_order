@@ -249,6 +249,7 @@
     {"name":"mine","order":13,"path":"objects/mine/mine.yy",},
     {"name":"damage_variable","order":3,"path":"scripts/damage_variable/damage_variable.yy",},
     {"name":"sprHpBar2","order":51,"path":"sprites/sprHpBar2/sprHpBar2.yy",},
+    {"name":"enemyAndTrapClass","order":16,"path":"objects/enemyAndTrapClass/enemyAndTrapClass.yy",},
     {"name":"hoverbotPortrit","order":15,"path":"objects/hoverbotPortrit/hoverbotPortrit.yy",},
     {"name":"explosion1","order":14,"path":"objects/explosion1/explosion1.yy",},
     {"name":"sprGunArm4","order":20,"path":"sprites/sprGunArm4/sprGunArm4.yy",},
