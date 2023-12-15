@@ -19,6 +19,6 @@ if (room_get_name(room) != "rmRepair" and room_get_name(room) != "rmMissionSelec
 	if (instance_exists(weaponSlots[0].item) && instance_exists(weaponSlots[1].item)){
 		newBot.range += min(weaponSlots[0].item.range, weaponSlots[1].item.range);
 	}
-	executeModifierFunctions(widgetSlots, newBot);
+	//executeModifierFunctions(widgetSlots, newBot);
 	executeModifierFunctions(chipSlots, newBot);
 }

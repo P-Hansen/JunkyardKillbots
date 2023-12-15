@@ -27,5 +27,5 @@ weaponSlots[0].x -= 1000;
 weaponSlots[1] = instance_create_layer(220, 215, layer, weaponSlot);
 weaponSlots[1].x -= 1000;
 
-widgetSlots[0] = instance_create_layer(170, 215, layer, widgetSlot);
-widgetSlots[0].x -= 1000;
+//widgetSlots[0] = instance_create_layer(170, 215, layer, widgetSlot);
+//widgetSlots[0].x -= 1000;

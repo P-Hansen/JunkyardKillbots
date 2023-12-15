@@ -9,7 +9,7 @@ redTextFrames = 0;
 if instance_exists(playerInventory.robots[botSelection].bots){
 	showEachSlot(playerInventory.robots[botSelection].bots.chipSlots);
 	showEachSlot(playerInventory.robots[botSelection].bots.weaponSlots);
-	showEachSlot(playerInventory.robots[botSelection].bots.widgetSlots);
+	//showEachSlot(playerInventory.robots[botSelection].bots.widgetSlots);
 }
 
 showBlueprintsFlag = false;

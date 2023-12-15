@@ -11,7 +11,7 @@ if (room == rmRepair) {
 	if instance_exists(playerInventory.robots[repairController.botSelection].bots){
 		hideEachSlot(playerInventory.robots[repairController.botSelection].bots.chipSlots);
 		hideEachSlot(playerInventory.robots[repairController.botSelection].bots.weaponSlots);
-		hideEachSlot(playerInventory.robots[repairController.botSelection].bots.widgetSlots);
+		//hideEachSlot(playerInventory.robots[repairController.botSelection].bots.widgetSlots);
 	}
 	//change selection
 	var index = array_get_index(playerInventory.robots, newSlot);
@@ -20,7 +20,7 @@ if (room == rmRepair) {
 	if instance_exists(playerInventory.robots[repairController.botSelection].bots){
 		showEachSlot(playerInventory.robots[repairController.botSelection].bots.chipSlots);
 		showEachSlot(playerInventory.robots[repairController.botSelection].bots.weaponSlots);
-		showEachSlot(playerInventory.robots[repairController.botSelection].bots.widgetSlots);
+		//showEachSlot(playerInventory.robots[repairController.botSelection].bots.widgetSlots);
 	}
 	//change selected frame
 	playerInventory.robots[repairController.botSelection].image_index = 1;

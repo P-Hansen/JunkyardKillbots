@@ -8,7 +8,7 @@ if(global.scrapTotal >= playerInventory.blueprints[repairController.blueprintSel
 
 	showEachSlot(playerInventory.robots[i].bots.chipSlots);
 	showEachSlot(playerInventory.robots[i].bots.weaponSlots);
-	showEachSlot(playerInventory.robots[i].bots.widgetSlots);
+	//showEachSlot(playerInventory.robots[i].bots.widgetSlots);
 
 	global.scrapTotal -= playerInventory.blueprints[j].cost;
 } else {
