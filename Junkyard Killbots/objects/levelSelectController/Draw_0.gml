@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Win screen
 
 if(allLevelsFinished(levels)){
 	draw_set_halign(fa_center);
