@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-hp = 2500;
+hp = 4500;
 target = noone;
 maxSpeed = random_range(0.3,0.7);
 speed = maxSpeed;
