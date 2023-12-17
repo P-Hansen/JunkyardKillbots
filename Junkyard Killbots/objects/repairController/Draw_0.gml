@@ -53,7 +53,7 @@ if(instance_exists(playerInventory.robots[botSelection].bots)){
 	}
 	
 } else {//show blueprints
-	draw_sprite_ext(object_get_sprite(playerInventory.blueprints[blueprintSelection].object_index), 0, room_width/2, room_height/2, 5,5,0,c_white,1);
+	draw_sprite_ext(object_get_sprite(playerInventory.blueprints[blueprintSelection].object_index), 0, room_width/2, room_height/2-20, 5,5,0,c_white,1);
 	showBlueprintsFlag = true;
 	buildButton.x = room_width/2;
 	arrowL.x = (room_width/2)-80;
