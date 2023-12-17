@@ -10,10 +10,11 @@ if (room_get_name(room) != "rmRepair" and room_get_name(room) != "rmMissionSelec
 		if(instance_exists(weaponSlots[i].item)){
 			weaponSlots[i].item.modifierFunction(newBot);
 		}
-		if(i == 0){
+		if(instance_exists(weaponSlots[i].item)) and (i == 0){
 			newBot.range += weaponSlots[0].item.range;
-		} else {
-			newBot.range = min(weaponSlots[i].item.range, newBot.range-baseRange)+baseRange;
+		} else if(instance_exists(weaponSlots[i].item)){
+			var oldRange = newBot.range-baseRange
+			newBot.range = min(weaponSlots[i].item.range, oldRange)+baseRange;
 		}
 	}
 

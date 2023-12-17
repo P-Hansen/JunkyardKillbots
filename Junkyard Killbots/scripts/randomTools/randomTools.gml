@@ -30,7 +30,7 @@ function randomBlueprint(){
 			array_delete(blueprintsArray, index, 1);
 		}
 	}
-	array_shuffle(blueprintsArray);
+	var shuffled = array_shuffle(blueprintsArray);
 	
-	return blueprintsArray[0];
+	return shuffled[0];
 }
