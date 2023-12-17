@@ -16,11 +16,11 @@ modifierFunction = function(newBot){
 		newBot.slot1 = arm;
 		arm.body = newBot;
 	} else if(newBot.slot2 == noone) {
-		var arm2 = instance_create_depth(x,y,-1,botWeapon);
+		var arm2 = instance_create_depth(x,y,1,botWeapon);
 		newBot.slot2 = arm2;
 		arm2.body = newBot;
 	} else if(newBot.slot3 == noone) {
-		var arm3 = instance_create_depth(x,y,1,botWeapon);
+		var arm3 = instance_create_depth(x,y,-1,botWeapon);
 		newBot.slot3 = arm3;
 		arm3.body = newBot;
 	} else {
