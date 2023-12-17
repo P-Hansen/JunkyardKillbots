@@ -1,9 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "botPortrit2",
+  "name": "bigHoverBot",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -12,10 +13,10 @@
     "path": "folders/Objects/bots.yy",
   },
   "parentObjectId": {
-    "name": "PortritClass",
-    "path": "objects/PortritClass/PortritClass.yy",
+    "name": "flyingBotClass",
+    "path": "objects/flyingBotClass/flyingBotClass.yy",
   },
-  "persistent": true,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -31,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprBotPortrit",
-    "path": "sprites/sprBotPortrit/sprBotPortrit.yy",
+    "name": "sprBigHoverBot",
+    "path": "sprites/sprBigHoverBot/sprBigHoverBot.yy",
   },
   "spriteMaskId": null,
   "visible": true,

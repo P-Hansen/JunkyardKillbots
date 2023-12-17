@@ -22,7 +22,7 @@ return choose(attackSpeedUpChip1, speedUpChip1, club1Item, hammer1Item, gunArmIt
 
 //returns a random blueprint that is not already owned by the player
 function randomBlueprint(){
-	var blueprintsArray = [hoverbotBlueprint, minibotBlueprint, tredBotBlueprint];
+	var blueprintsArray = [hoverbotBlueprint, minibotBlueprint, tredBotBlueprint, bigHoverBotBlueprint];
 	var blueprintsOwned = playerInventory.blueprints;
 	for(i = 0; i < array_length(blueprintsOwned); i++){
 		index = array_get_index(blueprintsArray, blueprintsOwned[i]);

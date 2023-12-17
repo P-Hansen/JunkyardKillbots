@@ -6,12 +6,12 @@ image_yscale = scale;
 
 pressedFlag = false;
 slot = noone;
-body = bot;
-refund = 50;
-weaponOffsetX = [3,7];
+body = bigHoverBot;
+refund = 100;
+weaponOffsetX = [6,10];
 weaponOffsetY = [5,5];
 
-chipSlots = array_create(3, noone);
+chipSlots = array_create(4, noone);
 weaponSlots = array_create(2, noone);
 //widgetSlots = array_create(1, noone);
 
@@ -21,6 +21,8 @@ chipSlots[1] = instance_create_layer(270, 215, layer, chipSlot);
 chipSlots[1].x -= 1000;
 chipSlots[2] = instance_create_layer(290, 215, layer, chipSlot);
 chipSlots[2].x -= 1000;
+chipSlots[3] = instance_create_layer(310, 215, layer, chipSlot);
+chipSlots[3].x -= 1000;
 
 weaponSlots[0] = instance_create_layer(200, 215, layer, weaponSlot);
 weaponSlots[0].x -= 1000;
