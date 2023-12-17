@@ -8,11 +8,13 @@ for (var i = 0; i < instance_number(levelIconClass); i++){
 }
 
 function allLevelsFinished(array){
-	status = false;
+	status = true;
 	
 	for (var i = 0; i < array_length(array); i++){
+		status = array[i].defeatedFlag;
 		if(status == false){
-			status = array[i].defeatedFlag;
+			status = false;
+			break;
 		}
 	}
 	return status
