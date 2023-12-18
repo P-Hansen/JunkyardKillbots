@@ -6,7 +6,7 @@ var finalScrapTotal = irandom_range(5, 15)*global.scavengerBonus;
 missionController.scrapFound += finalScrapTotal;
 
 var roll = irandom_range(0, 100);
-if (roll <= 25){
+if (roll <= 35){
 	var newItem = randomItem();
 	pushToInventory(newItem);
 	array_push(missionController.itemsFound, newItem);
