@@ -7,6 +7,7 @@ if(image_index == sprite_get_number(sprite_index)-1){
 	explostion.image_xscale = scale;
 	explostion.image_yscale = scale;
 //	instance_destroy(self);
+	instance_create_depth(x, y, -4, ash1);
 }
 
 image_index += 1;
