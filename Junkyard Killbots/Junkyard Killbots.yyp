@@ -180,6 +180,7 @@
     {"id":{"name":"sprGranadeLauncherIcon1","path":"sprites/sprGranadeLauncherIcon1/sprGranadeLauncherIcon1.yy",},},
     {"id":{"name":"sprLabTiles","path":"sprites/sprLabTiles/sprLabTiles.yy",},},
     {"id":{"name":"sprSensorRangeChip3","path":"sprites/sprSensorRangeChip3/sprSensorRangeChip3.yy",},},
+    {"id":{"name":"testButton1","path":"objects/testButton1/testButton1.yy",},},
     {"id":{"name":"sprGun2","path":"sprites/sprGun2/sprGun2.yy",},},
     {"id":{"name":"checkFor_object_xy","path":"scripts/checkFor_object_xy/checkFor_object_xy.yy",},},
     {"id":{"name":"sprClubIcon","path":"sprites/sprClubIcon/sprClubIcon.yy",},},

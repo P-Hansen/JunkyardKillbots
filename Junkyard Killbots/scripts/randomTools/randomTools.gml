@@ -25,12 +25,12 @@ function randomBlueprint(){
 	var blueprintsArray = [hoverbotBlueprint, minibotBlueprint, tredBotBlueprint, bigHoverBotBlueprint];
 	var blueprintsOwned = playerInventory.blueprints;
 	for(i = 0; i < array_length(blueprintsOwned); i++){
-		index = array_get_index(blueprintsArray, blueprintsOwned[i]);
+		index = array_get_index(blueprintsArray, blueprintsOwned[i].object_index);
 		if(index != -1){
 			array_delete(blueprintsArray, index, 1);
 		}
 	}
 	var shuffled = array_shuffle(blueprintsArray);
-	
+	//if there are no more bots to unlock will cause an error
 	return shuffled[0];
 }

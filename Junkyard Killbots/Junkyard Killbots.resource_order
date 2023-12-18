@@ -155,6 +155,7 @@
     {"name":"sprGranadeLauncherIcon1","order":68,"path":"sprites/sprGranadeLauncherIcon1/sprGranadeLauncherIcon1.yy",},
     {"name":"sprLabTiles","order":44,"path":"sprites/sprLabTiles/sprLabTiles.yy",},
     {"name":"sprSensorRangeChip3","order":64,"path":"sprites/sprSensorRangeChip3/sprSensorRangeChip3.yy",},
+    {"name":"testButton1","order":18,"path":"objects/testButton1/testButton1.yy",},
     {"name":"sprGun2","order":44,"path":"sprites/sprGun2/sprGun2.yy",},
     {"name":"sprClubIcon","order":4,"path":"sprites/sprClubIcon/sprClubIcon.yy",},
     {"name":"gun1","order":28,"path":"objects/gun1/gun1.yy",},
