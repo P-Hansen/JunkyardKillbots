@@ -305,6 +305,7 @@
     {"name":"sprTank","order":1,"path":"sprites/sprTank/sprTank.yy",},
     {"name":"botSlot","order":9,"path":"objects/botSlot/botSlot.yy",},
     {"name":"sprFireResistanceIcon3","order":79,"path":"sprites/sprFireResistanceIcon3/sprFireResistanceIcon3.yy",},
+    {"name":"sprRestartButton","order":59,"path":"sprites/sprRestartButton/sprRestartButton.yy",},
     {"name":"itemScrapper","order":4,"path":"objects/itemScrapper/itemScrapper.yy",},
     {"name":"sprPowerCore2","order":36,"path":"sprites/sprPowerCore2/sprPowerCore2.yy",},
     {"name":"fireResistanceChip3","order":68,"path":"objects/fireResistanceChip3/fireResistanceChip3.yy",},

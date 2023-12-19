@@ -340,6 +340,7 @@
     {"id":{"name":"sprTank","path":"sprites/sprTank/sprTank.yy",},},
     {"id":{"name":"botSlot","path":"objects/botSlot/botSlot.yy",},},
     {"id":{"name":"sprFireResistanceIcon3","path":"sprites/sprFireResistanceIcon3/sprFireResistanceIcon3.yy",},},
+    {"id":{"name":"sprRestartButton","path":"sprites/sprRestartButton/sprRestartButton.yy",},},
     {"id":{"name":"itemScrapper","path":"objects/itemScrapper/itemScrapper.yy",},},
     {"id":{"name":"sprPowerCore2","path":"sprites/sprPowerCore2/sprPowerCore2.yy",},},
     {"id":{"name":"fireResistanceChip3","path":"objects/fireResistanceChip3/fireResistanceChip3.yy",},},
