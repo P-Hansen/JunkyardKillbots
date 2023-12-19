@@ -322,6 +322,7 @@
     {"name":"sprTredBotPortrit","order":14,"path":"sprites/sprTredBotPortrit/sprTredBotPortrit.yy",},
     {"name":"sprSelfRepairChip1","order":71,"path":"sprites/sprSelfRepairChip1/sprSelfRepairChip1.yy",},
     {"name":"hammer1","order":17,"path":"objects/hammer1/hammer1.yy",},
+    {"name":"itemFoundEffect","order":21,"path":"objects/itemFoundEffect/itemFoundEffect.yy",},
     {"name":"gun3","order":32,"path":"objects/gun3/gun3.yy",},
     {"name":"minibotPortrit","order":7,"path":"objects/minibotPortrit/minibotPortrit.yy",},
     {"name":"obj_flame","order":1,"path":"objects/obj_flame/obj_flame.yy",},

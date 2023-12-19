@@ -358,6 +358,7 @@
     {"id":{"name":"sprTredBotPortrit","path":"sprites/sprTredBotPortrit/sprTredBotPortrit.yy",},},
     {"id":{"name":"sprSelfRepairChip1","path":"sprites/sprSelfRepairChip1/sprSelfRepairChip1.yy",},},
     {"id":{"name":"hammer1","path":"objects/hammer1/hammer1.yy",},},
+    {"id":{"name":"itemFoundEffect","path":"objects/itemFoundEffect/itemFoundEffect.yy",},},
     {"id":{"name":"gun3","path":"objects/gun3/gun3.yy",},},
     {"id":{"name":"minibotPortrit","path":"objects/minibotPortrit/minibotPortrit.yy",},},
     {"id":{"name":"obj_flame","path":"objects/obj_flame/obj_flame.yy",},},

@@ -13,4 +13,5 @@ if (roll <= 35){
 	var newItem = randomItem();
 	pushToInventory(newItem);
 	array_push(missionController.itemsFound, newItem);
+	showItemFound(newItem, x, y);
 }
