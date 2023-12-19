@@ -9,6 +9,8 @@ if place_meeting(x, y, itemScrapper) {
 		slot.item = noone;
 		slot.stackCount--;
 	}
+	var numberText = instance_create_depth(x, y, -5, scrapNumber);
+	numberText.amount = cost/2;
 	global.scrapTotal += cost/2;
 	instance_destroy(self);
 }

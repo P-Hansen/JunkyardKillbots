@@ -328,6 +328,7 @@
     {"name":"TileSetLab","order":1,"path":"tilesets/TileSetLab/TileSetLab.yy",},
     {"name":"oldBike","order":3,"path":"objects/oldBike/oldBike.yy",},
     {"name":"PortritClass","order":8,"path":"objects/PortritClass/PortritClass.yy",},
+    {"name":"scrapNumber","order":20,"path":"objects/scrapNumber/scrapNumber.yy",},
     {"name":"sprLazerGun","order":7,"path":"sprites/sprLazerGun/sprLazerGun.yy",},
     {"name":"sprPowerCore3","order":37,"path":"sprites/sprPowerCore3/sprPowerCore3.yy",},
   ],

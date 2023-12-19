@@ -364,6 +364,7 @@
     {"id":{"name":"TileSetLab","path":"tilesets/TileSetLab/TileSetLab.yy",},},
     {"id":{"name":"oldBike","path":"objects/oldBike/oldBike.yy",},},
     {"id":{"name":"PortritClass","path":"objects/PortritClass/PortritClass.yy",},},
+    {"id":{"name":"scrapNumber","path":"objects/scrapNumber/scrapNumber.yy",},},
     {"id":{"name":"sprLazerGun","path":"sprites/sprLazerGun/sprLazerGun.yy",},},
     {"id":{"name":"sprPowerCore3","path":"sprites/sprPowerCore3/sprPowerCore3.yy",},},
     {"id":{"name":"rmOilfield","path":"rooms/rmOilfield/rmOilfield.yy",},},

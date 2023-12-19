@@ -8,6 +8,8 @@ if (pressedFlag == true){
 	if place_meeting(x, y, itemScrapper) {
 		//clear old slot
 		slot.bots = noone;
+		var numberText = instance_create_depth(x, y, -5, scrapNumber);
+		numberText.amount = refund;
 		global.scrapTotal += refund;
 		instance_destroy(self);
 	}
