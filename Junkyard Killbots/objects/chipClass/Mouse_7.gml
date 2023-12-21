@@ -44,7 +44,7 @@ if place_meeting(x, y, chipSlot) || place_meeting(x, y, anyItemSlot) {
 		slot.stackCount++;
 	}
 //auto equip area around bot
-} else if place_meeting(x, y, autoEquip) {
+} else if (place_meeting(x, y, autoEquip) and instance_exists(playerInventory.robots[repairController.botSelection].bots)) {
 	//clear old slot
 	if instance_exists(slot) {
 		slot.item = noone;

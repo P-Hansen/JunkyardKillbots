@@ -7,7 +7,7 @@ if(amount > 0){
 	draw_text_transformed_color(x, y, "+"+string(amount)+" Scrap", 0.5, 0.5, 0, textColour, textColour, textColour, textColour, 1);
 } else {
 	//for negative values
-	draw_text_transformed_color(x, y, string(amount)+" Scrap", 0.5, 0.5, 0, textColour, textColour, textColour, textColour, 1);
+	draw_text_transformed_color(x, y, string(amount)+" Scrap", 0.5, 0.5, 0, c_red, c_red, c_red, c_red, 1);
 }
 y -= 0.4;
 
