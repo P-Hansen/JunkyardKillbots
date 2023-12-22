@@ -1,7 +1,5 @@
 /// @description taunt
 
-tauntRange = 100;
-
 with(enemyClass){
 	var distnace = point_distance(x, y, other.x, other.y);
 	if(distnace < other.tauntRange){

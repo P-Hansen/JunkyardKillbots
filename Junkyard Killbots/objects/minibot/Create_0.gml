@@ -26,5 +26,6 @@ state = states.attack;
 fireResistance = 0;
 seeTraps = false;
 doNotAttack = false;
+tauntRange = 100;
 
 alarm[1] = game_get_speed(gamespeed_fps)*1;

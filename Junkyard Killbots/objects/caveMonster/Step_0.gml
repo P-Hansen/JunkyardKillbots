@@ -1,6 +1,9 @@
 /// @description 
 
-target = instance_nearest(x,y,botClass);
+if(!instance_exists(target)){
+	target = instance_nearest(x,y,botClass);
+}
+
 if (direction > 90 and direction < 270){
 	image_xscale = -1;
 } else {

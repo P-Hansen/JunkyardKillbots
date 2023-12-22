@@ -1,6 +1,8 @@
 /// @description 
+if(!instance_exists(target)){
+	target = instance_nearest(x,y,botClass);
+}
 
-target = instance_nearest(x,y,botClass);
 if (direction > 90 and direction < 270){
 	image_xscale = -1;
 } else {
@@ -41,6 +43,7 @@ if (state == states.idle){
 		direction = point_direction(x, y, target.x, target.y)
 		speed = maxSpeed;
 	}
+	
 	if (distance_to_object(target) <= range){
 		state = states.attack;
 		image_index = sprites[states.idle];

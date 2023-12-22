@@ -142,6 +142,7 @@
     {"id":{"name":"attackSpeedCore","path":"objects/attackSpeedCore/attackSpeedCore.yy",},},
     {"id":{"name":"sprCaveMonsterAttack","path":"sprites/sprCaveMonsterAttack/sprCaveMonsterAttack.yy",},},
     {"id":{"name":"itemRecoveryChip1","path":"objects/itemRecoveryChip1/itemRecoveryChip1.yy",},},
+    {"id":{"name":"tauntChip2","path":"objects/tauntChip2/tauntChip2.yy",},},
     {"id":{"name":"sprStalicmites","path":"sprites/sprStalicmites/sprStalicmites.yy",},},
     {"id":{"name":"sprClub1","path":"sprites/sprClub1/sprClub1.yy",},},
     {"id":{"name":"oilfieldLevelIcon","path":"objects/oilfieldLevelIcon/oilfieldLevelIcon.yy",},},
