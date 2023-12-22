@@ -16,6 +16,12 @@ if (swingFlag == true) {
 		audio_play_sound(sfxHit, 0, 0);
         swingFlag = false;
 		dmgNumber(finalDamage, target.x, target.y);
+		//scrap generated
+		missionController.scrapFound += scrapGen;
+		global.scrapTotal += scrapGen;
+		//displaying numbers
+		var numberText = instance_create_depth(x, y, -5, scrapNumber);
+		numberText.amount = scrapGen;
     }
 }
 

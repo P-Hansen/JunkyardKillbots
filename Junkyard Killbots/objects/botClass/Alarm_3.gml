@@ -7,6 +7,7 @@ with(enemyClass){
 	}
 }
 
-audio_play_sound(sfxHit, 0, 0);
-alarm[3] = game_get_speed(gamespeed_fps)*1;
+bubble = instance_create_depth(x+eyeX+5, y+eyeY-5, -5, speachBubble);
+audio_play_sound(sfxDestroy, 0, 0);
+alarm[3] = game_get_speed(gamespeed_fps)*2;
 

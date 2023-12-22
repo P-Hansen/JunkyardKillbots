@@ -30,5 +30,8 @@ fireResistance = 0;
 seeTraps = false;
 doNotAttack = false;
 tauntRange = 100;
+eyeX = 1;
+eyeY = -5;
+bubble = noone;
 
 alarm[1] = game_get_speed(gamespeed_fps)*1;

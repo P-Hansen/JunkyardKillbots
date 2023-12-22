@@ -55,6 +55,12 @@ if(slot4 != noone){
 	slot4.y = y+5;
 }
 
+//updating speech bubble
+if(instance_exists(bubble)){
+	bubble.x = x+eyeX+5;
+	bubble.y = y+eyeY-5;
+}
+
 //death
 if (hp <= 0){
 	instance_destroy(self);
