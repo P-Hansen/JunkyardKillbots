@@ -1,6 +1,9 @@
 /// @description drag and drop off
 
 if (pressedFlag == true){
+	
+	playerInventory.robots[repairController.botSelection].image_index = 0;
+	
 	//item scrapper
 	if place_meeting(x, y, itemScrapper) {
 		//clear old slot
@@ -39,13 +42,6 @@ if (pressedFlag == true){
 		y = slot.y;
 		var index = array_get_index(playerInventory.robots, slot);
 		repairController.botSelection = index;
-	}
-
-	//showing slots
-	if instance_exists(playerInventory.robots[repairController.botSelection].bots){
-		showEachSlot(playerInventory.robots[repairController.botSelection].bots.chipSlots);
-		showEachSlot(playerInventory.robots[repairController.botSelection].bots.weaponSlots);
-		//showEachSlot(playerInventory.robots[repairController.botSelection].bots.widgetSlots);
 	}
 	
 	//change selected frame
