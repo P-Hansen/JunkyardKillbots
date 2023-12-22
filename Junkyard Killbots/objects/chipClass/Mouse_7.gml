@@ -31,6 +31,7 @@ if place_meeting(x, y, chipSlot) || place_meeting(x, y, anyItemSlot) {
 		y = slot.y;
 		slot.item = self;
 		slot.stackCount++;
+		audio_play_sound(choose(sfxChipClick1, sfxChipClick2), 0, 0);
 	} else if object_get_name(newSlot.object_index) == "anyItemSlot" && (object_get_name(newSlot.item.object_index) == object_get_name(object_index)){
 		slot = newSlot;
 		x = slot.x;
@@ -66,6 +67,7 @@ if place_meeting(x, y, chipSlot) || place_meeting(x, y, anyItemSlot) {
 		y = slot.y;
 		slot.item = self;
 		slot.stackCount++;
+		audio_play_sound(choose(sfxChipClick1, sfxChipClick2), 0, 0);
 	//no empty slots move back
 	} else {
 		x = slot.x;
