@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "bots",
-    "path": "folders/Objects/bots.yy",
+    "name": "portrits",
+    "path": "folders/Objects/bots/portrits.yy",
   },
   "parentObjectId": {
     "name": "minibotPortrit",

@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "bots",
-    "path": "folders/Objects/bots.yy",
+    "name": "blueprints",
+    "path": "folders/Objects/bots/blueprints.yy",
   },
   "parentObjectId": {
     "name": "BlueprintClass",

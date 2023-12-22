@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "bots",
-    "path": "folders/Objects/bots.yy",
+    "path": "folders/Objects/bots/bots.yy",
   },
   "parentObjectId": {
     "name": "flyingBotClass",

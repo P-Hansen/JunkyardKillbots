@@ -9,5 +9,6 @@ cost = 100;
 upgrade = armorChip2;
 
 modifierFunction = function(newBot){
-	newBot.baseArmor = newBot.baseArmor*0.9;
+	newBot.alarm[3] = 1;
+	newBot.doNotAttack = true;
 }
