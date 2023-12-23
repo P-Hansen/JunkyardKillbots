@@ -4,11 +4,11 @@ pressedFlag = false;
 slot = noone;
 hoverFlag = false;
 hoverCounter = 2*game_get_speed(gamespeed_fps);
-description = " Flamethrower, 15-20dmg cooldown 0.1 sec be carefull of splash damage";
+description = " Flamethrower, 20-25dmg cooldown 0.1 sec be carefull of splash damage";
 range = 40;
 cost = 100;
-upgrade = flameThrowerItem3;
-botWeapon = flameThrower2;
+upgrade = noone;
+botWeapon = flameThrower3;
 
 modifierFunction = function(newBot){
 	if (newBot.slot1 == noone){
