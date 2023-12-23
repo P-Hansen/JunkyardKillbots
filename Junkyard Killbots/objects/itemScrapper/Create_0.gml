@@ -7,3 +7,4 @@ image_yscale = scale;
 
 item = noone;
 stackCount = 0;
+open = false;
