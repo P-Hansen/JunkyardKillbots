@@ -25,6 +25,6 @@ function displayFunction(element, index){
 	if(instance_exists(element.item)){
 		var portrait = playerInventory.robots[botSelection].bots;
 		var sprite = object_get_sprite(element.item.botWeapon);
-		draw_sprite_ext(sprite, 0, room_width/2+portrait.weaponOffsetX[index]*3.75, room_height/2+portrait.weaponOffsetY[index]*3.75-20, 3.75, 3.75, 0, c_white, 1);
+		draw_sprite_ext(sprite, 0, room_width/2+portrait.weaponOffsetX[index]*3.75, room_height/2+portrait.weaponOffsetY[index]*3.75-15, 3.75, 3.75, 0, c_white, 1);
 	}
 }

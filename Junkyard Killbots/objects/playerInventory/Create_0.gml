@@ -13,11 +13,11 @@ for(var i = 0; i < array_length(robots); i++){
 	robots[i] = instance_create_layer(xOffset, 10.5+i*21, layer, botSlot);
 }
 //starting 3 bots
-robots[3].bots = instance_create_layer(robots[3].x, robots[3].y, layer, hoverbotPortrit);
+robots[3].bots = instance_create_layer(robots[3].x, robots[3].y, layer, minibotPortrit);
 robots[3].bots.slot = robots[3];
-robots[5].bots = instance_create_layer(robots[5].x, robots[5].y, layer, tredBotPortrit);
+robots[5].bots = instance_create_layer(robots[5].x, robots[5].y, layer, botPortrit);
 robots[5].bots.slot = robots[5];
-robots[7].bots = instance_create_layer(robots[7].x, robots[7].y, layer, bigHoverBotPortrit);
+robots[7].bots = instance_create_layer(robots[7].x, robots[7].y, layer, minibotPortrit);
 robots[7].bots.slot = robots[7];
 
 items = array_create(24, noone);
@@ -53,7 +53,7 @@ items[14].item.slot.stackCount++;
 //blueprints
 blueprints = array_create(2, noone);
 blueprints[0] = instance_create_layer(-1000, -1000, layer, botBlueprint);
-blueprints[1] = instance_create_layer(-1000, -1000, layer, fridgebotBlueprint);
+blueprints[1] = instance_create_layer(-1000, -1000, layer, minibotBlueprint);
 
 //hide item slots off screen
 function hideItems(){
