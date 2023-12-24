@@ -14,8 +14,6 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9d75620a-0770-45f7-b606-15d42ae618f5",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b43f3e32-b748-40f9-8ee9-2a741e63f811",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"77bd95e8-e8b4-491a-aeeb-b48e22f55f1f",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -46,7 +44,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 3.0,
+    "length": 1.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -58,8 +56,6 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9d75620a-0770-45f7-b606-15d42ae618f5","path":"sprites/sprClubIcon/sprClubIcon.yy",},},},"Disabled":false,"id":"a7339a77-65b8-4673-89d5-3dd06c568e31","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b43f3e32-b748-40f9-8ee9-2a741e63f811","path":"sprites/sprClubIcon/sprClubIcon.yy",},},},"Disabled":false,"id":"e2e9285e-bce2-4f20-81bb-b3896034fe53","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"77bd95e8-e8b4-491a-aeeb-b48e22f55f1f","path":"sprites/sprClubIcon/sprClubIcon.yy",},},},"Disabled":false,"id":"7771d935-864f-4f44-9f0a-f385e0b64d50","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
