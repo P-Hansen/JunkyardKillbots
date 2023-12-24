@@ -18,3 +18,9 @@ if(instance_number(enemyClass) < 1 and levelEndFlag == false) or
 	//global.scrapTotal += scrapFound;
 	levelEndFlag = true;
 }
+//game over
+if(global.scrapTotal < 0 and gameOver == false){
+	alarm[1] = game_get_speed(gamespeed_fps)*5;
+	gameOver = true;
+	levelEndFlag = true;
+}

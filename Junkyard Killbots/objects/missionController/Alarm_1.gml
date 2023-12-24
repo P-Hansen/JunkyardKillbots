@@ -1,3 +1,7 @@
 /// @description go home
 
-room_goto(rmRepair);
+if(gameOver == true){
+	game_restart();
+} else {
+	room_goto(rmRepair);
+}

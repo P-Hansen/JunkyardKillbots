@@ -12,6 +12,7 @@ scrapFound = 0;
 itemsFound = [];
 blueprintsFound = [];
 levelEndFlag = false;
+gameOver = false;
 
 //enemy unit spawn
 for(var i = 3*global.difficultyLevel; i > 0; i--;){
