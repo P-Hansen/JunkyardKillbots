@@ -29,8 +29,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "sprBot",
-    "path": "sprites/sprBot/sprBot.yy",
+    "name": "sprBotSantaHat",
+    "path": "sprites/sprBotSantaHat/sprBotSantaHat.yy",
   },
   "spriteMaskId": null,
   "visible": true,
