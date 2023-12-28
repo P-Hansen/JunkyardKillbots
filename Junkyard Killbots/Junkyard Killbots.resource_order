@@ -139,6 +139,7 @@
     {"name":"sprHammer1","order":26,"path":"sprites/sprHammer1/sprHammer1.yy",},
     {"name":"enemyClass","order":2,"path":"objects/enemyClass/enemyClass.yy",},
     {"name":"sprPowerCore1","order":13,"path":"sprites/sprPowerCore1/sprPowerCore1.yy",},
+    {"name":"sprTextBox2","order":62,"path":"sprites/sprTextBox2/sprTextBox2.yy",},
     {"name":"sprMiniBot","order":4,"path":"sprites/sprMiniBot/sprMiniBot.yy",},
     {"name":"club2Item","order":21,"path":"objects/club2Item/club2Item.yy",},
     {"name":"tank","order":6,"path":"objects/tank/tank.yy",},

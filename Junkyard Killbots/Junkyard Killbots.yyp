@@ -164,6 +164,7 @@
     {"id":{"name":"sprHammer1","path":"sprites/sprHammer1/sprHammer1.yy",},},
     {"id":{"name":"enemyClass","path":"objects/enemyClass/enemyClass.yy",},},
     {"id":{"name":"sprPowerCore1","path":"sprites/sprPowerCore1/sprPowerCore1.yy",},},
+    {"id":{"name":"sprTextBox2","path":"sprites/sprTextBox2/sprTextBox2.yy",},},
     {"id":{"name":"sprMiniBot","path":"sprites/sprMiniBot/sprMiniBot.yy",},},
     {"id":{"name":"club2Item","path":"objects/club2Item/club2Item.yy",},},
     {"id":{"name":"tank","path":"objects/tank/tank.yy",},},
