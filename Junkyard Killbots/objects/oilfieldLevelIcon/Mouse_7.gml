@@ -1,5 +1,5 @@
 /// @description Insert description here
-
+/*
 if(image_index == 0){
 	global.difficultyLevel = difficulty;
 	global.enemyPool = [tank, teslaTowerSmall, mine];
@@ -7,4 +7,4 @@ if(image_index == 0){
 
 	room_goto(rmOilfield);
 }
-
+*/
