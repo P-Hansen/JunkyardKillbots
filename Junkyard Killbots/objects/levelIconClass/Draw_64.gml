@@ -2,28 +2,15 @@
 
 //printing hover box
 if(selectedFlag == true){
-	var spriteHeight = sprite_get_height(sprTextBox2);
-	var spriteWidth = sprite_get_width(sprTextBox2)-10;
-	var bottomY = (y*2) + spriteHeight/2;
-	var stringHeight = string_height_ext(description, 15, spriteWidth);
-	if(bottomY < room_height*2){ //top
-		if(x > room_width/2){ //right
-			draw_sprite_stretched(sprTextBox2, 0, (x*2)-(140+90), (y*2)-30, spriteWidth, stringHeight);
-			draw_text_ext((x*2)-(140+90), (y*2)-30, description, 15, spriteWidth);
-		} else { //left
-			draw_sprite_stretched(sprTextBox2, 0, (x*2)+50, (y*2)-30, spriteWidth, stringHeight);
-			draw_text_ext((x*2)+50, (y*2)-30, description, 15, spriteWidth);
-		}
-	} else { //bottom
-		if(x > room_width/2){ //right
-			draw_sprite_stretched(sprTextBox2, 0, (x*2)-145, (y*2)-stringHeight, spriteWidth, stringHeight);
-			draw_text_ext((x*2)-140, (y*2)-stringHeight, description, 15, spriteWidth);
-		} else { //left
-			draw_sprite_stretched(sprTextBox2, 0, (x*2), (y*2)-stringHeight, spriteWidth, stringHeight);
-			draw_text_ext((x*2), (y*2)-stringHeight, description, 15, spriteWidth);
-		}
-	}
-
+	draw_sprite_stretched(sprTextBox2, 0, room_width*2-200, 0, 200, 512);
+	draw_sprite(sprite_index, image_index, room_width*2-100, 50);
+	draw_set_halign(fa_center);
+	var defaultFont = draw_get_font();
+	draw_set_font(fontLevelHeading);
+	draw_text(room_width*2-100, 85, name);
+	draw_set_halign(fa_left);
+	draw_set_font(defaultFont);
+	draw_text_ext(room_width*2-195, 110, description, 15, 190);
 }
 
 

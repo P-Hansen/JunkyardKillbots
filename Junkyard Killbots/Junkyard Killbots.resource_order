@@ -117,6 +117,7 @@
     {"name":"sprRepairsButton","order":18,"path":"sprites/sprRepairsButton/sprRepairsButton.yy",},
     {"name":"fastForwardButton","order":8,"path":"objects/fastForwardButton/fastForwardButton.yy",},
     {"name":"chipClass","order":4,"path":"objects/chipClass/chipClass.yy",},
+    {"name":"fontLevelHeading","order":1,"path":"fonts/fontLevelHeading/fontLevelHeading.yy",},
     {"name":"sprTredBot","order":7,"path":"sprites/sprTredBot/sprTredBot.yy",},
     {"name":"rmMissionSelect","order":3,"path":"rooms/rmMissionSelect/rmMissionSelect.yy",},
     {"name":"attackSpeedCore","order":7,"path":"objects/attackSpeedCore/attackSpeedCore.yy",},

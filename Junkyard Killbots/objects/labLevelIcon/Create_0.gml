@@ -7,6 +7,6 @@ flashTimer = 0;
 fade = 1;
 defeatedFlag = false;
 
-name = "Level Name"
-description = "-enemy 1\n  -mines\n  -a third thing";
+name = "Laboratory"
+description = "defeating this level unlocks a new bot design.";
 selectedFlag = false;
