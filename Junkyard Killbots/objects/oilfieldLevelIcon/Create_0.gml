@@ -7,8 +7,8 @@ flashTimer = 0;
 fade = 1;
 defeatedFlag = false;
 
-name = "Level Name"
-description = "-enemy 1\n  -mines\n  -a third thing";
+name = "Oilfield"
+description = "-Tanks\n-Mines";
 selectedFlag = false;
-enemySprites = [sprSoldierFire, sprBarrel];
+enemySprites = [sprTank, sprMine];
 numberOfEnemies = 2+1;

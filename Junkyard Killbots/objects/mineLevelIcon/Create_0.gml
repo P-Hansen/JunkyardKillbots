@@ -7,8 +7,8 @@ flashTimer = 0;
 fade = 1;
 defeatedFlag = false;
 
-name = "Level Name"
-description = "-enemy 1\n  -mines\n  -a third thing";
+name = "Mine"
+description = "-Rock monsters\n-Large cave monster";
 selectedFlag = false;
-enemySprites = [sprSoldierFire, sprBarrel];
+enemySprites = [sprStoneMonsterAttack, sprCaveMonsterWalk];
 numberOfEnemies = 2+1;
