@@ -73,6 +73,7 @@
     {"id":{"name":"sprBigHoverBot","path":"sprites/sprBigHoverBot/sprBigHoverBot.yy",},},
     {"id":{"name":"sprDefenceUpIcon1","path":"sprites/sprDefenceUpIcon1/sprDefenceUpIcon1.yy",},},
     {"id":{"name":"sprLargeJunk","path":"sprites/sprLargeJunk/sprLargeJunk.yy",},},
+    {"id":{"name":"rmMissionSelect2","path":"rooms/rmMissionSelect2/rmMissionSelect2.yy",},},
     {"id":{"name":"playerInventory","path":"objects/playerInventory/playerInventory.yy",},},
     {"id":{"name":"sprMiniBotPortrit","path":"sprites/sprMiniBotPortrit/sprMiniBotPortrit.yy",},},
     {"id":{"name":"sprFridgeBotPortrit","path":"sprites/sprFridgeBotPortrit/sprFridgeBotPortrit.yy",},},
@@ -393,6 +394,7 @@
     {"id":{"name":"botPortrit","path":"objects/botPortrit/botPortrit.yy",},},
     {"id":{"name":"minibotBlueprint","path":"objects/minibotBlueprint/minibotBlueprint.yy",},},
     {"id":{"name":"sprDefenceUpIcon2","path":"sprites/sprDefenceUpIcon2/sprDefenceUpIcon2.yy",},},
+    {"id":{"name":"sprMcBurgerIcon","path":"sprites/sprMcBurgerIcon/sprMcBurgerIcon.yy",},},
     {"id":{"name":"sprClub3","path":"sprites/sprClub3/sprClub3.yy",},},
     {"id":{"name":"widgetSlot","path":"objects/widgetSlot/widgetSlot.yy",},},
     {"id":{"name":"sprGranade","path":"sprites/sprGranade/sprGranade.yy",},},
@@ -426,6 +428,7 @@
     {"roomId":{"name":"rmLab","path":"rooms/rmLab/rmLab.yy",},},
     {"roomId":{"name":"rmMine","path":"rooms/rmMine/rmMine.yy",},},
     {"roomId":{"name":"rmFactory","path":"rooms/rmFactory/rmFactory.yy",},},
+    {"roomId":{"name":"rmMissionSelect2","path":"rooms/rmMissionSelect2/rmMissionSelect2.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
