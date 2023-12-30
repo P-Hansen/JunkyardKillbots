@@ -12,6 +12,7 @@ description = "Enemies:\n -Experimental scientists\n\n\ndefeating this level unl
 selectedFlag = false;
 enemySprites = [sprSoldierFire];
 numberOfEnemies = 1+1;
+enemyPool = [soldier, barrel];
 
 button = instance_create_depth(room_width-50, room_height-25, -50, launchButton);
 button.level = rmLab;

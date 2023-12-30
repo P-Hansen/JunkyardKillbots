@@ -8,6 +8,6 @@ if(!position_meeting(mouse_x, mouse_y, self)){
 	selectedFlag = true;
 	
 	global.difficultyLevel = difficulty;
-	global.enemyPool = [trashPile, largeJunk, barrel];
+	global.enemyPool = enemyPool;
 	global.currentLevelIcon = self;
 }

@@ -12,6 +12,7 @@ description = "Enemies:\n -none\n\nNo enemies will spawn here. Each level only a
 selectedFlag = false;
 enemySprites = [];
 numberOfEnemies = 1;
+enemyPool = [trashPile, largeJunk, barrel];
 
 button = instance_create_depth(room_width-50, room_height-25, -50, launchButton);
 button.level = rmScrapyard;
