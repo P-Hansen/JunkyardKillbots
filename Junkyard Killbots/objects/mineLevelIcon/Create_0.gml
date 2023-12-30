@@ -12,3 +12,6 @@ description = "-Rock monsters\n-Large cave monster";
 selectedFlag = false;
 enemySprites = [sprStoneMonsterAttack, sprCaveMonsterWalk];
 numberOfEnemies = 2+1;
+
+button = instance_create_depth(room_width-50, room_height-25, -50, launchButton);
+button.level = rmMine;

@@ -253,7 +253,7 @@
     {"name":"sprGranadeLauncherIcon3","order":70,"path":"sprites/sprGranadeLauncherIcon3/sprGranadeLauncherIcon3.yy",},
     {"name":"damageNumber","order":11,"path":"objects/damageNumber/damageNumber.yy",},
     {"name":"sprChipSlot","order":14,"path":"sprites/sprChipSlot/sprChipSlot.yy",},
-    {"name":"MissionsButton","order":4,"path":"objects/MissionsButton/MissionsButton.yy",},
+    {"name":"launchButton","order":8,"path":"objects/launchButton/launchButton.yy",},
     {"name":"sfxReload1","order":5,"path":"sounds/sfxReload1/sfxReload1.yy",},
     {"name":"botBlueprint","order":2,"path":"objects/botBlueprint/botBlueprint.yy",},
     {"name":"groundBotClass","order":5,"path":"objects/groundBotClass/groundBotClass.yy",},

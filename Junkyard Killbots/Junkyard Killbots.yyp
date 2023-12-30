@@ -283,7 +283,7 @@
     {"id":{"name":"damageNumber","path":"objects/damageNumber/damageNumber.yy",},},
     {"id":{"name":"sprChipSlot","path":"sprites/sprChipSlot/sprChipSlot.yy",},},
     {"id":{"name":"sfxHit","path":"sounds/sfxHit/sfxHit.yy",},},
-    {"id":{"name":"MissionsButton","path":"objects/MissionsButton/MissionsButton.yy",},},
+    {"id":{"name":"launchButton","path":"objects/launchButton/launchButton.yy",},},
     {"id":{"name":"sfxReload1","path":"sounds/sfxReload1/sfxReload1.yy",},},
     {"id":{"name":"botBlueprint","path":"objects/botBlueprint/botBlueprint.yy",},},
     {"id":{"name":"groundBotClass","path":"objects/groundBotClass/groundBotClass.yy",},},

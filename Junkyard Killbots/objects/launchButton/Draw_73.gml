@@ -1,5 +1,5 @@
 /// @description Insert description here
 
-room_goto(rmMissionSelect);
-
-
+if(visibleFlag == true){
+	draw_self();
+}

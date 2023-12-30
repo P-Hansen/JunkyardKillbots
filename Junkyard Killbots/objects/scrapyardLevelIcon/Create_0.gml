@@ -12,3 +12,6 @@ description = "No enemies will spawn here. Each level only adds more junk where 
 selectedFlag = false;
 enemySprites = [];
 numberOfEnemies = 1;
+
+button = instance_create_depth(room_width-50, room_height-25, -50, launchButton);
+button.level = rmScrapyard;
