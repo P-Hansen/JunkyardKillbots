@@ -8,7 +8,7 @@ fade = 1;
 defeatedFlag = false;
 
 name = "Laboratory"
-description = "-Experimental scientists\n\n\ndefeating this level unlocks a new bot design.";
+description = "Enemies:\n -Experimental scientists\n\n\ndefeating this level unlocks a new bot design.";
 selectedFlag = false;
 enemySprites = [sprSoldierFire];
 numberOfEnemies = 1+1;

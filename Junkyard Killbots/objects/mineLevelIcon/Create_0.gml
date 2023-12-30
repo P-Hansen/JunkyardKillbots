@@ -8,7 +8,7 @@ fade = 1;
 defeatedFlag = false;
 
 name = "Mine"
-description = "-Rock monsters\n-Large cave monster";
+description = "Enemies:\n -Rock monsters\n -Large cave monster";
 selectedFlag = false;
 enemySprites = [sprStoneMonsterAttack, sprCaveMonsterWalk];
 numberOfEnemies = 2+1;

@@ -8,7 +8,7 @@ fade = 1;
 defeatedFlag = false;
 
 name = "Oilfield"
-description = "-Tanks\n-Mines";
+description = "Enemies:\n -Tanks\n -Mines";
 selectedFlag = false;
 enemySprites = [sprTank, sprMine];
 numberOfEnemies = 2+1;
