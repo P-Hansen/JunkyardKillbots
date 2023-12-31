@@ -10,9 +10,9 @@ defeatedFlag = false;
 name = "Laboratory"
 description = "Enemies:\n -Experimental scientists\n\n\ndefeating this level unlocks a new bot design.";
 selectedFlag = false;
-enemySprites = [sprSoldierFire];
+enemySprites = [sprScientistFire];
 numberOfEnemies = 1+1;
-enemyPool = [soldier, barrel];
+enemyPool = [scientist, barrel];
 
 button = instance_create_depth(room_width-50, room_height-25, -50, launchButton);
 button.level = rmLab;

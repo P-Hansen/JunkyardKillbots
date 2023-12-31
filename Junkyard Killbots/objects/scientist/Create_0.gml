@@ -12,10 +12,10 @@ baseArmor = 1;
 
 state = states.idle;
 
-sprites[states.idle] = sprSoldierIdle;
-sprites[states.wander] = sprSoldierWalk;
-sprites[states.alert] = sprSoldierWalk;
-sprites[states.attack] = sprSoldierFire;
+sprites[states.idle] = sprScientistIdle;
+sprites[states.wander] = sprScientistWalk;
+sprites[states.alert] = sprScientistWalk;
+sprites[states.attack] = sprScientistFire;
 
 alarm[0] = 1;
 alarm[1] = game_get_speed(gamespeed_fps)*2;

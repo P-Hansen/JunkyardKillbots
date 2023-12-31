@@ -3,10 +3,10 @@
 
 state = states.idle;
 
-sprites[states.idle] = sprSoldierIdle;
-sprites[states.wander] = sprSoldierWalk;
-sprites[states.alert] = sprSoldierWalk;
-sprites[states.attack] = sprSoldierFire;
+sprites[states.idle] = sprScientistIdle;
+sprites[states.wander] = sprScientistWalk;
+sprites[states.alert] = sprScientistWalk;
+sprites[states.attack] = sprScientistFire;
 
 flashTimer = 0;
 baseArmor = 1;

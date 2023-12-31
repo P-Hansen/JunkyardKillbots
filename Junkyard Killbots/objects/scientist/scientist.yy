@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "soldier",
+  "name": "scientist",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprSoldierWalk",
-    "path": "sprites/sprSoldierWalk/sprSoldierWalk.yy",
+    "name": "sprScientistWalk",
+    "path": "sprites/sprScientistWalk/sprScientistWalk.yy",
   },
   "spriteMaskId": null,
   "visible": true,

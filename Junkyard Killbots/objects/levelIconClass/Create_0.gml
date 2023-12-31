@@ -10,7 +10,7 @@ defeatedFlag = false;
 name = "Level Name"
 description = "-enemy 1\n  -mines\n  -a third thing";
 selectedFlag = false;
-enemySprites = [sprSoldierFire, sprBarrel];
+enemySprites = [sprScientistFire, sprBarrel];
 numberOfEnemies = 2+1;
 enemyPool = [trashPile, largeJunk, barrel];
 
