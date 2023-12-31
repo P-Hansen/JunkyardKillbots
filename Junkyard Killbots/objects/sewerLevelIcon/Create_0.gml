@@ -8,9 +8,9 @@ fade = 1;
 defeatedFlag = false;
 
 name = "Sewer"
-description = "Enemies:\n -Slimes\n -Roaches\n -Mutants";
+description = "Enemies:\n -Roaches\n -Slimes\n -Mutants";
 selectedFlag = false;
-enemySprites = [sprSlime, sprBigRoach, sprRoach, sprMutantIdle];
+enemySprites = [sprRoach, sprBigRoach, sprSlime, sprMutantIdle];
 numberOfEnemies = 5;
 enemyPool = [slime, slime, roachGroup, mutant];
 

@@ -7,12 +7,12 @@ flashTimer = 0;
 fade = 1;
 defeatedFlag = false;
 
-name = "McBurger"
-description = "Enemies:\n -Roaches";
+name = "Military Outpost"
+description = "Enemies:\n -Mines\n -Soldiers\n -Tanks";
 selectedFlag = false;
-enemySprites = [sprRoach, sprBigRoach];
+enemySprites = [sprMine, sprSoldierIdle, sprTank];
 numberOfEnemies = 2+1;
-enemyPool = [roachGroup];
+enemyPool = [mine, tank];
 
 button = instance_create_depth(room_width-50, room_height-25, -50, launchButton);
-button.level = rmMcburger;
+button.level = rmMilitaryOutpost;
