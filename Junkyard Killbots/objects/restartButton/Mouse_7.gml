@@ -14,4 +14,4 @@ if(fiveSecondFlag == false){
 	global.scrapTotal += missionController.scrapFound;
 }
 
-room_goto(rmMissionSelect);
+room_goto(global.currentWorld);
