@@ -14,6 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"43245a4a-26f9-4f3b-bbd4-5b80ad0195d2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"08eef1dd-d198-4d5f-9347-efd33d6b9860",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -44,7 +45,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -56,6 +57,7 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"43245a4a-26f9-4f3b-bbd4-5b80ad0195d2","path":"sprites/sprMilitaryOutpostIcon/sprMilitaryOutpostIcon.yy",},},},"Disabled":false,"id":"dee6e51b-b087-4aae-9859-924e92554e5b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"08eef1dd-d198-4d5f-9347-efd33d6b9860","path":"sprites/sprMilitaryOutpostIcon/sprMilitaryOutpostIcon.yy",},},},"Disabled":false,"id":"916cb3f9-7796-4b6c-9802-765de824bcc4","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

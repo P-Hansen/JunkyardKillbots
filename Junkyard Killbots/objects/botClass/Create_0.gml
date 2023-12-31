@@ -34,3 +34,4 @@ bubble = noone;
 
 
 alarm[1] = game_get_speed(gamespeed_fps)*1;
+alarm[4] = game_get_speed(gamespeed_fps)*0.5;
