@@ -253,6 +253,7 @@
     {"id":{"name":"saw1","path":"objects/saw1/saw1.yy",},},
     {"id":{"name":"sprRightArrow","path":"sprites/sprRightArrow/sprRightArrow.yy",},},
     {"id":{"name":"sprBotSantaHatPortrit","path":"sprites/sprBotSantaHatPortrit/sprBotSantaHatPortrit.yy",},},
+    {"id":{"name":"sprBench","path":"sprites/sprBench/sprBench.yy",},},
     {"id":{"name":"sensorRangeChip3","path":"objects/sensorRangeChip3/sensorRangeChip3.yy",},},
     {"id":{"name":"speedUpChip1","path":"objects/speedUpChip1/speedUpChip1.yy",},},
     {"id":{"name":"sprHammer2","path":"sprites/sprHammer2/sprHammer2.yy",},},

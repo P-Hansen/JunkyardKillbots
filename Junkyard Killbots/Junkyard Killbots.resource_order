@@ -226,6 +226,7 @@
     {"name":"saw1","order":38,"path":"objects/saw1/saw1.yy",},
     {"name":"sprRightArrow","order":29,"path":"sprites/sprRightArrow/sprRightArrow.yy",},
     {"name":"sprBotSantaHatPortrit","order":20,"path":"sprites/sprBotSantaHatPortrit/sprBotSantaHatPortrit.yy",},
+    {"name":"sprBench","order":65,"path":"sprites/sprBench/sprBench.yy",},
     {"name":"sensorRangeChip3","order":55,"path":"objects/sensorRangeChip3/sensorRangeChip3.yy",},
     {"name":"speedUpChip1","order":8,"path":"objects/speedUpChip1/speedUpChip1.yy",},
     {"name":"sprHammer2","order":27,"path":"sprites/sprHammer2/sprHammer2.yy",},
