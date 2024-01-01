@@ -20,6 +20,10 @@ return choose(attackSpeedUpChip1, speedUpChip1, club1Item, hammer1Item, gunArmIt
 	selfRepairChip1, fireResistanceChip1, bombItem1, tauntChip1, flameThrowerItem1);
 }
 
+function randomWeapon2(){
+	return choose(club2Item, hammer2Item, gunArmItem2, gun2Item, sawItem2, granadeLauncherItem2);
+}
+
 //returns a random blueprint that is not already owned by the player
 function randomBlueprint(){
 	var blueprintsArray = [hoverbotBlueprint, tredBotBlueprint, bigHoverBotBlueprint, fridgebotBlueprint];
