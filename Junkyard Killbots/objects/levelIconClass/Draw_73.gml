@@ -20,7 +20,9 @@ if(selectedFlag == true){
 	//draw_text_ext(room_width-95, 150, description, 15, 190);
 	draw_text_ext_transformed(room_width-95, 80, description, 15, 190, 0.5, 0.5, 0);
 	
-	button.visibleFlag = true;
+	if(defeatedFlag == false){
+		button.visibleFlag = true;
+	}
 }
 
 

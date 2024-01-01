@@ -1,6 +1,6 @@
 /// @description attack
 
-if instance_exists2(body.target){
+if (instance_exists(body) and instance_exists2(body.target)){
 	if (point_distance(body.x, body.y, body.target.x, body.target.y) <= clamp(body.range, 0, body.baseSightRange)){
 		var shot = instance_create_depth(x, y, 0, flames);
 		shot.critChance = body.critChance;

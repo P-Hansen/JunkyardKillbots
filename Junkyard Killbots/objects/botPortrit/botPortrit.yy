@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprBotSantaHatPortrit",
-    "path": "sprites/sprBotSantaHatPortrit/sprBotSantaHatPortrit.yy",
+    "name": "sprBotPortrit",
+    "path": "sprites/sprBotPortrit/sprBotPortrit.yy",
   },
   "spriteMaskId": null,
   "visible": true,
