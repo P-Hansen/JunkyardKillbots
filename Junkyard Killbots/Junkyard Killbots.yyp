@@ -393,6 +393,7 @@
     {"id":{"name":"sawItem3","path":"objects/sawItem3/sawItem3.yy",},},
     {"id":{"name":"sprOre","path":"sprites/sprOre/sprOre.yy",},},
     {"id":{"name":"sprAttackUpIcon2","path":"sprites/sprAttackUpIcon2/sprAttackUpIcon2.yy",},},
+    {"id":{"name":"streamOfWater","path":"objects/streamOfWater/streamOfWater.yy",},},
     {"id":{"name":"sprGunArm3","path":"sprites/sprGunArm3/sprGunArm3.yy",},},
     {"id":{"name":"bigHoverBotPortrit","path":"objects/bigHoverBotPortrit/bigHoverBotPortrit.yy",},},
     {"id":{"name":"sprLoudIcon","path":"sprites/sprLoudIcon/sprLoudIcon.yy",},},

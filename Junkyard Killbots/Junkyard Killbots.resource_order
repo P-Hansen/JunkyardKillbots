@@ -357,6 +357,7 @@
     {"name":"sawItem3","order":42,"path":"objects/sawItem3/sawItem3.yy",},
     {"name":"sprOre","order":46,"path":"sprites/sprOre/sprOre.yy",},
     {"name":"sprAttackUpIcon2","order":40,"path":"sprites/sprAttackUpIcon2/sprAttackUpIcon2.yy",},
+    {"name":"streamOfWater","order":26,"path":"objects/streamOfWater/streamOfWater.yy",},
     {"name":"sprGunArm3","order":19,"path":"sprites/sprGunArm3/sprGunArm3.yy",},
     {"name":"sprLoudIcon","order":3,"path":"sprites/sprLoudIcon/sprLoudIcon.yy",},
     {"name":"stoneMonster","order":11,"path":"objects/stoneMonster/stoneMonster.yy",},
