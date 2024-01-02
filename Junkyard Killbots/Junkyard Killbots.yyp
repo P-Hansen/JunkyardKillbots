@@ -86,6 +86,7 @@
     {"id":{"name":"sprScientistFire","path":"sprites/sprScientistFire/sprScientistFire.yy",},},
     {"id":{"name":"sprGranadeLauncherIcon2","path":"sprites/sprGranadeLauncherIcon2/sprGranadeLauncherIcon2.yy",},},
     {"id":{"name":"flyingBotClass","path":"objects/flyingBotClass/flyingBotClass.yy",},},
+    {"id":{"name":"OutlineShader","path":"shaders/OutlineShader/OutlineShader.yy",},},
     {"id":{"name":"mineLevelIcon","path":"objects/mineLevelIcon/mineLevelIcon.yy",},},
     {"id":{"name":"mutant","path":"objects/mutant/mutant.yy",},},
     {"id":{"name":"barrel","path":"objects/barrel/barrel.yy",},},
@@ -483,6 +484,6 @@
   ],
   "templateType": null,
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":2242152242467054,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":false,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":3037668318270050542,},
   ],
 }

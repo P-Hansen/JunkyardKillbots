@@ -16,3 +16,5 @@ enemyPool = [trashPile, largeJunk, barrel];
 
 button = instance_create_depth(room_width-100, room_height-30, -50, launchButton);
 button.level = rmScrapyard;
+
+uniForm_Handle = shader_get_uniform(OutlineShader, "texture_Pixel");

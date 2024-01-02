@@ -16,3 +16,5 @@ enemyPool = [stoneMonster, minecart];
 
 button = instance_create_depth(room_width-50, room_height-25, -50, launchButton);
 button.level = rmMine;
+
+uniForm_Handle = shader_get_uniform(OutlineShader, "texture_Pixel");
