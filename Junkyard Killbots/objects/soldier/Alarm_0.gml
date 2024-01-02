@@ -13,4 +13,4 @@ if(state == states.idle){
 	}
 }
 
-alarm[0] = game_get_speed(gamespeed_fps)*1.5;
+alarm[0] = game_get_speed(gamespeed_fps)*2.5;
