@@ -127,6 +127,7 @@
     {"name":"speedUpChip3","order":37,"path":"objects/speedUpChip3/speedUpChip3.yy",},
     {"name":"sprHoverBotPortrit","order":12,"path":"sprites/sprHoverBotPortrit/sprHoverBotPortrit.yy",},
     {"name":"sprRepairsButton","order":18,"path":"sprites/sprRepairsButton/sprRepairsButton.yy",},
+    {"name":"sprSewerWater","order":74,"path":"sprites/sprSewerWater/sprSewerWater.yy",},
     {"name":"fastForwardButton","order":8,"path":"objects/fastForwardButton/fastForwardButton.yy",},
     {"name":"chipClass","order":4,"path":"objects/chipClass/chipClass.yy",},
     {"name":"fontLevelHeading","order":1,"path":"fonts/fontLevelHeading/fontLevelHeading.yy",},
