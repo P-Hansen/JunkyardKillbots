@@ -20,8 +20,8 @@ creatorSlot = noone;
 
 slot1 = instance_create_depth(x,y,-1,clubBlack);
 slot1.body = self;
-slot2 = instance_create_depth(x,y,1,clubBlack);
-slot2.body = self;
+slot2 = noone;//instance_create_depth(x,y,1,clubBlack);
+//slot2.body = self;
 
 scrapRefundOnDeath = 50;
 healAmount = 0;
