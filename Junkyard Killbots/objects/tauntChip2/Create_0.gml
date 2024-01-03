@@ -4,7 +4,7 @@ pressedFlag = false;
 slot = noone;
 hoverFlag = false;
 hoverCounter = 2*game_get_speed(gamespeed_fps);
-description = "Can attack and taunts enemies within 150 to attack";
+description = "Taunt chip, can attack and taunts enemies within 150 to attack";
 cost = 100;
 upgrade = tauntChip2;
 

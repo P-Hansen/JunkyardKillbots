@@ -4,7 +4,7 @@ pressedFlag = false;
 slot = noone;
 hoverFlag = false;
 hoverCounter = 2*game_get_speed(gamespeed_fps);
-description = "Can attack and taunts enemies within 200 to attack +30% armor";
+description = "Taunt chip, can attack and taunts enemies within 200 to attack +30% armor";
 cost = 100;
 upgrade = noone;
 

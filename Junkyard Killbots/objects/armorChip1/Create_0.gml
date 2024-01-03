@@ -4,7 +4,7 @@ pressedFlag = false;
 slot = noone;
 hoverFlag = false;
 hoverCounter = 2*game_get_speed(gamespeed_fps);
-description = "reduce damage by 10%";
+description = "Armor chip, reduce damage by 10%";
 cost = 100;
 upgrade = armorChip2;
 

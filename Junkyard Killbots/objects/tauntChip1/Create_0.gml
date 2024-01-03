@@ -4,7 +4,7 @@ pressedFlag = false;
 slot = noone;
 hoverFlag = false;
 hoverCounter = 2*game_get_speed(gamespeed_fps);
-description = "Does not attack and taunts enemies within 100 to attack -20% movespeed";
+description = "Taunt chip, bot does not attack and taunts enemies within 100 to attack -20% movespeed";
 cost = 100;
 upgrade = tauntChip2;
 
