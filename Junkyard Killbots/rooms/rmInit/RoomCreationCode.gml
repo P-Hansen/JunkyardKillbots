@@ -14,6 +14,6 @@ global.difficultyLevel = 0;
 global.enemyPool = [];
 global.currentLevelIcon = noone;
 global.scavengerBonus = 1;
-global.currentWorld = rmMissionSelect2;
+global.currentWorld = rmMissionSelect;
 
 room_goto(rmRepair);

@@ -19,3 +19,13 @@ function allLevelsFinished(array){
 	}
 	return status
 }
+
+levels = [labLevelIcon, labLevelIcon, oilfieldLevelIcon, oilfieldLevelIcon, oilfieldLevelIcon, scrapyardLevelIcon, mineLevelIcon];
+
+levelsShuffled = array_shuffle(levels);
+
+coordinates = [[384,56], [384,160], [224,48], [288,112], [288,208], [112,96], [176,176]];
+
+array_foreach(levelsShuffled, function func(element, index){
+	instance_create_depth(coordinates[index][0], coordinates[index][1], 1, element);
+});
