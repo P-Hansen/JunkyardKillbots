@@ -7,14 +7,14 @@ flashTimer = 0;
 fade = 1;
 defeatedFlag = false;
 
-name = "Corperate HQ"
-description = "Enemies:\n -Worker bots";
+name = "Item Store"
+description = "A great place to purchase items you may need";
 selectedFlag = false;
-enemySprites = [sprCorperateBotIdle];
-numberOfEnemies = 1+1;
-enemyPool = [botCorperate];
+enemySprites = [];
+numberOfEnemies = 1;
+enemyPool = [roachGroup];
 
 button = instance_create_depth(room_width-50, room_height-25, -50, launchButton);
-button.level = rmCorperateHQ;
+button.level = rmStore;
 
 uniForm_Handle = shader_get_uniform(OutlineShader, "texture_Pixel");
