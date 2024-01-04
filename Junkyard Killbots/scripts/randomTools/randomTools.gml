@@ -20,6 +20,15 @@ return choose(attackSpeedUpChip1, speedUpChip1, club1Item, hammer1Item, gunArmIt
 	selfRepairChip1, fireResistanceChip1, bombItem1, tauntChip1, flameThrowerItem1);
 }
 
+function randomWeapon(){
+return choose(club1Item, hammer1Item, gunArmItem1, gun1Item, sawItem1, granadeLauncherItem1, bombItem1, flameThrowerItem1);
+}
+
+function randomChip(){
+return choose(attackSpeedUpChip1, speedUpChip1, armorChip1, criticalStrikeChip1, scavengerChip1, sensorRangeChip1, 
+	selfRepairChip1, fireResistanceChip1, tauntChip1);
+}
+
 function randomWeapon2(){
 	return choose(club2Item, hammer2Item, gunArmItem2, gun2Item, sawItem2, granadeLauncherItem2);
 }
