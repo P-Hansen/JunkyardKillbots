@@ -11,10 +11,12 @@ function allLevelsFinished(array){
 	status = true;
 	
 	for (var i = 0; i < array_length(array); i++){
-		status = array[i].defeatedFlag;
-		if(status == false){
-			status = false;
-			break;
+		if(instance_exists(array[i])){
+			status = array[i].defeatedFlag;
+			if(status == false){
+				status = false;
+				break;
+			}
 		}
 	}
 	return status
