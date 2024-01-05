@@ -16,4 +16,4 @@ global.currentLevelIcon = noone;
 global.scavengerBonus = 1;
 global.currentWorld = rmMissionSelect2;
 
-room_goto(rmRepair);
+room_goto(rmStartMenu);
