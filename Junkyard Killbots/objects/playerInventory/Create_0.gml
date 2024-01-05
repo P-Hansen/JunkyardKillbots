@@ -34,6 +34,7 @@ for(var i = 0; i < array_length(items); i++){
 items[12].item = instance_create_layer(items[12].x, items[12].y, layer, club1Item);
 items[12].item.slot = items[12];
 items[12].item.slot.stackCount++;
+items[12].item.x -= 1000;
 items[1].item = instance_create_layer(items[1].x, items[1].y, layer, randomItem());
 items[1].item.slot = items[1];
 items[1].item.slot.stackCount++;

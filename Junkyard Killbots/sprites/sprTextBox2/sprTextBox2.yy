@@ -4,7 +4,7 @@
   "name": "sprTextBox2",
   "bbox_bottom": 209,
   "bbox_left": 0,
-  "bbox_right": 184,
+  "bbox_right": 99,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 185,
+  "width": 100,
 }
