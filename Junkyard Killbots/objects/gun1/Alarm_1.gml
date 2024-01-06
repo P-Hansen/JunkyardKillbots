@@ -13,6 +13,8 @@ if(instance_exists2(body)){
 			shot.direction = image_angle+random_range(-body.baseAccuracy, body.baseAccuracy)+random_range(-accuracy, accuracy);
 			shot.speed = 2;
 			shot.damage = damage+body.baseDamage;
+			audio_sound_pitch(sfxPistol, random_range(0.8, 1));
+			audio_play_sound(sfxPistol, 10, false);
 		}
 	}
 

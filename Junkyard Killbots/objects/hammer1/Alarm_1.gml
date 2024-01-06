@@ -4,6 +4,8 @@ if instance_exists2(body.target){
 	if (point_distance(body.x, body.y, body.target.x, body.target.y) <= body.range){
 		swingFlag = true;
 		target = instance_nearest(x,y,enemyClass);
+		audio_sound_pitch(sfxSwing, random_range(0.5, 0.8));
+		audio_play_sound(sfxSwing, 10, false);
 	}
 }
 
