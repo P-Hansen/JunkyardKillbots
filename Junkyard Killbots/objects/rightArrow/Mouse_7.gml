@@ -7,6 +7,8 @@ if(repairController.blueprintSelection >= array_length(playerInventory.blueprint
 	repairController.blueprintSelection++;
 }
 
+audio_play_sound(sfxButtonClick, 10, false);
+
 /*
 //change selection frame
 playerInventory.robots[repairController.botSelection].image_index = 0;

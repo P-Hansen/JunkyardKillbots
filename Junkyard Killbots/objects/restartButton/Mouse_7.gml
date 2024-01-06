@@ -1,5 +1,5 @@
 /// @description Insert description here
-
+audio_play_sound(sfxButtonClick, 10, false);
 //under 5 seconds in
 if(fiveSecondFlag == false){
 	//flag to upgrad level icons

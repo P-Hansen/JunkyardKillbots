@@ -5,4 +5,5 @@ textColour = c_yellow;
 
 alarm[1] = game_get_speed(gamespeed_fps)*1.4;
 
-audio_play_sound(sfxHit, 0, 0);
+audio_sound_pitch(sfxScrapFind, random_range(0.8, 1));
+audio_play_sound(sfxScrapFind, 10, false);
