@@ -9,6 +9,8 @@ if instance_exists2(body.target){
 		shot.image_angle = shot.direction;
 		shot.speed = 2;
 		shot.damage = damage+body.baseDamage;
+		audio_sound_pitch(sfxPlasmaGun, random_range(0.8, 1));
+		audio_play_sound(sfxPlasmaGun, 10, false);
 	}
 }
 	alarm[1] = cooldown + body.baseCooldown;
