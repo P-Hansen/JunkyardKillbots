@@ -10,4 +10,6 @@ if(!position_meeting(mouse_x, mouse_y, self)){
 	global.difficultyLevel = difficulty;
 	global.enemyPool = enemyPool;
 	global.currentLevelIcon = self;
+	audio_sound_pitch(sfxLevelSelect, 0.4);
+	audio_play_sound(sfxLevelSelect, 10, false);
 }

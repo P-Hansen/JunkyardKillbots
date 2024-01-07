@@ -203,6 +203,7 @@
     {"id":{"name":"selfRepairChip3","path":"objects/selfRepairChip3/selfRepairChip3.yy",},},
     {"id":{"name":"sprFlameThrower2","path":"sprites/sprFlameThrower2/sprFlameThrower2.yy",},},
     {"id":{"name":"sprHammerIcon","path":"sprites/sprHammerIcon/sprHammerIcon.yy",},},
+    {"id":{"name":"sfxLevelSelect","path":"sounds/sfxLevelSelect/sfxLevelSelect.yy",},},
     {"id":{"name":"sprSmallJunk","path":"sprites/sprSmallJunk/sprSmallJunk.yy",},},
     {"id":{"name":"sprSpeedUpIcon1","path":"sprites/sprSpeedUpIcon1/sprSpeedUpIcon1.yy",},},
     {"id":{"name":"sprRock","path":"sprites/sprRock/sprRock.yy",},},

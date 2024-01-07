@@ -177,6 +177,7 @@
     {"name":"selfRepairChip3","order":64,"path":"objects/selfRepairChip3/selfRepairChip3.yy",},
     {"name":"sprFlameThrower2","order":85,"path":"sprites/sprFlameThrower2/sprFlameThrower2.yy",},
     {"name":"sprHammerIcon","order":5,"path":"sprites/sprHammerIcon/sprHammerIcon.yy",},
+    {"name":"sfxLevelSelect","order":16,"path":"sounds/sfxLevelSelect/sfxLevelSelect.yy",},
     {"name":"sprSmallJunk","order":21,"path":"sprites/sprSmallJunk/sprSmallJunk.yy",},
     {"name":"sprSpeedUpIcon1","order":38,"path":"sprites/sprSpeedUpIcon1/sprSpeedUpIcon1.yy",},
     {"name":"sprRock","order":19,"path":"sprites/sprRock/sprRock.yy",},
