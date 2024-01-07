@@ -7,6 +7,7 @@ if(repairController.blueprintSelection >= array_length(playerInventory.blueprint
 	repairController.blueprintSelection++;
 }
 
+x += 7;
 audio_play_sound(sfxButtonClick, 10, false);
 
 /*
