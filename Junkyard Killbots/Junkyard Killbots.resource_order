@@ -101,6 +101,7 @@
     {"name":"rmCorperateHQ","order":15,"path":"rooms/rmCorperateHQ/rmCorperateHQ.yy",},
     {"name":"sprGun3","order":45,"path":"sprites/sprGun3/sprGun3.yy",},
     {"name":"sfxExplosion1","order":4,"path":"sounds/sfxExplosion1/sfxExplosion1.yy",},
+    {"name":"sfxItemUpgrade","order":17,"path":"sounds/sfxItemUpgrade/sfxItemUpgrade.yy",},
     {"name":"sprSpeachBubble","order":39,"path":"sprites/sprSpeachBubble/sprSpeachBubble.yy",},
     {"name":"gun3Item","order":33,"path":"objects/gun3Item/gun3Item.yy",},
     {"name":"sprBigHoverBotPortrit","order":16,"path":"sprites/sprBigHoverBotPortrit/sprBigHoverBotPortrit.yy",},

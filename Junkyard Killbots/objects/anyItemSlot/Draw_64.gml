@@ -19,4 +19,5 @@ if(stackCount == 3 and item.upgrade != noone){
 	item = instance_create_layer(x, y, layer, upgrade);
 	item.slot = self;
 	stackCount = 1;
+	audio_play_sound(sfxItemUpgrade, 20, false);
 }
