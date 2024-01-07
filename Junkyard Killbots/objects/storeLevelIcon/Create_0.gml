@@ -5,10 +5,10 @@ spacing = 7;
 
 flashTimer = 0;
 fade = 1;
-defeatedFlag = false;
+defeatedFlag = true;
 
 name = "Item Store"
-description = "A great place to purchase items you may need";
+description = "A great place to purchase items you may need.\n\nLeaving the store will trigger level upgrades";
 selectedFlag = false;
 enemySprites = [];
 numberOfEnemies = 1;

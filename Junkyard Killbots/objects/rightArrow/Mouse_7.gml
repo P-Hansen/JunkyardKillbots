@@ -8,7 +8,7 @@ if(repairController.blueprintSelection >= array_length(playerInventory.blueprint
 }
 
 x += 7;
-audio_play_sound(sfxButtonClick, 10, false);
+audio_play_sound(sfxBlueprintFlip, 10, false);
 
 /*
 //change selection frame
