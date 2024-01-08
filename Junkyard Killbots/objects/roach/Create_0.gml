@@ -5,7 +5,7 @@ target = noone;
 maxSpeed = random_range(0.3,0.7);
 speed = maxSpeed;
 range = 1;
-damage = 5;
+damage = 10;
 flashTimer = 0;
 baseArmor = 1;
 

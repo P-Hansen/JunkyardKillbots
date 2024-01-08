@@ -1,11 +1,11 @@
 /// @description Insert description here
 
-hp = 50;
+hp = 100;
 target = noone;
 maxSpeed = random_range(0.3,0.7);
 speed = maxSpeed;
 range = 20;
-damage = 10;
+damage = 20;
 flashTimer = 0;
 baseArmor = 1;
 
