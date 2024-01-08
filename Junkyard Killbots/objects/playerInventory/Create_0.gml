@@ -44,7 +44,7 @@ items[2].item.slot.stackCount++;
 items[12].item = instance_create_layer(items[12].x, items[12].y, layer, club1Item);
 items[12].item.slot = items[12];
 items[12].item.slot.stackCount++;
-items[13].item = instance_create_layer(items[13].x, items[13].y, layer, randomItem());
+items[13].item = instance_create_layer(items[13].x, items[13].y, layer, club1Item);
 items[13].item.slot = items[13];
 items[13].item.slot.stackCount++;
 items[14].item = instance_create_layer(items[14].x, items[14].y, layer, randomItem());
