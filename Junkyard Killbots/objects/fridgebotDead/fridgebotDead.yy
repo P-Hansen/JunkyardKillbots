@@ -11,7 +11,10 @@
     "name": "bots",
     "path": "folders/Objects/bots/bots.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "deadBotClass",
+    "path": "objects/deadBotClass/deadBotClass.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

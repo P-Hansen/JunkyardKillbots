@@ -27,6 +27,7 @@
     {"name":"levelIcons","order":23,"path":"folders/Sprites/levelIcons.yy",},
     {"name":"Tile Sets","order":3,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":9,"path":"folders/Timelines.yy",},
+    {"name":"Particles","order":17,"path":"folders/Particles.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rmHome","order":1,"path":"rooms/rmHome/rmHome.yy",},
@@ -423,6 +424,7 @@
     {"name":"gun2","order":30,"path":"objects/gun2/gun2.yy",},
     {"name":"sprGranadeLauncher3","order":67,"path":"sprites/sprGranadeLauncher3/sprGranadeLauncher3.yy",},
     {"name":"sprBackButton","order":9,"path":"sprites/sprBackButton/sprBackButton.yy",},
+    {"name":"deadBotClass","order":15,"path":"objects/deadBotClass/deadBotClass.yy",},
     {"name":"sprCrate","order":50,"path":"sprites/sprCrate/sprCrate.yy",},
     {"name":"sprBigRoach","order":20,"path":"sprites/sprBigRoach/sprBigRoach.yy",},
     {"name":"sprFlames","order":40,"path":"sprites/sprFlames/sprFlames.yy",},

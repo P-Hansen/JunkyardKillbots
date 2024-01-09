@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ba969ca1-0356-49f3-b8f8-3e4c4b869509","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "bots",
     "path": "folders/Sprites/bots.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 5,
-    "yorigin": 9,
+    "yorigin": 11,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
