@@ -144,7 +144,7 @@
     {"name":"rmMissionSelect","order":3,"path":"rooms/rmMissionSelect/rmMissionSelect.yy",},
     {"name":"sprOfficeTiles","order":54,"path":"sprites/sprOfficeTiles/sprOfficeTiles.yy",},
     {"name":"guardTower","order":25,"path":"objects/guardTower/guardTower.yy",},
-    {"name":"sprSlotHilightBlue","order":61,"path":"sprites/sprSlotHilightBlue/sprSlotHilightBlue.yy",},
+    {"name":"sprSlotHilightPink","order":61,"path":"sprites/sprSlotHilightPink/sprSlotHilightPink.yy",},
     {"name":"sprCaveMonsterAttack","order":15,"path":"sprites/sprCaveMonsterAttack/sprCaveMonsterAttack.yy",},
     {"name":"factoryLevelIcon","order":9,"path":"objects/factoryLevelIcon/factoryLevelIcon.yy",},
     {"name":"sprSoldierWalk","order":27,"path":"sprites/sprSoldierWalk/sprSoldierWalk.yy",},

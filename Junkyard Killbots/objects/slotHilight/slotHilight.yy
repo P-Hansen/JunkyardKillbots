@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprSlotHilightBlue",
-    "path": "sprites/sprSlotHilightBlue/sprSlotHilightBlue.yy",
+    "name": "sprSlotHilightPink",
+    "path": "sprites/sprSlotHilightPink/sprSlotHilightPink.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -169,7 +169,7 @@
     {"id":{"name":"rmMissionSelect","path":"rooms/rmMissionSelect/rmMissionSelect.yy",},},
     {"id":{"name":"sprOfficeTiles","path":"sprites/sprOfficeTiles/sprOfficeTiles.yy",},},
     {"id":{"name":"guardTower","path":"objects/guardTower/guardTower.yy",},},
-    {"id":{"name":"sprSlotHilightBlue","path":"sprites/sprSlotHilightBlue/sprSlotHilightBlue.yy",},},
+    {"id":{"name":"sprSlotHilightPink","path":"sprites/sprSlotHilightPink/sprSlotHilightPink.yy",},},
     {"id":{"name":"sprCaveMonsterAttack","path":"sprites/sprCaveMonsterAttack/sprCaveMonsterAttack.yy",},},
     {"id":{"name":"factoryLevelIcon","path":"objects/factoryLevelIcon/factoryLevelIcon.yy",},},
     {"id":{"name":"sprSoldierWalk","path":"sprites/sprSoldierWalk/sprSoldierWalk.yy",},},
