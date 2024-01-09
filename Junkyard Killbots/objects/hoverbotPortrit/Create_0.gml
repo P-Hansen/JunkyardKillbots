@@ -10,6 +10,7 @@ body = hoverbot;
 refund = 50;
 weaponOffsetX = [3];
 weaponOffsetY = [5];
+damagedFlag = false;
 
 chipSlots = array_create(2, noone);
 weaponSlots = array_create(1, noone);

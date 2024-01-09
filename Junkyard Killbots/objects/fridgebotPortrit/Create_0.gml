@@ -10,6 +10,7 @@ body = fridgebot;
 refund = 75;
 weaponOffsetX = [1,9];
 weaponOffsetY = [5,5];
+damagedFlag = false;
 
 chipSlots = array_create(1, noone);
 weaponSlots = array_create(2, noone);

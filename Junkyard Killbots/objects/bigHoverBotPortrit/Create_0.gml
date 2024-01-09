@@ -10,6 +10,7 @@ body = bigHoverBot;
 refund = 100;
 weaponOffsetX = [6,10];
 weaponOffsetY = [5,5];
+damagedFlag = false;
 
 chipSlots = array_create(4, noone);
 weaponSlots = array_create(2, noone);

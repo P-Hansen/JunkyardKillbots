@@ -8,6 +8,7 @@ pressedFlag = false;
 slot = noone;
 body = bot;
 refund = 50;
+damagedFlag = false;
 
 chipSlots = array_create(3, noone);
 weaponSlots = array_create(2, noone);

@@ -48,3 +48,6 @@ missionController.scrapFound -= scrapRefundOnDeath;
 missionController.botsLost += 1;
 
 instance_create_layer(x, y, layer, corps);
+creatorSlot.image_index = 1;
+creatorSlot.damagedFlag = true;
+creatorSlot.body = corps;

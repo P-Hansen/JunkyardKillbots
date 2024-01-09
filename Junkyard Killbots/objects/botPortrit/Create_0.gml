@@ -10,6 +10,7 @@ body = bot;
 refund = 50;
 weaponOffsetX = [3,7];
 weaponOffsetY = [5,5];
+damagedFlag = false;
 
 chipSlots = array_create(3, noone);
 weaponSlots = array_create(2, noone);

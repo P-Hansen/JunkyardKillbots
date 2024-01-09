@@ -10,6 +10,7 @@ body = tredBot;
 refund = 125;
 weaponOffsetX = [3, 7, 9, 11];
 weaponOffsetY = [5, 5, 5, 5];
+damagedFlag = false;
 
 chipSlots = array_create(2, noone);
 weaponSlots = array_create(4, noone);
