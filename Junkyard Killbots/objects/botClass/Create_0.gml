@@ -31,7 +31,7 @@ tauntRange = 100;
 eyeX = 2;
 eyeY = -4;
 bubble = noone;
-
+corps = botDead;
 
 alarm[1] = game_get_speed(gamespeed_fps)*1;
 alarm[4] = game_get_speed(gamespeed_fps)*0.5;

@@ -33,6 +33,7 @@ tauntRange = 100;
 eyeX = 1;
 eyeY = -5;
 bubble = noone;
+corps = tredbotDead;
 
 alarm[1] = game_get_speed(gamespeed_fps)*1;
 alarm[4] = game_get_speed(gamespeed_fps)*0.5;

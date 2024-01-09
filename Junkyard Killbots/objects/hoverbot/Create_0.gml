@@ -30,5 +30,6 @@ tauntRange = 100;
 eyeX = 1;
 eyeY = 0;
 bubble = noone;
+corps = hoverbotDead;
 
 alarm[1] = game_get_speed(gamespeed_fps)*1;

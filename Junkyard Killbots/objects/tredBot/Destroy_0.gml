@@ -11,3 +11,5 @@ numberText.amount = -scrapRefundOnDeath;
 global.scrapTotal -= scrapRefundOnDeath;
 missionController.scrapFound -= scrapRefundOnDeath;
 missionController.botsLost += 1;
+
+instance_create_layer(x, y, layer, corps);
