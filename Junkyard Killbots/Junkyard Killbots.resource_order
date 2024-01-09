@@ -201,6 +201,7 @@
     {"name":"sprScavengerChip2","order":60,"path":"sprites/sprScavengerChip2/sprScavengerChip2.yy",},
     {"name":"sprTeslaTowerSmall","order":3,"path":"sprites/sprTeslaTowerSmall/sprTeslaTowerSmall.yy",},
     {"name":"sprGunArm2","order":18,"path":"sprites/sprGunArm2/sprGunArm2.yy",},
+    {"name":"sprSpeedBot","order":21,"path":"sprites/sprSpeedBot/sprSpeedBot.yy",},
     {"name":"rmStore","order":16,"path":"rooms/rmStore/rmStore.yy",},
     {"name":"sprFlameThrower1","order":8,"path":"sprites/sprFlameThrower1/sprFlameThrower1.yy",},
     {"name":"attackSpeedUpChip3","order":35,"path":"objects/attackSpeedUpChip3/attackSpeedUpChip3.yy",},
