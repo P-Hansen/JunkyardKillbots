@@ -310,6 +310,7 @@
     {"name":"start","order":11,"path":"objects/start/start.yy",},
     {"name":"clubBlack","order":80,"path":"objects/clubBlack/clubBlack.yy",},
     {"name":"sawItem2","order":41,"path":"objects/sawItem2/sawItem2.yy",},
+    {"name":"sprRepairBotButton","order":62,"path":"sprites/sprRepairBotButton/sprRepairBotButton.yy",},
     {"name":"sprScavengerChip3","order":61,"path":"sprites/sprScavengerChip3/sprScavengerChip3.yy",},
     {"name":"fireResistanceChip1","order":66,"path":"objects/fireResistanceChip1/fireResistanceChip1.yy",},
     {"name":"sprSoldierFire","order":28,"path":"sprites/sprSoldierFire/sprSoldierFire.yy",},

@@ -339,6 +339,7 @@
     {"id":{"name":"start","path":"objects/start/start.yy",},},
     {"id":{"name":"clubBlack","path":"objects/clubBlack/clubBlack.yy",},},
     {"id":{"name":"sawItem2","path":"objects/sawItem2/sawItem2.yy",},},
+    {"id":{"name":"sprRepairBotButton","path":"sprites/sprRepairBotButton/sprRepairBotButton.yy",},},
     {"id":{"name":"bigHoverBot","path":"objects/bigHoverBot/bigHoverBot.yy",},},
     {"id":{"name":"sprScavengerChip3","path":"sprites/sprScavengerChip3/sprScavengerChip3.yy",},},
     {"id":{"name":"fireResistanceChip1","path":"objects/fireResistanceChip1/fireResistanceChip1.yy",},},
