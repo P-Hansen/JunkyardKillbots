@@ -6,6 +6,7 @@ image_yscale = scale;
 
 pressedFlag = false;
 slot = noone;
+originalBody = bigHoverBot;
 body = bigHoverBot;
 refund = 100;
 weaponOffsetX = [6,10];

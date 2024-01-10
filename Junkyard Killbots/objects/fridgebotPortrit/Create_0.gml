@@ -6,6 +6,7 @@ image_yscale = scale;
 
 pressedFlag = false;
 slot = noone;
+originalBody = fridgebot;
 body = fridgebot;
 refund = 75;
 weaponOffsetX = [1,9];

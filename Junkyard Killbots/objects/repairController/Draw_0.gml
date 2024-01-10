@@ -1,27 +1,17 @@
 /// @description show selection
 
+repairButton.x = 1000;
 
-//instance_destroy(showBot);
 //show bot selected
 if(instance_exists(playerInventory.robots[botSelection].bots)){
-	/*var portrait = playerInventory.robots[botSelection].bots;
-	showBot = instance_create_layer(room_width/2, room_height/2, layer, portrait.body);
-	showBot.creatorSlot = portrait;
-	showBot.speed = 0;
-	executeModifierFunctions(portrait.widgetSlots, showBot);
-	executeModifierFunctions(portrait.chipSlots, showBot);
-	showBot.state = states.display;
-	if(instance_exists(portrait.weaponSlots[0].item)){
-		portrait.weaponSlots[0].item.modifierFunction(showBot);
+	//showing repair button
+	if(playerInventory.robots[botSelection].bots.damagedFlag == true){
+		draw_set_halign(fa_center);
+		draw_text_transformed(room_width/2 + 100, 90, "$" + string(playerInventory.robots[botSelection].bots.refund), 0.5, 0.5, 0 );
+		draw_set_halign(fa_left);
+		repairButton.x = room_width/2 + 100;
 	}
-	if(instance_exists(portrait.weaponSlots[1].item)){
-		portrait.weaponSlots[1].item.modifierFunction(showBot);
-	}
-	showBlueprintsFlag = false;
-	buildButton.x = 1000;
-	arrowL.x = 1000;
-	arrowR.x = 1000;
-	*/
+	
 	//drawing the weapon in the back slot
 	//if(instance_exists(playerInventory.robots[botSelection].bots.weaponSlots[1].item)){
 	//	var sprite2 = object_get_sprite(playerInventory.robots[botSelection].bots.weaponSlots[1].item.botWeapon);

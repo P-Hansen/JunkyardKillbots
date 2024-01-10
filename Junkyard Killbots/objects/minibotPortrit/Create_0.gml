@@ -6,6 +6,7 @@ image_yscale = scale;
 
 pressedFlag = false;
 slot = noone;
+originalBody = minibot;
 body = minibot;
 refund = 25;
 weaponOffsetX = [3];

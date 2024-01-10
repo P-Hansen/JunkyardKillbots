@@ -6,6 +6,7 @@ image_yscale = scale;
 
 pressedFlag = false;
 slot = noone;
+originalBody = tredBot;
 body = tredBot;
 refund = 125;
 weaponOffsetX = [3, 7, 9, 11];

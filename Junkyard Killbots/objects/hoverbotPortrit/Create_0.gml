@@ -6,6 +6,7 @@ image_yscale = scale;
 
 pressedFlag = false;
 slot = noone;
+originalBody = hoverbot;
 body = hoverbot;
 refund = 50;
 weaponOffsetX = [3];

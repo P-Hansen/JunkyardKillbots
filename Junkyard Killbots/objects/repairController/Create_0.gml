@@ -17,6 +17,8 @@ buildButton = instance_create_layer(1000, 220, layer, buildBotButton);
 blueprintSelection = 0;
 arrowL = instance_create_layer(1000, 175, layer, leftArrow);
 arrowR = instance_create_layer(1000, 175, layer, rightArrow);
+repairButton = instance_create_depth(room_width/2 + 100, room_height/2-10, 1, repairBotButton);
+repairButton.x = 1000;
 
 showBot = noone;
 

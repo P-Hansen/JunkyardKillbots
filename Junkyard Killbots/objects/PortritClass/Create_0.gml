@@ -6,6 +6,7 @@ image_yscale = scale;
 
 pressedFlag = false;
 slot = noone;
+originalBody = bot;
 body = bot;
 refund = 50;
 damagedFlag = false;

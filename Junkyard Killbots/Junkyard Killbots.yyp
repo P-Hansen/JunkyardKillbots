@@ -129,6 +129,7 @@
     {"id":{"name":"rmCorperateHQ","path":"rooms/rmCorperateHQ/rmCorperateHQ.yy",},},
     {"id":{"name":"sprGun3","path":"sprites/sprGun3/sprGun3.yy",},},
     {"id":{"name":"sfxExplosion1","path":"sounds/sfxExplosion1/sfxExplosion1.yy",},},
+    {"id":{"name":"repairBotButton","path":"objects/repairBotButton/repairBotButton.yy",},},
     {"id":{"name":"sfxItemUpgrade","path":"sounds/sfxItemUpgrade/sfxItemUpgrade.yy",},},
     {"id":{"name":"sprSpeachBubble","path":"sprites/sprSpeachBubble/sprSpeachBubble.yy",},},
     {"id":{"name":"gun3Item","path":"objects/gun3Item/gun3Item.yy",},},
