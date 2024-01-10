@@ -18,3 +18,4 @@ flammability = 66;
 //Health
 hp = 10;
 
+depth += 10;

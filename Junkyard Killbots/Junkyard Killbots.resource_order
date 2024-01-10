@@ -16,6 +16,7 @@
     {"name":"old","order":2,"path":"folders/Objects/old.yy",},
     {"name":"UI","order":10,"path":"folders/Objects/UI.yy",},
     {"name":"Options","order":14,"path":"folders/Options.yy",},
+    {"name":"Particles","order":17,"path":"folders/Particles.yy",},
     {"name":"Paths","order":5,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":11,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":6,"path":"folders/Scripts.yy",},
@@ -27,7 +28,6 @@
     {"name":"levelIcons","order":23,"path":"folders/Sprites/levelIcons.yy",},
     {"name":"Tile Sets","order":3,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":9,"path":"folders/Timelines.yy",},
-    {"name":"Particles","order":17,"path":"folders/Particles.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rmHome","order":1,"path":"rooms/rmHome/rmHome.yy",},
