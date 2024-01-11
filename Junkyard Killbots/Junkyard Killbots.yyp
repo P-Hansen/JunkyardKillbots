@@ -260,6 +260,7 @@
     {"id":{"name":"saw2","path":"objects/saw2/saw2.yy",},},
     {"id":{"name":"levelIconClass","path":"objects/levelIconClass/levelIconClass.yy",},},
     {"id":{"name":"fridgebot","path":"objects/fridgebot/fridgebot.yy",},},
+    {"id":{"name":"sprShopInfo","path":"sprites/sprShopInfo/sprShopInfo.yy",},},
     {"id":{"name":"sprTextBox","path":"sprites/sprTextBox/sprTextBox.yy",},},
     {"id":{"name":"selfRepairChip2","path":"objects/selfRepairChip2/selfRepairChip2.yy",},},
     {"id":{"name":"teslaTowerLarge","path":"objects/teslaTowerLarge/teslaTowerLarge.yy",},},
