@@ -2,7 +2,7 @@
 
 //global.scrapTotal += irandom_range(5, 15);
 missionController.enemiesKilled += 1;
-var finalScrapTotal = round(irandom_range(0, 5)*global.scavengerBonus);
+var finalScrapTotal = round(irandom_range(1, 5)*global.scavengerBonus);
 missionController.scrapFound += finalScrapTotal;
 global.scrapTotal += finalScrapTotal;
 //displaying numbers
