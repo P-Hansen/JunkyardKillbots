@@ -62,3 +62,12 @@ function randomRepairLines(){
 		audio_play_sound(line, 10, false);
 	}
 }
+
+//random bot fix lines
+function randomBotFixLines(){
+	var roll = irandom_range(1,100);
+	if(roll >= 80){
+		var line = choose(sfxGoodAsNew, sfxGoodAsNew2, sfxGoodAsNew3);
+		audio_play_sound(line, 10, false);
+	}
+}

@@ -110,6 +110,7 @@
     {"name":"rmCorperateHQ","order":15,"path":"rooms/rmCorperateHQ/rmCorperateHQ.yy",},
     {"name":"sprGun3","order":45,"path":"sprites/sprGun3/sprGun3.yy",},
     {"name":"sfxExplosion1","order":4,"path":"sounds/sfxExplosion1/sfxExplosion1.yy",},
+    {"name":"sfxRatchet","order":20,"path":"sounds/sfxRatchet/sfxRatchet.yy",},
     {"name":"repairBotButton","order":11,"path":"objects/repairBotButton/repairBotButton.yy",},
     {"name":"sfxItemUpgrade","order":17,"path":"sounds/sfxItemUpgrade/sfxItemUpgrade.yy",},
     {"name":"sfxMarvoulous","order":8,"path":"sounds/sfxMarvoulous/sfxMarvoulous.yy",},
