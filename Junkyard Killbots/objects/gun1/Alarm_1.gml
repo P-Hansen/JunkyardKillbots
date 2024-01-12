@@ -18,5 +18,5 @@ if(instance_exists2(body)){
 		}
 	}
 
-	alarm[1] = cooldown + body.baseCooldown;
+	alarm[1] = cooldown + body.baseCooldown + random_range(game_get_speed(gamespeed_fps)*-0.1, game_get_speed(gamespeed_fps)*0.1);
 }

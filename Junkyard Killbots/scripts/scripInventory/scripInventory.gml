@@ -40,8 +40,7 @@ function hideEachSlot(array){
 
 //for stray items from stacking
 function hideStrayItems(){
-	for (var i = 0; i < instance_number(parentItem); ++i;)
-	{
+	for (var i = 0; i < instance_number(parentItem); ++i;){
 		var item1 = instance_find(parentItem, i);
 		if (object_get_name(item1.slot.object_index) == "anyItemSlot"){
 			if (item1.x > 0){

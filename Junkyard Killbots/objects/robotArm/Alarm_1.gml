@@ -10,4 +10,4 @@ if (state == states.attack and instance_exists(target)){
 	}
 }
 
-alarm[1] = game_get_speed(gamespeed_fps)*random_range(1,3);
+alarm[1] = game_get_speed(gamespeed_fps)*random_range(1,2);
