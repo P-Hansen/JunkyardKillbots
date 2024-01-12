@@ -7,7 +7,7 @@ if(global.scrapTotal >= playerInventory.robots[repairController.botSelection].bo
 	playerInventory.robots[repairController.botSelection].bots.body = playerInventory.robots[repairController.botSelection].bots.originalBody;
 
 	global.scrapTotal -= playerInventory.robots[repairController.botSelection].bots.refund;
-	audio_play_sound(choose(sfxBuild1, sfxRatchet), 0, 0);
+	audio_play_sound(choose(sfxHammering, sfxDrill, sfxRatchet), 0, 0);
 	randomBotFixLines();
 }/* else {
 	playerInventory.redTextFrames = 25;

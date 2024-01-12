@@ -11,7 +11,7 @@ if(global.scrapTotal >= playerInventory.blueprints[repairController.blueprintSel
 	//showEachSlot(playerInventory.robots[i].bots.widgetSlots);
 
 	global.scrapTotal -= playerInventory.blueprints[j].cost;
-	audio_play_sound(sfxBuild1, 0, 0);
+	audio_play_sound(choose(sfxHammering, sfxDrill, sfxRatchet), 0, 0);
 } else {
 	playerInventory.redTextFrames = 25;
 	repairController.redTextFrames = 25;
