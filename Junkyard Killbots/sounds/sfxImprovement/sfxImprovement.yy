@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfxIllShowThemAll",
+  "name": "sfxImprovement",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 5.093878,
+  "duration": 3.73551,
   "parent": {
-    "name": "level",
-    "path": "folders/Sounds/Voice Lines/level.yy",
+    "name": "repair",
+    "path": "folders/Sounds/Voice Lines/repair.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfxIllShowThemAll.mp3",
+  "soundFile": "sfxImprovement.mp3",
   "type": 0,
   "volume": 1.0,
 }

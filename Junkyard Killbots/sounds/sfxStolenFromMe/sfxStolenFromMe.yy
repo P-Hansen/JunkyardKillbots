@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 4.545306,
   "parent": {
-    "name": "Voice Lines",
-    "path": "folders/Sounds/Voice Lines.yy",
+    "name": "level",
+    "path": "folders/Sounds/Voice Lines/level.yy",
   },
   "preload": false,
   "sampleRate": 44100,
