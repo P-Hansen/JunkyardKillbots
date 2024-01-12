@@ -47,3 +47,9 @@ function randomBlueprint(){
 	//if there are no more bots to unlock will cause an error
 	return shuffled[0];
 }
+
+//level start voice lines
+function randomLevelVoiceLine(){
+	var line = choose(sfxAhahahah, sfxAhahahahCough, sfxIllShowThemAll, sfxStealingMyInventions, sfxStolenFromMe, sfxTeachTheMeaningOfFear);
+	audio_play_sound(line, 10, false);
+}
