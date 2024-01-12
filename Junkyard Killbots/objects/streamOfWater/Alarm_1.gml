@@ -1,6 +1,6 @@
 /// @description find bot collisions and -x
 
-var num = instance_place_list(x, y, botClass, listOfBots, false);
+var num = instance_place_list(x, y, groundBotClass, listOfBots, false);
 
 if(num > 0){
 	for(var i = 0; i < num; i++){

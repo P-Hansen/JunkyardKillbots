@@ -13,12 +13,12 @@ for(var i = 0; i < array_length(robots); i++){
 	robots[i] = instance_create_layer(xOffset, 10.5+i*21, layer, botSlot);
 }
 //starting 3 bots
-robots[3].bots = instance_create_layer(robots[3].x, robots[2].y, layer, minibotPortrit);
-robots[3].bots.slot = robots[3];
+robots[2].bots = instance_create_layer(robots[2].x, robots[2].y, layer, minibotPortrit);
+robots[2].bots.slot = robots[2];
 robots[5].bots = instance_create_layer(robots[5].x, robots[5].y, layer, botPortrit);
 robots[5].bots.slot = robots[5];
-robots[7].bots = instance_create_layer(robots[7].x, robots[8].y, layer, minibotPortrit);
-robots[7].bots.slot = robots[7];
+robots[8].bots = instance_create_layer(robots[8].x, robots[8].y, layer, minibotPortrit);
+robots[8].bots.slot = robots[8];
 
 items = array_create(24, noone);
 //creating items slots for items array
