@@ -365,6 +365,7 @@
     {"name":"sprClubIcon3","order":33,"path":"sprites/sprClubIcon3/sprClubIcon3.yy",},
     {"name":"flameThrower2","order":76,"path":"objects/flameThrower2/flameThrower2.yy",},
     {"name":"sprSewerGrate","order":47,"path":"sprites/sprSewerGrate/sprSewerGrate.yy",},
+    {"name":"voiceTimer","order":31,"path":"objects/voiceTimer/voiceTimer.yy",},
     {"name":"sprFridgeBot","order":6,"path":"sprites/sprFridgeBot/sprFridgeBot.yy",},
     {"name":"sprBuildBotButton","order":14,"path":"sprites/sprBuildBotButton/sprBuildBotButton.yy",},
     {"name":"hammer3Item","order":27,"path":"objects/hammer3Item/hammer3Item.yy",},

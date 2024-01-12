@@ -15,5 +15,6 @@ global.enemyPool = [];
 global.currentLevelIcon = noone;
 global.scavengerBonus = 1;
 global.currentWorld = rmMissionSelect;
+global.voiceCooldown = 0;
 
 room_goto(rmStartMenu);

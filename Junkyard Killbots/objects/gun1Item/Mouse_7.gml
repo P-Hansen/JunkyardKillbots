@@ -32,10 +32,12 @@ if place_meeting(x, y, weaponSlot) || place_meeting(x, y, anyItemSlot) {
 		slot.item = self;
 		slot.stackCount++;
 		audio_play_sound(choose(sfxReload1, sfxReload2), 0, 0);
-		var roll = irandom_range(1,100);
-		if(roll >= 66){
+		//special gun line
+		if(global.voiceCooldown <= 0){
 			var line = choose(sfxGunsForAll, sfxNeedsAGun);
 			audio_play_sound(line, 10, false);
+			global.voiceCooldown = 0;
+			global.voiceCooldown += audio_sound_length(line)+random_range(1, 7);
 		}
 	} else if object_get_name(newSlot.object_index) == "anyItemSlot" && (object_get_name(newSlot.item.object_index) == object_get_name(object_index)){
 		slot = newSlot;
@@ -73,10 +75,12 @@ if place_meeting(x, y, weaponSlot) || place_meeting(x, y, anyItemSlot) {
 		slot.item = self;
 		slot.stackCount++;
 		audio_play_sound(choose(sfxReload1, sfxReload2), 0, 0);
-		var roll = irandom_range(1,100);
-		if(roll >= 66){
+		//special gun line
+		if(global.voiceCooldown <= 0){
 			var line = choose(sfxGunsForAll, sfxNeedsAGun);
 			audio_play_sound(line, 10, false);
+			global.voiceCooldown = 0;
+			global.voiceCooldown += audio_sound_length(line)+random_range(1, 7);
 		}
 	//no empty slots move back
 	} else {

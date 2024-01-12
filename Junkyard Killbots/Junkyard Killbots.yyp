@@ -400,6 +400,7 @@
     {"id":{"name":"sprClubIcon3","path":"sprites/sprClubIcon3/sprClubIcon3.yy",},},
     {"id":{"name":"flameThrower2","path":"objects/flameThrower2/flameThrower2.yy",},},
     {"id":{"name":"sprSewerGrate","path":"sprites/sprSewerGrate/sprSewerGrate.yy",},},
+    {"id":{"name":"voiceTimer","path":"objects/voiceTimer/voiceTimer.yy",},},
     {"id":{"name":"sprFridgeBot","path":"sprites/sprFridgeBot/sprFridgeBot.yy",},},
     {"id":{"name":"sprBuildBotButton","path":"sprites/sprBuildBotButton/sprBuildBotButton.yy",},},
     {"id":{"name":"hammer3Item","path":"objects/hammer3Item/hammer3Item.yy",},},

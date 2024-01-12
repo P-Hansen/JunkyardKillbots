@@ -56,18 +56,20 @@ function randomLevelVoiceLine(){
 
 //random repair lines
 function randomRepairLines(){
-	var roll = irandom_range(1,100);
-	if(roll >= 80){
+	if(global.voiceCooldown <= 0){
 		var line = choose(sfxConnectedToTheRaygun, sfxHoldStillASec, sfxImprovement, sfxImprovementWonderbar, sfxMarvoulous, sfxTweakHereMurderThere, sfxTweakHereMurderThere2, sfxWhatINeeded);
 		audio_play_sound(line, 10, false);
+		global.voiceCooldown = 0;
+		global.voiceCooldown += audio_sound_length(line)+random_range(1, 7);
 	}
 }
 
 //random bot fix lines
 function randomBotFixLines(){
-	var roll = irandom_range(1,100);
-	if(roll >= 80){
+	if(global.voiceCooldown <= 0){
 		var line = choose(sfxGoodAsNew, sfxGoodAsNew2, sfxGoodAsNew3);
 		audio_play_sound(line, 10, false);
+		global.voiceCooldown = 0;
+		global.voiceCooldown += audio_sound_length(line)+random_range(1, 7);
 	}
 }
