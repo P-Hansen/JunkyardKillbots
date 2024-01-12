@@ -32,6 +32,7 @@ if place_meeting(x, y, weaponSlot) || place_meeting(x, y, anyItemSlot) {
 		slot.item = self;
 		slot.stackCount++;
 		audio_play_sound(choose(sfxReload1, sfxReload2), 0, 0);
+		randomRepairLines();
 	} else if object_get_name(newSlot.object_index) == "anyItemSlot" && (object_get_name(newSlot.item.object_index) == object_get_name(object_index)){
 		slot = newSlot;
 		x = slot.x;
@@ -68,6 +69,7 @@ if place_meeting(x, y, weaponSlot) || place_meeting(x, y, anyItemSlot) {
 		slot.item = self;
 		slot.stackCount++;
 		audio_play_sound(choose(sfxReload1, sfxReload2), 0, 0);
+		randomRepairLines();
 	//no empty slots move back
 	} else {
 		x = slot.x;

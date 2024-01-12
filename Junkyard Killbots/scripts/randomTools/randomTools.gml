@@ -53,3 +53,12 @@ function randomLevelVoiceLine(){
 	var line = choose(sfxAhahahah, sfxAhahahahCough, sfxIllShowThemAll, sfxStealingMyInventions, sfxStolenFromMe, sfxTeachTheMeaningOfFear);
 	audio_play_sound(line, 10, false);
 }
+
+//random repair lines
+function randomRepairLines(){
+	var roll = irandom_range(1,100);
+	if(roll >= 33){
+		var line = choose(sfxConnectedToTheRaygun, sfxHoldStillASec, sfxImprovement, sfxImprovementWonderbar, sfxMarvoulous, sfxTweakHereMurderThere, sfxTweakHereMurderThere2, sfxWhatINeeded);
+		audio_play_sound(line, 10, false);
+	}
+}
