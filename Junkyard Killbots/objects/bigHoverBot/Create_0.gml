@@ -12,7 +12,7 @@ damage = baseDamage;
 flashTimer = 0;
 baseCooldown = 0;
 baseAccuracy = 0;
-baseSightRange = 140;
+baseSightRange = 100;
 baseArmor = 1;
 critChance = 0;
 
