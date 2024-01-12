@@ -445,6 +445,7 @@
     {"name":"flameThrowerItem3","order":79,"path":"objects/flameThrowerItem3/flameThrowerItem3.yy",},
     {"name":"sprTeslaTowerLarge","order":2,"path":"sprites/sprTeslaTowerLarge/sprTeslaTowerLarge.yy",},
     {"name":"hammer2","order":24,"path":"objects/hammer2/hammer2.yy",},
+    {"name":"officeMissionController","order":19,"path":"objects/officeMissionController/officeMissionController.yy",},
     {"name":"botPortrit","order":1,"path":"objects/botPortrit/botPortrit.yy",},
     {"name":"minibotBlueprint","order":5,"path":"objects/minibotBlueprint/minibotBlueprint.yy",},
     {"name":"sprDefenceUpIcon2","order":42,"path":"sprites/sprDefenceUpIcon2/sprDefenceUpIcon2.yy",},

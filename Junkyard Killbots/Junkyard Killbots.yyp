@@ -485,6 +485,7 @@
     {"id":{"name":"flameThrowerItem3","path":"objects/flameThrowerItem3/flameThrowerItem3.yy",},},
     {"id":{"name":"sprTeslaTowerLarge","path":"sprites/sprTeslaTowerLarge/sprTeslaTowerLarge.yy",},},
     {"id":{"name":"hammer2","path":"objects/hammer2/hammer2.yy",},},
+    {"id":{"name":"officeMissionController","path":"objects/officeMissionController/officeMissionController.yy",},},
     {"id":{"name":"botPortrit","path":"objects/botPortrit/botPortrit.yy",},},
     {"id":{"name":"minibotBlueprint","path":"objects/minibotBlueprint/minibotBlueprint.yy",},},
     {"id":{"name":"sprDefenceUpIcon2","path":"sprites/sprDefenceUpIcon2/sprDefenceUpIcon2.yy",},},
