@@ -17,6 +17,8 @@ function showItemFound(item, _x, _y){
 	}
 }
 
+//for transition sequence
 function nextRoom(){
 	room_goto(global.nextLevel);
+	layer_sequence_destroy(self.elementID);
 }
