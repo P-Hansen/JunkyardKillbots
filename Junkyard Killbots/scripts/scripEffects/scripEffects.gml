@@ -16,3 +16,7 @@ function showItemFound(item, _x, _y){
 		itemEffect.image_yscale = 0.5;
 	}
 }
+
+function nextRoom(){
+	room_goto(global.nextLevel);
+}

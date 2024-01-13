@@ -16,5 +16,6 @@ global.currentLevelIcon = noone;
 global.scavengerBonus = 1;
 global.currentWorld = rmMissionSelect;
 global.voiceCooldown = 0;
+global.nextLevel = noone;
 
 room_goto(rmStartMenu);

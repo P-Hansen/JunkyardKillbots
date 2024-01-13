@@ -60,7 +60,7 @@ function randomRepairLines(){
 		var line = choose(sfxConnectedToTheRaygun, sfxHoldStillASec, sfxImprovement, sfxImprovementWonderbar, sfxMarvoulous, sfxTweakHereMurderThere, sfxTweakHereMurderThere2, sfxWhatINeeded);
 		audio_play_sound(line, 10, false);
 		global.voiceCooldown = 0;
-		global.voiceCooldown += audio_sound_length(line)+random_range(1, 9);
+		global.voiceCooldown += audio_sound_length(line)+random_range(1, 12);
 	}
 }
 
@@ -70,6 +70,6 @@ function randomBotFixLines(){
 		var line = choose(sfxGoodAsNew, sfxGoodAsNew2, sfxGoodAsNew3);
 		audio_play_sound(line, 10, false);
 		global.voiceCooldown = 0;
-		global.voiceCooldown += audio_sound_length(line)+random_range(1, 9);
+		global.voiceCooldown += audio_sound_length(line)+random_range(1, 12);
 	}
 }
