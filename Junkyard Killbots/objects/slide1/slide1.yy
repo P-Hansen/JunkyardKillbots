@@ -1,18 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "howToPlay",
+  "name": "slide1",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":56,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -31,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprHowToPlay",
-    "path": "sprites/sprHowToPlay/sprHowToPlay.yy",
+    "name": "sprTestSlide1",
+    "path": "sprites/sprTestSlide1/sprTestSlide1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
