@@ -5,7 +5,7 @@ if(!position_meeting(mouse_x, mouse_y, self)){
 	instance_destroy(self);
 } else {
 	//click slide
-	
+	image_index += 1;
 }
 
 
