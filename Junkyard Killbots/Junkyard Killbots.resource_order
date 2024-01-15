@@ -40,6 +40,7 @@
     {"name":"sprCritChip3","order":58,"path":"sprites/sprCritChip3/sprCritChip3.yy",},
     {"name":"sprPortritFrame","order":8,"path":"sprites/sprPortritFrame/sprPortritFrame.yy",},
     {"name":"cardboardBox","order":4,"path":"objects/cardboardBox/cardboardBox.yy",},
+    {"name":"sfxRepairBayMusic","order":1,"path":"sounds/sfxRepairBayMusic/sfxRepairBayMusic.yy",},
     {"name":"flameThrowerItem2","order":77,"path":"objects/flameThrowerItem2/flameThrowerItem2.yy",},
     {"name":"tauntChip1","order":71,"path":"objects/tauntChip1/tauntChip1.yy",},
     {"name":"chipSlot","order":1,"path":"objects/chipSlot/chipSlot.yy",},
@@ -515,6 +516,7 @@
     {"name":"slotHilight","order":30,"path":"objects/slotHilight/slotHilight.yy",},
     {"name":"minefieldLevelIcon","order":14,"path":"objects/minefieldLevelIcon/minefieldLevelIcon.yy",},
     {"name":"sprLazerGun","order":7,"path":"sprites/sprLazerGun/sprLazerGun.yy",},
+    {"name":"sfxLevelMusic","order":2,"path":"sounds/sfxLevelMusic/sfxLevelMusic.yy",},
     {"name":"sprPowerCore3","order":37,"path":"sprites/sprPowerCore3/sprPowerCore3.yy",},
   ],
 }

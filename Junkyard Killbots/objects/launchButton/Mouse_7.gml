@@ -2,6 +2,7 @@
 
 //audio_play_sound(sfxHit, 0, 0);
 if(visibleFlag == true){
+	audio_stop_all();
 	global.nextLevel = level;
 	randomLevelVoiceLine();
 	if (layer_exists("transition")){

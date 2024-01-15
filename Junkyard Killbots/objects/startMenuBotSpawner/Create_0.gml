@@ -1,6 +1,6 @@
 /// @description Insert description here
 
-audio_play_sound(sfxMainMenuMusic, 0, 0);
+audio_play_sound(sfxMainMenuMusic, 0, 1);
 
 for(var i = 12; i > 0; i--){
 	var _bot = bot;
