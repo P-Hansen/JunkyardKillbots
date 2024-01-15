@@ -32,6 +32,7 @@
     {"name":"slides","order":65,"path":"folders/Sprites/slides.yy",},
     {"name":"Tile Sets","order":3,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":9,"path":"folders/Timelines.yy",},
+    {"name":"music","order":24,"path":"folders/Sounds/music.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rmHome","order":1,"path":"rooms/rmHome/rmHome.yy",},
@@ -334,6 +335,7 @@
     {"name":"sprTruckLarge","order":4,"path":"sprites/sprTruckLarge/sprTruckLarge.yy",},
     {"name":"slime","order":21,"path":"objects/slime/slime.yy",},
     {"name":"start","order":10,"path":"objects/start/start.yy",},
+    {"name":"sfxLevelStart","order":25,"path":"sounds/sfxLevelStart/sfxLevelStart.yy",},
     {"name":"clubBlack","order":80,"path":"objects/clubBlack/clubBlack.yy",},
     {"name":"sawItem2","order":41,"path":"objects/sawItem2/sawItem2.yy",},
     {"name":"sprRepairBotButton","order":62,"path":"sprites/sprRepairBotButton/sprRepairBotButton.yy",},
