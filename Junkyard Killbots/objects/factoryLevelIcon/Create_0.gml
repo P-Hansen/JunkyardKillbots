@@ -8,7 +8,7 @@ fade = 1;
 defeatedFlag = false;
 
 name = "Factory"
-description = "Enemies:\n -Construction arm\n -Experimental scientists";
+description = "Enemies:\n -Construction arm\n -Experimental scientists\n\n\ndefeating this level unlocks a new bot design.";
 selectedFlag = false;
 enemySprites = [sprRobotArmIdle, sprScientistFire];
 numberOfEnemies = 2+1;
