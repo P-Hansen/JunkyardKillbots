@@ -24,6 +24,8 @@ if (room == rmRepair) {
 	}
 	//change selected frame
 	playerInventory.robots[repairController.botSelection].image_index = 1;
+	audio_sound_pitch(sfxLevelSelect, 0.5);
+	audio_play_sound(sfxLevelSelect, 10, false);
 
 }
 
