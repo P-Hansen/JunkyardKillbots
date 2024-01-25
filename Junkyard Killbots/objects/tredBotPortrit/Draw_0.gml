@@ -16,3 +16,5 @@ if(instance_exists(weaponSlots[3].item)){
 	var sprite = weaponSlots[3].item.sprite_index;
 	draw_sprite_stretched(sprite, 0, x-19, y-8, 8, 8);
 }
+
+draw_self();
