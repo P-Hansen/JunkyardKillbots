@@ -6,7 +6,7 @@ function scripInventory(){
 
 //put item into inventory
 function pushToInventory(drop){
-	for(var i = 0; i < array_length(playerInventory.items); i++){
+	for(var i = 0; i < array_length(playerInventory.items)-1; i++){
 		if(playerInventory.items[i].item == noone){
 			playerInventory.items[i].item = instance_create_layer(playerInventory.items[i].x, playerInventory.items[i].y, layer, drop);
 			playerInventory.items[i].item.slot = playerInventory.items[i];
