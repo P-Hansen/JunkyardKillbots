@@ -4,7 +4,7 @@
   "name": "sprVolumeSlider",
   "bbox_bottom": 7,
   "bbox_left": 0,
-  "bbox_right": 37,
+  "bbox_right": 75,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4beb6371-404f-412f-85a8-1f79f5acb511","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 3,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
@@ -59,7 +59,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 19,
+    "xorigin": 0,
     "yorigin": 4,
   },
   "swatchColours": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 38,
+  "width": 76,
 }
