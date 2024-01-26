@@ -159,6 +159,7 @@
     {"name":"inst_76ABC175","path":"rooms/rmMilitaryOutpost/rmMilitaryOutpost.yy",},
     {"name":"inst_72581F80","path":"rooms/rmMilitaryOutpost/rmMilitaryOutpost.yy",},
     {"name":"inst_250C34CD","path":"rooms/rmMilitaryOutpost/rmMilitaryOutpost.yy",},
+    {"name":"inst_6F917B","path":"rooms/rmMilitaryOutpost/rmMilitaryOutpost.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -188,6 +189,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_76ABC175","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"barbWire","path":"objects/barbWire/barbWire.yy",},"properties":[],"rotation":-23.14529,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":24.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72581F80","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"barbWire","path":"objects/barbWire/barbWire.yy",},"properties":[],"rotation":17.103191,"scaleX":1.0,"scaleY":1.0,"x":348.0,"y":84.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_250C34CD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"barbWire","path":"objects/barbWire/barbWire.yy",},"properties":[],"rotation":-32.198486,"scaleX":1.0,"scaleY":1.0,"x":356.0,"y":176.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F917B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"settingsIcon","path":"objects/settingsIcon/settingsIcon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":500.0,"y":12.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Bushes","depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A174273_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bush","path":"objects/obj_bush/obj_bush.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":40.0,"y":168.0,},

@@ -2,7 +2,7 @@
 
 //printing hover box
 if(selectedFlag == true){
-	draw_sprite_stretched(sprTextBox2, 0, room_width-100, 0, 100, 512);
+	//draw_sprite_stretched(sprTextBox2, 0, room_width-100, 0, 100, 512);
 	draw_sprite_ext(sprite_index, image_index, room_width-50, 25, 0.5, 0.5, 0, c_white, 1);
 	
 	draw_set_halign(fa_center);

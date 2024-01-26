@@ -9,6 +9,7 @@ if(!instance_exists(closeButton)){
 	//volume
 	volumeButton = instance_create_depth(room_width/2-75, room_height/2-18, depth-1, volumeSlider);
 	//fullscreen
-	fullScreenButton = instance_create_depth(room_width/2-75, room_height/2+15, depth-1, fullscreenButton);
-	
+	fullScreenButton = instance_create_depth(room_width/2-75, room_height/2, depth-1, fullscreenButton);
+	//restart
+	gameRestart = instance_create_depth(room_width/2-75, room_height/2+15, depth-1, restartMenuButton);
 }

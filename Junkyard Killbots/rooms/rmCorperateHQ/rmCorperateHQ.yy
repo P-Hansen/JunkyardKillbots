@@ -51,6 +51,7 @@
     {"name":"inst_4D16371","path":"rooms/rmCorperateHQ/rmCorperateHQ.yy",},
     {"name":"inst_6B51266A","path":"rooms/rmCorperateHQ/rmCorperateHQ.yy",},
     {"name":"inst_37B2F418","path":"rooms/rmCorperateHQ/rmCorperateHQ.yy",},
+    {"name":"inst_50C06564","path":"rooms/rmCorperateHQ/rmCorperateHQ.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -99,6 +100,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D16371","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"botCorperate","path":"objects/botCorperate/botCorperate.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":744.0,"y":152.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6B51266A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"botCorperate","path":"objects/botCorperate/botCorperate.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":744.0,"y":188.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37B2F418","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"botCorperate","path":"objects/botCorperate/botCorperate.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":744.0,"y":224.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50C06564","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"settingsIcon","path":"objects/settingsIcon/settingsIcon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":500.0,"y":12.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_17CBDEA7","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprCouch","path":"sprites/sprCouch/sprCouch.yy",},"x":440.0,"y":16.0,},

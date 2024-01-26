@@ -1,10 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "settingsTitle",
+  "name": "restartMenuButton",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
@@ -13,10 +12,7 @@
     "name": "UI",
     "path": "folders/Objects/UI.yy",
   },
-  "parentObjectId": {
-    "name": "settingsIcon",
-    "path": "objects/settingsIcon/settingsIcon.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -33,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprSettings",
-    "path": "sprites/sprSettings/sprSettings.yy",
+    "name": "sprRestart",
+    "path": "sprites/sprRestart/sprRestart.yy",
   },
   "spriteMaskId": null,
   "visible": true,

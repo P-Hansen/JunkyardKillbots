@@ -10,3 +10,4 @@ windowOpen = false;
 closeButton = noone;
 volumeButton = noone;
 fullScreenButton = noone;
+gameRestart = noone;

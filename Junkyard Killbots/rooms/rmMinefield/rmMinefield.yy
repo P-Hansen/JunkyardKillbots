@@ -51,6 +51,7 @@
     {"name":"inst_6BD7085F","path":"rooms/rmMinefield/rmMinefield.yy",},
     {"name":"inst_40E4D9CC","path":"rooms/rmMinefield/rmMinefield.yy",},
     {"name":"inst_3AA1A17E","path":"rooms/rmMinefield/rmMinefield.yy",},
+    {"name":"inst_65DDDC89","path":"rooms/rmMinefield/rmMinefield.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -99,6 +100,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BD7085F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"soldier","path":"objects/soldier/soldier.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":472.0,"y":232.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40E4D9CC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"soldier","path":"objects/soldier/soldier.yy",},"properties":[],"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":472.0,"y":16.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3AA1A17E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"minefieldMissionController","path":"objects/minefieldMissionController/minefieldMissionController.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":12.0,"y":8.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_65DDDC89","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"settingsIcon","path":"objects/settingsIcon/settingsIcon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":500.0,"y":12.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Bushes","depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":16,"SerialiseWidth":32,"TileCompressedData":[
