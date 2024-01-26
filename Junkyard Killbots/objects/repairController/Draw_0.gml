@@ -49,3 +49,15 @@ if(instance_exists(playerInventory.robots[botSelection].bots)){
 	arrowL.x = (room_width/2)-80;
 	arrowR.x = (room_width/2)+80;
 }
+
+//blueprint text
+if(showBlueprintsFlag){
+	if(redTextFrames > 0) {
+		draw_text_transformed_color(330/2, 150/2, "Cost: " + string(playerInventory.blueprints[blueprintSelection].cost), 0.5, 0.5, 0, c_red, c_red, c_red, c_red, 1);
+		draw_text_transformed(630/2, 150/2, playerInventory.blueprints[blueprintSelection].stats, 0.5, 0.5, 0);
+		redTextFrames--;
+	} else {
+		draw_text_transformed(330/2, 150/2, "Cost: " + string(playerInventory.blueprints[blueprintSelection].cost), 0.5, 0.5, 0);
+		draw_text_transformed(630/2, 150/2, playerInventory.blueprints[blueprintSelection].stats, 0.5, 0.5, 0);
+	}
+}
