@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sprHowToPlay",
+  "name": "sprSettings",
   "bbox_bottom": 6,
   "bbox_left": 0,
-  "bbox_right": 42,
+  "bbox_right": 34,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -14,9 +14,7 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d8474687-a215-45fc-8853-a6fb6c55c718",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c7a8e76f-b4a6-497c-843d-6ca3ce045d41",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"38b1fa2b-bdb4-4d4a-8ab7-8d90d630382a",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"880835df-e84f-4ed9-8345-616e42d0213d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"0f3543da-0273-4b69-9435-fbc0ade825e0",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -35,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sprHowToPlay",
+    "name": "sprSettings",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -46,7 +44,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 4.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -57,10 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d8474687-a215-45fc-8853-a6fb6c55c718","path":"sprites/sprHowToPlay/sprHowToPlay.yy",},},},"Disabled":false,"id":"7cec40e7-dc04-4664-b09b-dc76c3aba088","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c7a8e76f-b4a6-497c-843d-6ca3ce045d41","path":"sprites/sprHowToPlay/sprHowToPlay.yy",},},},"Disabled":false,"id":"84783f1b-5260-4c21-b65d-e78d58b8664b","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"38b1fa2b-bdb4-4d4a-8ab7-8d90d630382a","path":"sprites/sprHowToPlay/sprHowToPlay.yy",},},},"Disabled":false,"id":"5703cde6-c4a0-49e1-93a8-8daff574306b","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"880835df-e84f-4ed9-8345-616e42d0213d","path":"sprites/sprHowToPlay/sprHowToPlay.yy",},},},"Disabled":false,"id":"b9be8d93-c5e6-4fed-b954-74b81e52089f","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d8474687-a215-45fc-8853-a6fb6c55c718","path":"sprites/sprSettings/sprSettings.yy",},},},"Disabled":false,"id":"95fccb3c-b757-4125-ac26-bf9a2317f801","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0f3543da-0273-4b69-9435-fbc0ade825e0","path":"sprites/sprSettings/sprSettings.yy",},},},"Disabled":false,"id":"1b0062a1-0310-4621-a288-ad51087bf419","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -76,5 +72,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 43,
+  "width": 41,
 }
