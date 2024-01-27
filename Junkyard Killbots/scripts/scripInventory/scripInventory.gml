@@ -6,7 +6,7 @@ function scripInventory(){
 
 //put item into inventory
 function pushToInventory(drop){
-	for(var i = 0; i < array_length(playerInventory.items)-1; i++){
+	for(var i = 0; i < array_length(playerInventory.items); i++){
 		if(playerInventory.items[i].item == noone){
 			playerInventory.items[i].item = instance_create_layer(playerInventory.items[i].x, playerInventory.items[i].y, layer, drop);
 			playerInventory.items[i].item.slot = playerInventory.items[i];
@@ -40,7 +40,7 @@ function hideEachSlot(array){
 
 //for stray items from stacking
 function hideStrayItems(){
-	for (var i = 0; i < instance_number(parentItem); ++i;){
+	for (var i = 0; i < instance_number(parentItem); i++;){
 		var item1 = instance_find(parentItem, i);
 		if (object_get_name(item1.slot.object_index) == "anyItemSlot"){
 			if (item1.x > 0){
@@ -60,7 +60,7 @@ function showEachSlot(array){
 }
 
 function showStrayItems(){
-	for (var i = 0; i < instance_number(parentItem); ++i;)
+	for (var i = 0; i < instance_number(parentItem); i++;)
 	{
 		var item1 = instance_find(parentItem, i);
 		if (object_get_name(item1.slot.object_index) == "anyItemSlot"){

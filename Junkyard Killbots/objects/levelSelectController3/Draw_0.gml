@@ -1,6 +1,6 @@
 /// @description Win screen
 
-if(allLevelsFinished(levels)){
+//if(allLevelsFinished(levels)){
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 	var oldFont = draw_get_font();
@@ -14,4 +14,4 @@ if(allLevelsFinished(levels)){
 	draw_set_font(oldFont)
 	draw_set_valign(fa_top);
 	draw_set_halign(fa_left);
-}
+//}

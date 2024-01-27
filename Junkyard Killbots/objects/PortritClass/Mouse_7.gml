@@ -45,7 +45,6 @@ if (pressedFlag == true){
 	if instance_exists(playerInventory.robots[repairController.botSelection].bots){
 		showEachSlot(playerInventory.robots[repairController.botSelection].bots.chipSlots);
 		showEachSlot(playerInventory.robots[repairController.botSelection].bots.weaponSlots);
-		//showEachSlot(playerInventory.robots[repairController.botSelection].bots.widgetSlots);
 	}
 	
 	//change selected frame
