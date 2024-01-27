@@ -17,7 +17,7 @@ robots[2].bots = instance_create_layer(robots[2].x, robots[2].y, layer, minibotP
 robots[2].bots.slot = robots[2];
 robots[5].bots = instance_create_layer(robots[5].x, robots[5].y, layer, botPortrit);
 robots[5].bots.slot = robots[5];
-robots[8].bots = instance_create_layer(robots[8].x, robots[8].y, layer, bigHoverBotPortrit);
+robots[8].bots = instance_create_layer(robots[8].x, robots[8].y, layer, minibotPortrit);
 robots[8].bots.slot = robots[8];
 
 items = array_create(24, noone);
